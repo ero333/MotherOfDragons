@@ -29,12 +29,13 @@ public class DialogParser : MonoBehaviour {
 	void Start () {
 		lines = new List<DialogueLine> ();
 		string file = "Dialogue1";
-		string sceneNum = EditorSceneManager.GetActiveScene ().name;
-		sceneNum = Regex.Replace (sceneNum, "[^0-9]", "");
-		file += sceneNum; //file = file + scenenum("dialogue1")
+		//string sceneNum = EditorSceneManager.GetActiveScene ().name;
+		//sceneNum = Regex.Replace (sceneNum, "[^0-9]", "");
+		//file += sceneNum; //file = file + scenenum("dialogue1")
 		file += ".txt";
 
 		LoadDialogue (file);
+
 	}
 	
 	// Update is called once per frame
@@ -76,7 +77,7 @@ public class DialogParser : MonoBehaviour {
 			{
 				line = r.ReadLine();
 				if(line != null){
-					string[] line_values = line.Split ('|');
+					string[] line_values = line.Split (';');
 					DialogueLine line_entry = new DialogueLine(line_values[0],line_values[1], int.Parse (line_values[2]));
 					lines.Add (line_entry);
 				
