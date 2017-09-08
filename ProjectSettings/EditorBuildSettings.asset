@@ -6,11 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/menu.unity
-    guid: f70488c431f41b04fbcddf528a9312cb
+    path: Assets/portada.unity
+    guid: 3adb6b0179147b5498e282c88c8d7b8a
+  - enabled: 1
+    path: Assets/juego.unity
+    guid: 4f5701b5ee1a25e4bb7238041d7533f4
+  - enabled: 1
+    path: Assets/perfil1.unity
+    guid: b1a728646ef879444867de01ab03426d
+  - enabled: 1
+    path: Assets/perfil2.unity
+    guid: 8f3d74d3c32b9a5479c1fff75c6e1a8d
+  - enabled: 1
+    path: Assets/coinci.unity
+    guid: bfcaee1d4f1a5b1478bd1bc06f1116ee
+  - enabled: 1
+    path: Assets/perfil3.unity
+    guid: fc3bd22393ec59c42b18097c75f73f61
+  - enabled: 0
+    path: 
+    guid: ad9de7f73c03f944293ab26fa29c2da1
   - enabled: 1
     path: Assets/Scene1.unity
-    guid: 78215c58b1455b34fbe88ca56909c1f0
+    guid: 25deccfc5f4f6a14aace6067c6ce6ab4
   - enabled: 1
-    path: Assets/Tander.unity
-    guid: f1f7aff777546684cadfa8e91fc6fa7a
+    path: Assets/Scene2.unity
+    guid: e96b0ed1a9f929c48869b8d7252c8fdd

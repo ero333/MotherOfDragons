@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a15c03bde216f584b90c2b91258d75ec
+timeCreated: 1504734226
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FS Zulia Pro
+  fontNames:
+  - FS Zulia Pro
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
