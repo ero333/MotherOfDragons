@@ -10,18 +10,27 @@ public class DialogueParser : MonoBehaviour {
 
 	struct DialogueLine {
 
-		public string name;
-		public string content;
-		public int pose;
-		public string position;
-		public string[] options;
+// ID Preguntas	Sprite	Opcion 1	Resultado 1	Opcion 2	Resultado 2	Opcion 3	Resultado 3
+		public int id;
+		public string pregunta;
+		public int sprite;
+		public string options1;
+		public int results1;
+		public string options2;
+		public int results2;
+		public string options3;
+		public int results3;
 
-		public DialogueLine(string Name, string Content, int Pose, string Position) {
-			name = Name;
-			content = Content;
-			pose = Pose;
-			position = Position;
-			options = new string[0];
+		public DialogueLine(int NumLinea, string Content, int Pose, string Opc1, int Result1, string Opc2, int Result2, string Opc3, int Result3) {
+			id = NumLinea;
+			pregunta = Content;
+			sprite = Pose;
+			options1 = Opc1;
+			results1 = Result1;
+			options2 = Opc2;
+			results2 = Result2;
+			options3 = Opc3;
+			results3 = Result3;
 		}
 	}
 	List<DialogueLine> lines;
@@ -30,14 +39,8 @@ public class DialogueParser : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		string file = "Assets/Data/Dialogue1";
-		//string sceneNum = (SceneManager.GetActiveScene()).ToString();
-		//sceneNum = Regex.Replace (sceneNum, "[^0-9]", "");
-		//file += sceneNum;
-		file += ".txt";
-
+		string file = "Assets/Data/Dialogue1.tsv";
 		lines = new List<DialogueLine>();
-
 		LoadDialogue (file);
 
 	}
@@ -54,59 +57,85 @@ public class DialogueParser : MonoBehaviour {
 		using (r) {
 			do {
 				line = r.ReadLine();
-				if (line != null) {
-					string[] lineData = line.Split(';');
-					if (lineData[0] == "Player") {
-						DialogueLine lineEntry = new DialogueLine(lineData[0], "", 0, "");
-						lineEntry.options = new string[lineData.Length-1];
-						for (int i = 1; i < lineData.Length; i++) {
-							lineEntry.options[i-1] = lineData[i];
-						}
-						lines.Add(lineEntry);
-					} else {
-						DialogueLine lineEntry = new DialogueLine(lineData[0], lineData[1], int.Parse(lineData[2]), lineData[3]);
-						lines.Add(lineEntry);
-					}
+				if (line != null){
+					string[] lineData = line.Split('\t');
+	
+					DialogueLine lineEntry = new DialogueLine(int.Parse(lineData[0]), lineData[1], int.Parse(lineData[2]), lineData[3], int.Parse(lineData[4]), lineData[5], int.Parse(lineData[6]), lineData[7], int.Parse(lineData[8]));
+					lines.Add(lineEntry);
+					string laOpcion = lineData[3];
 				}
 			}
 			while (line != null);
 			r.Close();
+
+		
 		}
 	}
 
-	public string GetPosition(int lineNumber) {
+	public int GetLine(int lineNumber) {
 		if (lineNumber < lines.Count) {
-			return lines[lineNumber].position;
+			return lines[lineNumber].id;
 		}
-		return "";
+		return 0;
 	}
 
 	public string GetName(int lineNumber) {
-		if (lineNumber < lines.Count) {
-			return lines[lineNumber].name;
-		}
-		return "";
+		
+		return "Mateo";
 	}
 
-	public string GetContent(int lineNumber) {
+	public string GetPregunta(int lineNumber) {
 		if (lineNumber < lines.Count) {
-			return lines[lineNumber].content;
+			return lines[lineNumber].pregunta;
 		}
 		return "";
 	}
 
 	public int GetPose(int lineNumber) {
 		if (lineNumber < lines.Count) {
-			return lines[lineNumber].pose;
+			return lines[lineNumber].sprite;
 		}
 		return 0;
 	}
 
-	public string[] GetOptions(int lineNumber) {
+	public int GetResults(int lineNumber, int result) {
 		if (lineNumber < lines.Count) {
-			return lines[lineNumber].options;
-		}
-		return new string[0];
-	}
+			switch(result) {
+			case 1:
+				return lines [lineNumber].results1;
+				break;
 
+			case 2:
+				return lines [lineNumber].results2;
+				break;
+
+			case 3:
+				return lines [lineNumber].results3;
+				break;
+			}
+	    
+		}
+		return 0;
+		
+	}
+	public string GetOptions(int lineNumber, int option) {
+		if (lineNumber < lines.Count) {
+			switch(option) {
+			case 1:
+				return lines [lineNumber].options1;
+				break;
+
+			case 2:
+				return lines [lineNumber].options2;
+				break;
+
+			case 3:
+				return lines [lineNumber].options3;
+				break;
+			}
+
+		}
+		return "";
+
+	}
 }
