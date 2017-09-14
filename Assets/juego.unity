@@ -659,6 +659,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 402308290}
+    - target: {fileID: 114107166066186724, guid: c00aa1a9a7daf8c4b890cbe8907bfece,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Salir
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c00aa1a9a7daf8c4b890cbe8907bfece, type: 2}
   m_IsPrefabParent: 0

@@ -62,7 +62,6 @@ public class DialogueParser : MonoBehaviour {
 	
 					DialogueLine lineEntry = new DialogueLine(int.Parse(lineData[0]), lineData[1], int.Parse(lineData[2]), lineData[3], int.Parse(lineData[4]), lineData[5], int.Parse(lineData[6]), lineData[7], int.Parse(lineData[8]));
 					lines.Add(lineEntry);
-					string laOpcion = lineData[3];
 				}
 			}
 			while (line != null);
@@ -120,6 +119,7 @@ public class DialogueParser : MonoBehaviour {
 	}
 	public string GetOptions(int lineNumber, int option) {
 		if (lineNumber < lines.Count) {
+			
 			switch(option) {
 			case 1:
 				return lines [lineNumber].options1;
