@@ -7,7 +7,10 @@ using UnityEngine.SceneManagement;
 public class ChoiceButton : MonoBehaviour {
 
 	public string option;
-	public DialogueManager box;
+	public DialogueManager manager;
+	public DialogueParser guion;
+	public Text dialogueBox;
+	//public GameObject choiceBox1, choiceBox2, choiceBox3;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +19,12 @@ public class ChoiceButton : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		Button choiceBox1 = GameObject.Find("Button1").GetComponent<Button>();
+		Button choiceBox2 = GameObject.Find("Button2").GetComponent<Button>();
+		Button choiceBox3 = GameObject.Find("Button3").GetComponent<Button>();
+		//choiceBox1.onClick.AddListener(() => SeClickeo1(1));
+		//choiceBox2.onClick.AddListener(SeClickeo2);
+		//choiceBox3.onClick.AddListener(SeClickeo3);
 	}
 
 	public void SetText(string newText) {
@@ -27,7 +35,26 @@ public class ChoiceButton : MonoBehaviour {
 		this.option = newOption;
 	}
 
-	public void ParseOption() {
+	public void SeClickeo1(int linea) {
+		Debug.Log("You have clicked BOTON 1");
+
+		guion.GetResults (linea, 1);
+
+	}
+	public void SeClickeo2(int linea) {
+		Debug.Log("You have clicked BOTON 2");
+
+		guion.GetResults (linea, 2);
+
+	}
+	public void SeClickeo3(int linea) {
+		Debug.Log("You have clicked BOTON 3");
+
+		guion.GetResults (linea, 3);
+
+	}
+
+	//public void ParseOption(int lineaClickeada) {
 		//string command = option.Split (',') [0];
 		//string commandModifier = option.Split (',') [1];
 
@@ -37,5 +64,14 @@ public class ChoiceButton : MonoBehaviour {
 		//} else if (command == "scene") {
 		//	SceneManager.LoadScene("Scene" + commandModifier);
 		//}
-	}
+
+
+		//box.lineNum = guion.GetResults(lineaClickeada); 
+
+		//box.GetComponentInChildren<Text> ().text = guion.GetResults (linea, 1);
+		//choiceBox2.GetComponentInChildren<Text> ().text = guion.GetOptions (linea, 2);
+		//choiceBox3.GetComponentInChildren<Text> ().text = guion.GetOptions (linea, 3);
+
+	//}
+
 }

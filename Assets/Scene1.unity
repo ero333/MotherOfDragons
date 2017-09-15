@@ -193,7 +193,7 @@ Prefab:
     - target: {fileID: 224055972633160542, guid: c00aa1a9a7daf8c4b890cbe8907bfece,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224055972633160542, guid: c00aa1a9a7daf8c4b890cbe8907bfece,
         type: 2}
@@ -326,16 +326,16 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 378705178}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.5252395, y: 2.346987, z: 1.0287977}
   m_Children: []
-  m_Father: {fileID: 1955509655}
-  m_RootOrder: 0
+  m_Father: {fileID: 441053340}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18.49, y: -1}
+  m_AnchoredPosition: {x: -92.048874, y: 57.800003}
   m_SizeDelta: {x: 105.88, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &378705180
@@ -402,7 +402,7 @@ RectTransform:
   m_Children:
   - {fileID: 2045097801}
   m_Father: {fileID: 441053340}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -449,8 +449,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 683532500}
-        m_MethodName: ParseOption
-        m_Mode: 1
+        m_MethodName: SeClickeo1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -506,7 +506,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   option: 
-  box: {fileID: 441053341}
+  manager: {fileID: 441053341}
+  guion: {fileID: 87817429}
+  dialogueBox: {fileID: 1955509656}
 --- !u!1 &402308289
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +638,7 @@ RectTransform:
   m_Children:
   - {fileID: 1845762799}
   - {fileID: 1489229475}
+  - {fileID: 378705179}
   - {fileID: 1955509655}
   - {fileID: 106846121}
   - {fileID: 1870133268}
@@ -846,6 +849,7 @@ GameObject:
   - component: {fileID: 1505230719}
   - component: {fileID: 1505230718}
   - component: {fileID: 1505230717}
+  - component: {fileID: 1505230720}
   m_Layer: 5
   m_Name: Button2
   m_TagString: Untagged
@@ -865,7 +869,7 @@ RectTransform:
   m_Children:
   - {fileID: 1470624570}
   m_Father: {fileID: 441053340}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -912,8 +916,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 683532500}
-        m_MethodName: ParseOption
-        m_Mode: 1
+        m_MethodName: SeClickeo2
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -957,6 +961,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1505230715}
+--- !u!114 &1505230720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505230715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2f24a7a50155a498fab48968c3f47f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  option: 
+  manager: {fileID: 441053341}
+  guion: {fileID: 87817429}
+  dialogueBox: {fileID: 1955509656}
 --- !u!1 &1664546682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,6 +1049,7 @@ GameObject:
   - component: {fileID: 1837129911}
   - component: {fileID: 1837129910}
   - component: {fileID: 1837129909}
+  - component: {fileID: 1837129912}
   m_Layer: 5
   m_Name: Button3
   m_TagString: Untagged
@@ -1049,7 +1069,7 @@ RectTransform:
   m_Children:
   - {fileID: 2021327141}
   m_Father: {fileID: 441053340}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1096,8 +1116,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 683532500}
-        m_MethodName: ParseOption
-        m_Mode: 1
+        m_MethodName: SeClickeo3
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1141,6 +1161,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1837129907}
+--- !u!114 &1837129912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837129907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2f24a7a50155a498fab48968c3f47f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  option: 
+  manager: {fileID: 441053341}
+  guion: {fileID: 87817429}
+  dialogueBox: {fileID: 1955509656}
 --- !u!1 &1845762798
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,7 +1334,7 @@ RectTransform:
   m_LocalScale: {x: 28.330761, y: 28.330761, z: 28.330761}
   m_Children: []
   m_Father: {fileID: 441053340}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1332,10 +1367,9 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 378705179}
+  m_Children: []
   m_Father: {fileID: 441053340}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
