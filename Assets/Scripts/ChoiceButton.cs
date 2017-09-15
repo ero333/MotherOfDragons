@@ -38,19 +38,19 @@ public class ChoiceButton : MonoBehaviour {
 	public void SeClickeo1(int linea) {
 		Debug.Log("You have clicked BOTON 1");
 
-		guion.GetResults (linea, 1);
+		dialogueBox.GetComponentInChildren<Text> ().text = guion.GetPregunta(guion.GetResults (linea, 1));
 
 	}
 	public void SeClickeo2(int linea) {
 		Debug.Log("You have clicked BOTON 2");
 
-		guion.GetResults (linea, 2);
+		dialogueBox.GetComponentInChildren<Text> ().text = guion.GetPregunta(guion.GetResults (linea, 2));
 
 	}
 	public void SeClickeo3(int linea) {
 		Debug.Log("You have clicked BOTON 3");
 
-		guion.GetResults (linea, 3);
+		dialogueBox.GetComponentInChildren<Text> ().text = guion.GetPregunta(guion.GetResults (linea, 3));
 
 	}
 
