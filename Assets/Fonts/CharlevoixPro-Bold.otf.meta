@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7bd128914619880488f8551e3d8f37fb
+timeCreated: 1505332881
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Charlevoix Pro
+  fontNames:
+  - Charlevoix Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cd67125a1201d7842ae45da3faa1e0d1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

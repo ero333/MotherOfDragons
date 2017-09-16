@@ -99,7 +99,7 @@ public class DialogueParser : MonoBehaviour {
 
 	public int GetResults(int lineNumber, int result) {
 		if (lineNumber < lines.Count) {
-			switch(result) {
+			switch (result) {
 			case 1:
 				return lines [lineNumber].results1;
 				break;
@@ -111,8 +111,10 @@ public class DialogueParser : MonoBehaviour {
 			case 3:
 				return lines [lineNumber].results3;
 				break;
+
+			default:
+				return 0;
 			}
-	    
 		}
 		return 0;
 		
@@ -132,6 +134,9 @@ public class DialogueParser : MonoBehaviour {
 			case 3:
 				return lines [lineNumber].options3;
 				break;
+
+			default:
+				return "";
 			}
 
 		}
