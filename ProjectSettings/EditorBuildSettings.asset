@@ -47,3 +47,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/menu.unity
     guid: f70488c431f41b04fbcddf528a9312cb
+  - enabled: 1
+    path: Assets/Combate.unity
+    guid: 42dca41fb1ebd28448c1de9090ecc8f2
