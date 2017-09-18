@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 
@@ -62,21 +63,56 @@ public class DialogueManager : MonoBehaviour {
 
 	void SetDialog(int linea) {
 
-		dialogueBox.text = guion.GetPregunta(linea); 
+		//if ((guion.GetResults (linea, 1)) != 1 || (guion.GetResults (linea, 2)) != 1 || (guion.GetResults (linea, 3)) != 1) {
+		//	dialogueBox.text = guion.GetPregunta (linea); 
 
-		choiceBox1.SetText( guion.GetOptions(linea, 1) );
-		choiceBox2.SetText( guion.GetOptions(linea, 2) );
-		choiceBox3.SetText( guion.GetOptions(linea, 3) );
+		//	choiceBox1.SetText (guion.GetOptions (linea, 1));
+		//	choiceBox2.SetText (guion.GetOptions (linea, 2));
+		//	choiceBox3.SetText (guion.GetOptions (linea, 3));
 
-		choiceBox1.SetResult( guion.GetResults(linea, 1) );
-		choiceBox2.SetResult( guion.GetResults(linea, 2) );
-		choiceBox3.SetResult( guion.GetResults(linea, 3) );
+		//	choiceBox1.SetResult (guion.GetResults (linea, 1));
+		//	choiceBox2.SetResult (guion.GetResults (linea, 2));
+		//	choiceBox3.SetResult (guion.GetResults (linea, 3));
 
-		pose = guion.GetPose (linea);
+		//	pose = guion.GetPose (linea);
 
+		//} else {
+		//		print("COMBATE!");
+		//		SceneManager.LoadScene ("Combate");
+				
+		//	} 
 
+		switch(linea) {
+			case -1:
+			 
+				print("COMBATE!");
+				SceneManager.LoadScene ("Combate");
+				break;
 
+		case 0:
+				
+			print ("HUEVITO!!");
+
+				break;
+
+			default:
+			dialogueBox.text = guion.GetPregunta (linea);
+			
+			choiceBox1.SetText (guion.GetOptions (linea, 1));
+			choiceBox2.SetText (guion.GetOptions (linea, 2));
+			choiceBox3.SetText (guion.GetOptions (linea, 3));
+
+			choiceBox1.SetResult (guion.GetResults (linea, 1));
+			choiceBox2.SetResult (guion.GetResults (linea, 2));
+			choiceBox3.SetResult (guion.GetResults (linea, 3));
+			break;
+					
+		}
 	}
+
+
+
+
 
 	void ResetImages() {
 		if (characterName != "") {
