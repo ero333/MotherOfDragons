@@ -14,6 +14,8 @@ public class ManagerPelea : MonoBehaviour {
 	public Text textoEstado;
 	public Transform panel;
 
+	public HealthBar Abarra;
+	public HealthBar Ebarra;
 
 	void Awake (){
 		if (singleton != null) {
@@ -32,6 +34,14 @@ public class ManagerPelea : MonoBehaviour {
 		{
 			if (Peleador.sigueVivo) 
 			{
+
+
+				//if (Peleador.aliado)
+				//	Abarra.SetHealth (Peleador.vida);
+				//else
+				//	Ebarra.SetHealth(Peleador.vida);  
+
+
 				textoEstado.text += "<color=" + (Peleador.aliado ? "blue" : "red") + ">" +
 				Peleador.nombre + " HP: " + Peleador.vida + "/100 MANA: " + Peleador.mana + "/100.</color>\n";
 			}
@@ -43,6 +53,7 @@ public class ManagerPelea : MonoBehaviour {
 	void Start (){
 		ActualizarInterface ();
 		StartCoroutine ("Bucle");
+		Ebarra = GetComponentInChildren<HealthBar> ();
 	}
 
 	List<Button> poolBotones = new List<Button>();

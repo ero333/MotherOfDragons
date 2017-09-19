@@ -10,6 +10,8 @@ public struct Accion {
 	public bool estatico;
 	public bool objetivoEsElMismo;
 
+
+
 	public string mensaje;
 	public int argumento;
 
@@ -21,17 +23,28 @@ public struct Accion {
 
 public class Peleador : MonoBehaviour {
 
+
 	public List<Accion> Acciones;
 
 	public string nombre;
 	public int vida;
 	public int mana;
+	public float cubrimiento;
 	public bool aliado;
 	public bool sigueVivo = true;
 
 	void CambiarVida(int cant){
 
+		//barra.AddHealth( (float) cant );
+
 		vida += cant;
+
+		if (cubrimiento != 1){
+		if (cant < 0){
+				cant = (int)(cant / cubrimiento);
+				cubrimiento = 1;
+			}
+		}
 		mp.ActualizarInterface ();
 	}
 
@@ -42,6 +55,13 @@ public class Peleador : MonoBehaviour {
 
 	}
 
+
+	void Cubrir(int cuanto){
+		cubrimiento = cuanto;
+		mp.ActualizarInterface ();
+	}
+
+
 	//Animator anim;
 	//NavMeshAgent nv;
 	ManagerPelea mp;
@@ -51,8 +71,7 @@ public class Peleador : MonoBehaviour {
 		mp = ManagerPelea.singleton;
 		//anim = GetComponent<Animator>();
 		//nv = GetComponent<NavMeshAgent>();
-
-
+		cubrimiento=1;
 	}
 
 	public IEnumerator EjecutarAccion(Accion accion, Transform objetivo){

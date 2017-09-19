@@ -18,11 +18,11 @@ public class HealthBar : MonoBehaviour {
 
 	}
 
-	[ContextMenu("Add - 5")]
-	public void AddHealth()//float amount)
+	//[ContextMenu("Add - 5")]
+	public void AddHealth( float amount )
 	{
 
-		health += -10; //amount;
+		health += amount;
 
 		if (health > maxHealth) {
 		
@@ -38,6 +38,18 @@ public class HealthBar : MonoBehaviour {
 		UpdateHealthUI ();
 
 	}
+	/*
+	public void SetHealth( float amount )
+	{
+		health = amount;
+		if (health > maxHealth) {
+			health = maxHealth;
+		} else if (health < 0) {
+			health = 0;
+		}
+		UpdateHealthUI ();
+	}
+*/
 
 	//(0, max) -> (0, 1)
 	private void UpdateHealthUI(){
