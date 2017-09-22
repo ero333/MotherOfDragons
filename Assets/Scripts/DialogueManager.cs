@@ -19,16 +19,13 @@ public class DialogueManager : MonoBehaviour {
 	public ChoiceButton choiceBox1, choiceBox2, choiceBox3;
 
 
-	void UpdateUI() {
-
-
-	}
 	// Use this for initialization
 	void Start () {
 
 		dialogue = "";
 		characterName = "";
 		pose = 0;
+
 		guion = GameObject.Find("DialogueParser").GetComponent<DialogueParser>();
 		lineNum = 0;
 
@@ -40,8 +37,17 @@ public class DialogueManager : MonoBehaviour {
 		choiceBox2.GetComponent<Button>().onClick.AddListener(() => Responder2());
 		choiceBox3.GetComponent<Button>().onClick.AddListener(() => Responder3());
 
+
+
 		SetDialog (1); 
 	}
+
+	// Update is called once per frame
+	void Update () {
+
+		ShowDialogue();
+	}
+
 
 	void Responder1()
 	{
@@ -74,8 +80,6 @@ public class DialogueManager : MonoBehaviour {
 		//	choiceBox2.SetResult (guion.GetResults (linea, 2));
 		//	choiceBox3.SetResult (guion.GetResults (linea, 3));
 
-		//	pose = guion.GetPose (linea);
-
 		//} else {
 		//		print("COMBATE!");
 		//		SceneManager.LoadScene ("Combate");
@@ -92,8 +96,7 @@ public class DialogueManager : MonoBehaviour {
 		case 0:
 				
 			print ("HUEVITO!!");
-
-				break;
+			break;
 
 			default:
 			dialogueBox.text = guion.GetPregunta (linea);
@@ -112,27 +115,37 @@ public class DialogueManager : MonoBehaviour {
 
 
 
+	public void ShowDialogue() {
+		ResetImages ();
+		ParseLine ();
+	}
 
+
+
+	void ParseLine() {
+
+			pose = guion.GetPose (lineNum);
+			DisplayImages();
+		
+	}
+
+
+	//
 
 	void ResetImages() {
-		if (characterName != "") {
+			
 			GameObject character = GameObject.Find (characterName);
 			SpriteRenderer currSprite = character.GetComponent<SpriteRenderer>();
 			currSprite.sprite = null;
-		}
+
 	}
 	void DisplayImages() {
-		if (characterName != "") {
+		
 			GameObject character = GameObject.Find(characterName);
 			SpriteRenderer currSprite = character.GetComponent<SpriteRenderer>();
 			currSprite.sprite = character.GetComponent<Character>().characterPoses[pose];
-		}
+
 	}
 
-	// Update is called once per frame
-	void Update () {
-
-		UpdateUI ();
-	}
 
 }
