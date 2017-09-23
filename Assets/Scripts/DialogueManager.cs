@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour {
 
 	public DialogueParser guion;
-
+	public Image ganaste;
 	public string dialogue, characterName;
 	public int lineNum;
 	int pose;
@@ -21,7 +21,8 @@ public class DialogueManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		ganaste = GameObject.Find ("Ganaste").GetComponent<Image> ();
+		gameObject.SetActive(false);
 		dialogue = "";
 		characterName = "";
 		pose = 0;
