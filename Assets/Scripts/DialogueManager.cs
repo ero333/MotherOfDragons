@@ -9,11 +9,11 @@ using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour {
 
 	public DialogueParser guion;
-	public Image ganaste;
+
 	public string dialogue, characterName;
 	public int lineNum;
 	int pose;
-
+	public Image ganaste;
 	public Text dialogueBox;
 	public Text nameBox;
 	public ChoiceButton choiceBox1, choiceBox2, choiceBox3;
@@ -21,8 +21,7 @@ public class DialogueManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		ganaste = GameObject.Find ("Ganaste").GetComponent<Image> ();
-		gameObject.SetActive(false);
+
 		dialogue = "";
 		characterName = "";
 		pose = 0;
@@ -40,7 +39,10 @@ public class DialogueManager : MonoBehaviour {
 
 
 
-		SetDialog (1); 
+		SetDialog (1);
+
+		ganaste = GameObject.Find ("huevo").GetComponent<Image> ();
+
 	}
 
 	// Update is called once per frame
@@ -49,6 +51,12 @@ public class DialogueManager : MonoBehaviour {
 		ShowDialogue();
 	}
 
+	IEnumerator Esperar() {
+		Debug.Log("HUEVITO");
+		yield return new WaitForSeconds(2);
+		SceneManager.LoadScene ("portada");
+		Debug.Log("After Waiting 2 Seconds");
+	}
 
 	void Responder1()
 	{
@@ -95,21 +103,23 @@ public class DialogueManager : MonoBehaviour {
 				break;
 
 		case 0:
-				
+					
 			print ("HUEVITO!!");
-			break;
+			ganaste.enabled = true;
+			StartCoroutine (Esperar());
+				break;
 
-			default:
-			dialogueBox.text = guion.GetPregunta (linea);
-			
-			choiceBox1.SetText (guion.GetOptions (linea, 1));
-			choiceBox2.SetText (guion.GetOptions (linea, 2));
-			choiceBox3.SetText (guion.GetOptions (linea, 3));
+				default:
+				dialogueBox.text = guion.GetPregunta (linea);
+				
+				choiceBox1.SetText (guion.GetOptions (linea, 1));
+				choiceBox2.SetText (guion.GetOptions (linea, 2));
+				choiceBox3.SetText (guion.GetOptions (linea, 3));
 
-			choiceBox1.SetResult (guion.GetResults (linea, 1));
-			choiceBox2.SetResult (guion.GetResults (linea, 2));
-			choiceBox3.SetResult (guion.GetResults (linea, 3));
-			break;
+				choiceBox1.SetResult (guion.GetResults (linea, 1));
+				choiceBox2.SetResult (guion.GetResults (linea, 2));
+				choiceBox3.SetResult (guion.GetResults (linea, 3));
+				break;
 					
 		}
 	}
@@ -117,7 +127,7 @@ public class DialogueManager : MonoBehaviour {
 
 
 	public void ShowDialogue() {
-		ResetImages ();
+		//ResetImages ();
 		ParseLine ();
 	}
 
@@ -135,16 +145,16 @@ public class DialogueManager : MonoBehaviour {
 
 	void ResetImages() {
 			
-			GameObject character = GameObject.Find (characterName);
-			SpriteRenderer currSprite = character.GetComponent<SpriteRenderer>();
-			currSprite.sprite = null;
+			//GameObject character = GameObject.Find (characterName);
+			//SpriteRenderer currSprite = character.GetComponent<SpriteRenderer>();
+			//currSprite.sprite = null;
 
 	}
 	void DisplayImages() {
 		
-			GameObject character = GameObject.Find(characterName);
-			SpriteRenderer currSprite = character.GetComponent<SpriteRenderer>();
-			currSprite.sprite = character.GetComponent<Character>().characterPoses[pose];
+			//GameObject character = GameObject.Find(characterName);
+			//SpriteRenderer currSprite = character.GetComponent<SpriteRenderer>();
+			//currSprite.sprite = character.GetComponent<Character>().characterPoses[pose];
 
 	}
 
