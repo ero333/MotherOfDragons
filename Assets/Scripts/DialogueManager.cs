@@ -41,7 +41,8 @@ public class DialogueManager : MonoBehaviour {
 
 		SetDialog (1);
 
-		ganaste = GameObject.Find ("huevo").GetComponent<Image> ();
+		SpriteRenderer ganaste = GameObject.Find ("huevito").GetComponent<SpriteRenderer> ();
+		//SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>(); 
 
 	}
 
@@ -53,7 +54,7 @@ public class DialogueManager : MonoBehaviour {
 
 	IEnumerator Esperar() {
 		Debug.Log("HUEVITO");
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(10);
 		SceneManager.LoadScene ("portada");
 		Debug.Log("After Waiting 2 Seconds");
 	}
