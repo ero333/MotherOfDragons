@@ -14,8 +14,28 @@ public class ManagerPelea : MonoBehaviour {
 	public Text textoEstado;
 	public Transform panel;
 
-	public HealthBar Abarra;
+	public Image Abarra;
 	public HealthBar Ebarra;
+	public Image barraDeVida;
+
+	void Start (){
+		//Abarra = GetComponentInChildren<HealthBar> ();
+		//GameObject  Abarra = GameObject.FindGameObjectWithTag("barra").GetComponent<RectTransform>();
+
+		StartCoroutine ("Bucle");
+	}
+
+
+	public void SetHealth(int vida){
+		
+		GameObject Abarra = GameObject.FindGameObjectWithTag("barra");
+		var AbarraRectTransform = Abarra.transform as RectTransform;
+		AbarraRectTransform.sizeDelta = new Vector2 ((vida*2), 25);
+	}
+
+	void Update (){
+		ActualizarInterface ();
+	}
 
 	void Awake (){
 		if (singleton != null) {
@@ -27,21 +47,16 @@ public class ManagerPelea : MonoBehaviour {
 
 	}
 
-	public void ActualizarInterface()
-		{
+	public void ActualizarInterface(){
 		textoEstado.text = "";
 		foreach (var Peleador in peleadores)
 		{
 			if (Peleador.sigueVivo) 
 			{
 
+				//Ebarra.SetHealth(Peleador.vida);  
 
-				//if (Peleador.aliado)
-				//	Abarra.SetHealth (Peleador.vida);
-				//else
-				//	Ebarra.SetHealth(Peleador.vida);  
-
-
+				SetHealth (Peleador.vida);
 				textoEstado.text += "<color=" + (Peleador.aliado ? "blue" : "red") + ">" +
 				Peleador.nombre + " HP: " + Peleador.vida + "/100 MANA: " + Peleador.mana + "/100.</color>\n";
 			}
@@ -50,11 +65,8 @@ public class ManagerPelea : MonoBehaviour {
 		}
 	}
 
-	void Start (){
-		ActualizarInterface ();
-		StartCoroutine ("Bucle");
-		Ebarra = GetComponentInChildren<HealthBar> ();
-	}
+
+
 
 	List<Button> poolBotones = new List<Button>();
 	IEnumerator Bucle (){

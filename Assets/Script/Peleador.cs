@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
+
 [System.Serializable] 
 public struct Accion {
 
@@ -23,11 +25,11 @@ public struct Accion {
 
 public class Peleador : MonoBehaviour {
 
-
+	public int vida;
 	public List<Accion> Acciones;
 
 	public string nombre;
-	public int vida;
+
 	public int mana;
 	public float cubrimiento;
 	public bool aliado;
