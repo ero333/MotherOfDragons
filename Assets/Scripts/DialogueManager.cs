@@ -41,7 +41,7 @@ public class DialogueManager : MonoBehaviour {
 
 		SetDialog (1);
 
-		SpriteRenderer ganaste = GameObject.Find ("huevito").GetComponent<SpriteRenderer> ();
+		//SpriteRenderer ganaste = GameObject.Find ("huevito").GetComponent<SpriteRenderer> ();
 		//SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>(); 
 
 	}

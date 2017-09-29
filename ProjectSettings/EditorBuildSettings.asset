@@ -11,30 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/juego.unity
     guid: 4f5701b5ee1a25e4bb7238041d7533f4
-  - enabled: 0
-    path: 
-    guid: b1a728646ef879444867de01ab03426d
   - enabled: 1
     path: Assets/perfil1.unity
     guid: d3f0ed8d81651414dbda885d600685be
-  - enabled: 0
-    path: 
-    guid: a9da580cd506de44983de02caffa548a
-  - enabled: 0
-    path: 
-    guid: 8f3d74d3c32b9a5479c1fff75c6e1a8d
-  - enabled: 1
-    path: Assets/coinci.unity
-    guid: bfcaee1d4f1a5b1478bd1bc06f1116ee
-  - enabled: 0
-    path: 
-    guid: fc3bd22393ec59c42b18097c75f73f61
-  - enabled: 0
-    path: 
-    guid: ad9de7f73c03f944293ab26fa29c2da1
-  - enabled: 1
-    path: Assets/Scene1.unity
-    guid: 25deccfc5f4f6a14aace6067c6ce6ab4
   - enabled: 1
     path: Assets/Scene2.unity
     guid: e96b0ed1a9f929c48869b8d7252c8fdd
@@ -42,11 +21,32 @@ EditorBuildSettings:
     path: Assets/perfil2.unity
     guid: 60831cff427f0cb4987b2d6df8bf0b7b
   - enabled: 1
+    path: Assets/Scene1.unity
+    guid: 25deccfc5f4f6a14aace6067c6ce6ab4
+  - enabled: 1
     path: Assets/perfil3.unity
     guid: 155cba8f46e2d5c4e88f82a1b7ccc507
   - enabled: 1
-    path: Assets/menu.unity
-    guid: f70488c431f41b04fbcddf528a9312cb
-  - enabled: 1
     path: Assets/Combate.unity
     guid: 42dca41fb1ebd28448c1de9090ecc8f2
+  - enabled: 1
+    path: Assets/coinci.unity
+    guid: bfcaee1d4f1a5b1478bd1bc06f1116ee
+  - enabled: 1
+    path: Assets/menu.unity
+    guid: f70488c431f41b04fbcddf528a9312cb
+  - enabled: 0
+    path: 
+    guid: a9da580cd506de44983de02caffa548a
+  - enabled: 0
+    path: 
+    guid: b1a728646ef879444867de01ab03426d
+  - enabled: 0
+    path: 
+    guid: 8f3d74d3c32b9a5479c1fff75c6e1a8d
+  - enabled: 0
+    path: 
+    guid: fc3bd22393ec59c42b18097c75f73f61
+  - enabled: 0
+    path: 
+    guid: ad9de7f73c03f944293ab26fa29c2da1
