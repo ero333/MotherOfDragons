@@ -14,9 +14,10 @@ public class ManagerPelea : MonoBehaviour {
 	public Text textoEstado;
 	public Transform panel;
 
-	public Image Abarra;
-	public HealthBar Ebarra;
-	public Image barraDeVida;
+	public HealthBar barraAliado;
+	public HealthBar barraEnemigo;
+
+
 
 	void Start (){
 		//Abarra = GetComponentInChildren<HealthBar> ();
@@ -26,12 +27,14 @@ public class ManagerPelea : MonoBehaviour {
 	}
 
 
+	/*
 	public void SetHealth(int vida){
 		
 		GameObject Abarra = GameObject.FindGameObjectWithTag("barra");
 		var AbarraRectTransform = Abarra.transform as RectTransform;
 		AbarraRectTransform.sizeDelta = new Vector2 ((vida*2), 25);
 	}
+	*/
 
 	void Update (){
 		ActualizarInterface ();
@@ -49,16 +52,23 @@ public class ManagerPelea : MonoBehaviour {
 
 	public void ActualizarInterface(){
 		textoEstado.text = "";
-		foreach (var Peleador in peleadores)
+		foreach (var peleador in peleadores)
 		{
-			if (Peleador.sigueVivo) 
+			if (peleador.sigueVivo) 
 			{
 
-				//Ebarra.SetHealth(Peleador.vida);  
+				if (peleador.aliado) {
+					barraAliado.SetHealth (peleador.vida);  
+				} else {
+					barraEnemigo.SetHealth(peleador.vida);  
+				}
 
-				SetHealth (Peleador.vida);
-				textoEstado.text += "<color=" + (Peleador.aliado ? "blue" : "red") + ">" +
-				Peleador.nombre + " HP: " + Peleador.vida + "/100 MANA: " + Peleador.mana + "/100.</color>\n";
+
+
+
+
+				textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
+				peleador.nombre + " HP: " + peleador.vida + "/100 MANA: " + peleador.mana + "/100.</color>\n";
 			}
 
 			

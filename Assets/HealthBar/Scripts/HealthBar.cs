@@ -38,7 +38,7 @@ public class HealthBar : MonoBehaviour {
 		UpdateHealthUI ();
 
 	}
-	/*
+
 	public void SetHealth( float amount )
 	{
 		health = amount;
@@ -49,7 +49,7 @@ public class HealthBar : MonoBehaviour {
 		}
 		UpdateHealthUI ();
 	}
-*/
+
 
 	//(0, max) -> (0, 1)
 	private void UpdateHealthUI(){

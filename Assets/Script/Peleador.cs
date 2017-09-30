@@ -21,9 +21,13 @@ public struct Accion {
 
 	public int costoMana;
 
+
 }
 
 public class Peleador : MonoBehaviour {
+
+	[SerializeField]
+	Animator animator;
 
 	public int vida;
 	public List<Accion> Acciones;
@@ -34,6 +38,13 @@ public class Peleador : MonoBehaviour {
 	public float cubrimiento;
 	public bool aliado;
 	public bool sigueVivo = true;
+
+	void Atacar(int cant)
+	{
+		Debug.Log ("Peleador::Atacar(" + cant + ")");
+		CambiarVida (cant);
+		animator.SetTrigger ("Attack");	
+	}
 
 	void CambiarVida(int cant){
 
@@ -74,6 +85,9 @@ public class Peleador : MonoBehaviour {
 		//anim = GetComponent<Animator>();
 		//nv = GetComponent<NavMeshAgent>();
 		cubrimiento=1;
+
+		// Alternativa a setear el animator desde el inspector en el editor
+		//animator = gameObject.GetComponent<Animator> ();
 	}
 
 	public IEnumerator EjecutarAccion(Accion accion, Transform objetivo){

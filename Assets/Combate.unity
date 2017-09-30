@@ -375,6 +375,11 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114016224165849496, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
   m_IsPrefabParent: 0
@@ -621,7 +626,7 @@ Prefab:
         type: 2}
       propertyPath: heatlhBarImage
       value: 
-      objectReference: {fileID: 27132740}
+      objectReference: {fileID: 1941069822}
     - target: {fileID: 114505218976444442, guid: bbd31357ba21b244297c2766f5a6bae2,
         type: 2}
       propertyPath: health
@@ -683,6 +688,16 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.y
       value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016224165849496, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114016224165849496, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_FillOrigin
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
@@ -808,12 +823,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 150006032}
   vida: 100
   Acciones:
   - nombre: Ataque
     estatico: 1
     objetivoEsElMismo: 0
-    mensaje: CambiarVida
+    mensaje: Atacar
     argumento: -20
     animacionTrigger: Ataque
     costoMana: 0
@@ -944,7 +960,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -267.59, y: -135.71451}
+  m_AnchoredPosition: {x: -267.59003, y: -135.71451}
   m_SizeDelta: {x: 6.7094, y: 8.3}
   m_Pivot: {x: 0.5, y: -0}
 --- !u!95 &312980213
@@ -1017,6 +1033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 312980213}
   vida: 100
   Acciones:
   - nombre: Ataque
@@ -1167,9 +1184,8 @@ MonoBehaviour:
   prefab: {fileID: 114560469451642346, guid: fb262a15bf7c7bc46b248bcdf9bbfccd, type: 2}
   textoEstado: {fileID: 63785841}
   panel: {fileID: 2103941858}
-  Abarra: {fileID: 0}
-  Ebarra: {fileID: 665219422}
-  barraDeVida: {fileID: 0}
+  barraAliado: {fileID: 870690993}
+  barraEnemigo: {fileID: 665219422}
 --- !u!1 &579309164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,6 +1296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   vida: 100
   Acciones:
   - nombre: Ataque
@@ -1437,6 +1454,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 863513429}
+--- !u!114 &870690993 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114505218976444442, guid: bbd31357ba21b244297c2766f5a6bae2,
+    type: 2}
+  m_PrefabInternal: {fileID: 64156013}
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
 --- !u!1 &989913782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,6 +1706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   vida: 100
   Acciones:
   - nombre: Ataque
