@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class ManagerPelea : MonoBehaviour {
@@ -24,6 +25,7 @@ public class ManagerPelea : MonoBehaviour {
 		//GameObject  Abarra = GameObject.FindGameObjectWithTag("barra").GetComponent<RectTransform>();
 
 		StartCoroutine ("Bucle");
+
 	}
 
 
@@ -35,6 +37,7 @@ public class ManagerPelea : MonoBehaviour {
 		AbarraRectTransform.sizeDelta = new Vector2 ((vida*2), 25);
 	}
 	*/
+
 
 	void Update (){
 		ActualizarInterface ();

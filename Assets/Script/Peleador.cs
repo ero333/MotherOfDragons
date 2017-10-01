@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-
-
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [System.Serializable] 
 public struct Accion {
@@ -26,18 +26,33 @@ public struct Accion {
 
 public class Peleador : MonoBehaviour {
 
+	public Image perdiste;
 	[SerializeField]
 	Animator animator;
 
 	public int vida;
 	public List<Accion> Acciones;
-
 	public string nombre;
-
 	public int mana;
 	public float cubrimiento;
 	public bool aliado;
 	public bool sigueVivo = true;
+
+	IEnumerator Esperar() {
+		Debug.Log("PERDISTE");
+		perdiste.enabled = true;
+		yield return new WaitForSeconds(5);
+		SceneManager.LoadScene ("perfil1");
+	}
+
+
+
+	void Update(){
+		if (vida < 0) {
+			Esperar ();
+		}
+	}
+
 
 	void Atacar(int cant)
 	{
@@ -46,11 +61,20 @@ public class Peleador : MonoBehaviour {
 		animator.SetTrigger ("Attack");	
 	}
 
+	void Bloquear (int cant)
+	{
+		animator.SetTrigger ("Bloqueo");	
+	}
+
+
+
+
 	void CambiarVida(int cant){
 
 		//barra.AddHealth( (float) cant );
 
 		vida += cant;
+		animator.SetTrigger ("Daño");	
 
 		if (cubrimiento != 1){
 		if (cant < 0){
@@ -80,6 +104,8 @@ public class Peleador : MonoBehaviour {
 	ManagerPelea mp;
 
 	void Start () {
+
+		perdiste = GameObject.Find ("perdistee").GetComponent<Image> ();
 
 		mp = ManagerPelea.singleton;
 		//anim = GetComponent<Animator>();

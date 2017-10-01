@@ -730,7 +730,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -5406.7495}
   m_LocalScale: {x: 38.451275, y: 38.451275, z: 38.451275}
-  m_Children: []
+  m_Children:
+  - {fileID: 639120295}
   m_Father: {fileID: 352163949}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -823,6 +824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  perdiste: {fileID: 639120296}
   animator: {fileID: 150006032}
   vida: 100
   Acciones:
@@ -837,7 +839,7 @@ MonoBehaviour:
     estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarVida
-    argumento: 10
+    argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: 'Recuperar '
@@ -850,13 +852,13 @@ MonoBehaviour:
   - nombre: Cubrir
     estatico: 1
     objetivoEsElMismo: 1
-    mensaje: Cubrir
-    argumento: 2
-    animacionTrigger: Ataque
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragona
   mana: 100
-  cubrimiento: 0
+  cubrimiento: 20
   aliado: 1
   sigueVivo: 1
 --- !u!1 &152071142
@@ -1033,6 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  perdiste: {fileID: 0}
   animator: {fileID: 312980213}
   vida: 100
   Acciones:
@@ -1056,6 +1059,13 @@ MonoBehaviour:
     mensaje: CambiarMana
     argumento: 10
     animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Cubrir
+    estatico: 1
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Mateo
   mana: 100
@@ -1257,6 +1267,74 @@ Transform:
   m_Father: {fileID: 352163949}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &639120294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 639120295}
+  - component: {fileID: 639120297}
+  - component: {fileID: 639120296}
+  m_Layer: 5
+  m_Name: perdistee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &639120295
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 639120294}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 140.613}
+  m_LocalScale: {x: 0.020317921, y: 0.020317921, z: 0.020317921}
+  m_Children: []
+  m_Father: {fileID: 150006031}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.7390213, y: 0.43014908}
+  m_SizeDelta: {x: 451.7, y: 356.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &639120296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 639120294}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 73c0e614cd6678d48b3570ccb1d85ef1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &639120297
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 639120294}
 --- !u!224 &665219421 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224719231796353236, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -1296,6 +1374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  perdiste: {fileID: 0}
   animator: {fileID: 0}
   vida: 100
   Acciones:
@@ -1701,11 +1780,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1534160807}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  perdiste: {fileID: 0}
   animator: {fileID: 0}
   vida: 100
   Acciones:
@@ -1748,7 +1828,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1534160807}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
   m_Name: 
