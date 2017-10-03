@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public struct Accion {
 
 	public string nombre;
-	public bool estatico;
+	//public bool estatico;
 	public bool objetivoEsElMismo;
 
 
@@ -26,7 +26,6 @@ public struct Accion {
 
 public class Peleador : MonoBehaviour {
 
-	public Image perdiste;
 	[SerializeField]
 	Animator animator;
 
@@ -38,27 +37,14 @@ public class Peleador : MonoBehaviour {
 	public bool aliado;
 	public bool sigueVivo = true;
 
-	IEnumerator Esperar() {
-		Debug.Log("PERDISTE");
-		perdiste.enabled = true;
-		yield return new WaitForSeconds(5);
-		SceneManager.LoadScene ("perfil1");
-	}
 
-
-
-	void Update(){
-		if (vida < 0) {
-			Esperar ();
-		}
-	}
 
 
 	void Atacar(int cant)
 	{
 		Debug.Log ("Peleador::Atacar(" + cant + ")");
 		CambiarVida (cant);
-		animator.SetTrigger ("Attack");	
+		//animator.SetTrigger ("Attack");	
 	}
 
 	void Bloquear (int cant)
@@ -74,7 +60,8 @@ public class Peleador : MonoBehaviour {
 		//barra.AddHealth( (float) cant );
 
 		vida += cant;
-		animator.SetTrigger ("Daño");	
+		if( cant < 0 )
+			animator.SetTrigger ("Daño");	
 
 		if (cubrimiento != 1){
 		if (cant < 0){
@@ -83,6 +70,11 @@ public class Peleador : MonoBehaviour {
 			}
 		}
 		mp.ActualizarInterface ();
+
+		sigueVivo = false;
+		if (vida > 0) {
+			sigueVivo = true;
+		}
 	}
 
 	void CambiarMana(int cant){
@@ -105,7 +97,6 @@ public class Peleador : MonoBehaviour {
 
 	void Start () {
 
-		perdiste = GameObject.Find ("perdistee").GetComponent<Image> ();
 
 		mp = ManagerPelea.singleton;
 		//anim = GetComponent<Animator>();
@@ -119,12 +110,23 @@ public class Peleador : MonoBehaviour {
 	public IEnumerator EjecutarAccion(Accion accion, Transform objetivo){
 
 		CambiarMana (-accion.costoMana);
-		if (accion.objetivoEsElMismo)
+		if (accion.objetivoEsElMismo) { 
 			objetivo = transform;
-		if (accion.estatico) {
+		}
+
+
+
+		//if (accion.estatico) {
 
 			//anim.SetTrigger (accion.animacionTrigger);
+
+			if(accion.nombre== "Ataque")
+				animator.SetTrigger ("Attack");	
+
 			objetivo.SendMessage (accion.mensaje, accion.argumento);
+			yield return new WaitForSeconds (1);
+
+			/*
 		} else {
 			Vector3 PosInicial = transform.position;
 
@@ -153,5 +155,6 @@ public class Peleador : MonoBehaviour {
 			//anim.SetFloat("Speed", 0);
 
 		}
+		*/
 	}
 }

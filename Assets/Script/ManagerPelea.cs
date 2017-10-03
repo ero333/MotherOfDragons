@@ -20,14 +20,6 @@ public class ManagerPelea : MonoBehaviour {
 
 
 
-	void Start (){
-		//Abarra = GetComponentInChildren<HealthBar> ();
-		//GameObject  Abarra = GameObject.FindGameObjectWithTag("barra").GetComponent<RectTransform>();
-
-		StartCoroutine ("Bucle");
-
-	}
-
 
 	/*
 	public void SetHealth(int vida){
@@ -39,9 +31,6 @@ public class ManagerPelea : MonoBehaviour {
 	*/
 
 
-	void Update (){
-		ActualizarInterface ();
-	}
 
 	void Awake (){
 		if (singleton != null) {
@@ -67,7 +56,7 @@ public class ManagerPelea : MonoBehaviour {
 				}
 
 
-
+		
 
 
 				textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
@@ -78,40 +67,48 @@ public class ManagerPelea : MonoBehaviour {
 		}
 	}
 
-
+	void Start()
+	{
+		ActualizarInterface();
+		StartCoroutine("Bucle");
+	}
 
 
 	List<Button> poolBotones = new List<Button>();
 	IEnumerator Bucle (){
-		while (true) {
-			foreach (var Peleador in peleadores)
-			{
+		bool aliadosvivos = true;
+		bool enemigosvivos = true;
+		while (aliadosvivos || enemigosvivos) {
+			aliadosvivos = false;
+			enemigosvivos = false;
+			foreach (var peleador in peleadores) {
 
 				IEnumerator c = null;
 
-				for (int i = 0; i < poolBotones.Count; i++)
-				{
+				for (int i = 0; i < poolBotones.Count; i++) {
 					poolBotones [i].gameObject.SetActive (false);
 				}
 
-				if (Peleador.sigueVivo)
+				if (peleador.sigueVivo) 
 				{
-					if (Peleador.aliado) 
+					if (peleador.aliado) 
 					{
-						foreach (var accion in Peleador.Acciones) 
+
+						Accion proxAccion = new Accion();
+						bool sw = false;
+
+						foreach (var accion in peleador.Acciones) 
 						{	
 							Button b = null;
-							for (int i = 0; i < poolBotones.Count; i++) 
-							{
-								if (!poolBotones [i].gameObject.activeInHierarchy)
-								{
+							for (int i = 0; i < poolBotones.Count; i++) {
+								if (!poolBotones [i].gameObject.activeInHierarchy) {
 									b = poolBotones [i];
 
 								}
 							}
 
-							b = Instantiate (prefab);
-							b.transform.SetParent(panel);
+							b = Instantiate (prefab, panel);
+							b.transform.SetParent (panel);
 
 							b.transform.position = Vector3.zero;
 							b.transform.localScale = Vector3.one;
@@ -121,43 +118,68 @@ public class ManagerPelea : MonoBehaviour {
 							b.gameObject.SetActive (true);
 
 							b.onClick.RemoveAllListeners ();
-							b.GetComponentInChildren<Text>().text = accion.nombre;
-							if (Peleador.mana < accion.costoMana)
-							{
+							b.GetComponentInChildren<Text> ().text = accion.nombre;
+							if (peleador.mana < accion.costoMana) {
 								b.interactable = false;
-							} 
-							else
-							{
+							} else {
 								b.interactable = true;
 								b.onClick.AddListener (() => {
 
-									for (int j = 0; j < poolBotones.Count; j++)
-									{
+									for (int j = 0; j < poolBotones.Count; j++) {
 										b.gameObject.SetActive (false);
 									}
 
-									c = Peleador.EjecutarAccion(
+									c = peleador.EjecutarAccion (
 										accion,
-										peleadores[Random.Range(0, peleadores.Count)].transform);
+										peleadores [1].transform);
+									//Random.Range (1, peleadores.Count)
 								});
 							}
 						}
 
-					} 
-					else 
-					{
-						c = Peleador.EjecutarAccion(Peleador.Acciones[Random.Range(0, Peleador.Acciones.Count)],
-							peleadores[Random.Range(0, peleadores.Count)].transform);
+					} else {
+						//Random.Range (0, peleadores.Count)
+						c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
+							peleadores [0].transform);
 					}
-								while (c == null)
-								{
-									yield return null;
-								}
-					yield return StartCoroutine(c);
+
+					while (c == null) {
+						yield return null;
+					}
+
+					yield return StartCoroutine (c);
 					yield return new WaitForSeconds (1);
 				}
-			}
+
+			
+				if (peleador.aliado) { 
+
+					if (peleador.sigueVivo) {
+						aliadosvivos = true;
+					}
+
+				} else { 
+					if (peleador.sigueVivo) { 
+						enemigosvivos = true;
+					}
+				}
 		
+			}
+
+			if (!aliadosvivos) { 
+				Debug.Log ("PERDISTE");
+				//perdiste.enabled = true;
+				yield return new WaitForSeconds (5);
+				SceneManager.LoadScene ("perfil1");
+			} 
+
+			if(!enemigosvivos) { 
+				Debug.Log ("GANASTE");
+				//ganaste.enabled = true;
+				yield return new WaitForSeconds (5);
+				SceneManager.LoadScene ("perfil1");
+			}
 		}
+
 	}
 }

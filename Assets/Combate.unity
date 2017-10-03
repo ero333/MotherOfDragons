@@ -737,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 395.82758, y: -136.34215}
+  m_AnchoredPosition: {x: 395.82715, y: -136.34215}
   m_SizeDelta: {x: 5.869995, y: 8.059999}
   m_Pivot: {x: 1.0000001, y: -0}
 --- !u!95 &150006032
@@ -824,33 +824,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  perdiste: {fileID: 639120296}
   animator: {fileID: 150006032}
   vida: 100
   Acciones:
   - nombre: Ataque
-    estatico: 1
     objetivoEsElMismo: 0
-    mensaje: Atacar
+    mensaje: CambiarVida
     argumento: -20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Curar
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarVida
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: 'Recuperar '
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarMana
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Cubrir
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: Bloquear
     argumento: 20
@@ -1035,33 +1030,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  perdiste: {fileID: 0}
   animator: {fileID: 312980213}
   vida: 100
   Acciones:
   - nombre: Ataque
-    estatico: 1
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Curar
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarVida
     argumento: 5
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Mana
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarMana
     argumento: 10
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Cubrir
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: Bloquear
     argumento: 20
@@ -1374,26 +1364,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  perdiste: {fileID: 0}
   animator: {fileID: 0}
   vida: 100
   Acciones:
   - nombre: Ataque
-    estatico: 1
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Curar
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarVida
     argumento: 5
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Mana
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarMana
     argumento: 10
@@ -1785,33 +1771,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  perdiste: {fileID: 0}
   animator: {fileID: 0}
   vida: 100
   Acciones:
   - nombre: Ataque
-    estatico: 1
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Curar
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarVida
     argumento: 10
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: 'Recuperar '
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: CambiarMana
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Cubrir
-    estatico: 1
     objetivoEsElMismo: 1
     mensaje: Cubrir
     argumento: 2
