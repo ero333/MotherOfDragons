@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Video;
 
 public class ManagerPelea : MonoBehaviour {
 
 	public List<Peleador> peleadores;
-
+	public VideoPlayer ganaste;
+	public VideoPlayer perdiste;
 	public static ManagerPelea singleton;
 
 	public Button prefab;
@@ -71,6 +72,8 @@ public class ManagerPelea : MonoBehaviour {
 	{
 		ActualizarInterface();
 		StartCoroutine("Bucle");
+		ganaste.Prepare();
+		perdiste.Prepare ();
 	}
 
 
@@ -168,14 +171,14 @@ public class ManagerPelea : MonoBehaviour {
 
 			if (!aliadosvivos) { 
 				Debug.Log ("PERDISTE");
-				//perdiste.enabled = true;
+				perdiste.Play ();
 				yield return new WaitForSeconds (5);
 				SceneManager.LoadScene ("perfil1");
 			} 
 
 			if(!enemigosvivos) { 
 				Debug.Log ("GANASTE");
-				//ganaste.enabled = true;
+				ganaste.Play ();
 				yield return new WaitForSeconds (5);
 				SceneManager.LoadScene ("perfil1");
 			}
