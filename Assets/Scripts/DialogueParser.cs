@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogueParser : MonoBehaviour {
 
-	public TextAsset dialo1;
+	//public TextAsset dialo1;
 
 	struct DialogueLine {
 
@@ -41,8 +41,16 @@ public class DialogueParser : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		string file = "Assets/Data/Dialogue1.tsv";
+		//string file = "Assets/Data/Dialogue1.tsv";
 		//string file = dialo1.text;
+
+		string file = "Assets/Data/Dialogue";
+		string sceneNum = SceneManager.GetActiveScene ().name;
+
+		sceneNum = Regex.Replace (sceneNum, "[^0-9]", "");
+		file += sceneNum;
+		file += ".tsv";
+
 		lines = new List<DialogueLine>();
 		LoadDialogue (file);
 

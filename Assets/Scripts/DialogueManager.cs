@@ -5,11 +5,10 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-
 public class DialogueManager : MonoBehaviour {
 
 	public DialogueParser guion;
-
+	public Animator animator;
 	public string dialogue, characterName;
 	public int lineNum;
 	int pose;
@@ -25,7 +24,6 @@ public class DialogueManager : MonoBehaviour {
 		dialogue = "";
 		characterName = "";
 		pose = 0;
-
 		guion = GameObject.Find("DialogueParser").GetComponent<DialogueParser>();
 		lineNum = 0;
 
@@ -54,8 +52,8 @@ public class DialogueManager : MonoBehaviour {
 
 	IEnumerator Esperar() {
 		Debug.Log("HUEVITO");
-		yield return new WaitForSeconds(10);
-		SceneManager.LoadScene ("portada");
+		yield return new WaitForSeconds(5);
+		SceneManager.LoadScene ("perfil1");
 		Debug.Log("After Waiting 2 Seconds");
 	}
 
@@ -106,6 +104,7 @@ public class DialogueManager : MonoBehaviour {
 		case 0:
 					
 			print ("HUEVITO!!");
+			animator.SetTrigger("GANAR");
 			ganaste.enabled = true;
 			StartCoroutine (Esperar());
 				break;
