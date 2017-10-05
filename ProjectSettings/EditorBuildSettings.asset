@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/perfil1.unity
     guid: d3f0ed8d81651414dbda885d600685be
   - enabled: 1
-    path: Assets/Scene2.unity
-    guid: e96b0ed1a9f929c48869b8d7252c8fdd
+    path: Assets/Scene3.unity
+    guid: 4d94f152892c0f543b27adfe8c86e56d
   - enabled: 1
     path: Assets/perfil2.unity
     guid: 60831cff427f0cb4987b2d6df8bf0b7b
@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/perfil3.unity
     guid: 155cba8f46e2d5c4e88f82a1b7ccc507
   - enabled: 1
+    path: Assets/Scene2.unity
+    guid: 9fd51f4e8c5dc9d419fb44de12849d8d
+  - enabled: 1
     path: Assets/Combate.unity
     guid: 42dca41fb1ebd28448c1de9090ecc8f2
   - enabled: 1
@@ -35,12 +38,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/menu.unity
     guid: f70488c431f41b04fbcddf528a9312cb
+  - enabled: 1
+    path: Assets/Scene4.unity
+    guid: ca51740604089d2468994e94c104cf8f
   - enabled: 0
     path: 
     guid: a9da580cd506de44983de02caffa548a
   - enabled: 0
     path: 
     guid: b1a728646ef879444867de01ab03426d
+  - enabled: 0
+    path: 
+    guid: e96b0ed1a9f929c48869b8d7252c8fdd
   - enabled: 0
     path: 
     guid: 8f3d74d3c32b9a5479c1fff75c6e1a8d

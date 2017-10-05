@@ -1,6 +1,0 @@
-Mateo;¡Hola guapa! Te estaba esperando, ¿Como estas?;0;R
-Yo;¡Nada bien!, la música está fatal!;0;R
-Mateo;Maldita putidragona ignorante!!!!;1;R
-Player;Reintentar:line,0;Pelear!!:line,4
-Mateo;Ehh...;2;R
-Yo;Uhhhh;2;R

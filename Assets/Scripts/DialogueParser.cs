@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogueParser : MonoBehaviour {
 
+	public TextAsset dialo1;
+
 	struct DialogueLine {
 
 // ID Preguntas	Sprite	Opcion 1	Resultado 1	Opcion 2	Resultado 2	Opcion 3	Resultado 3
@@ -40,6 +42,7 @@ public class DialogueParser : MonoBehaviour {
 	void Start () {
 
 		string file = "Assets/Data/Dialogue1.tsv";
+		//string file = dialo1.text;
 		lines = new List<DialogueLine>();
 		LoadDialogue (file);
 
