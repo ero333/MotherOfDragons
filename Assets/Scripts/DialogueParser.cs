@@ -64,15 +64,18 @@ public class DialogueParser : MonoBehaviour {
 	void LoadDialogue(string filename) {
 		string line;
 		StreamReader r = new StreamReader (filename);
+		line = r.ReadLine();
 
+		lines.Add(new DialogueLine(0,"pregunta",0,"opcion 1",0,"opcion 2",0,"opcion 3",0));
 		using (r) {
 			do {
 				line = r.ReadLine();
 				if (line != null){
 					string[] lineData = line.Split('\t');
-	
 					DialogueLine lineEntry = new DialogueLine(int.Parse(lineData[0]), lineData[1], int.Parse(lineData[2]), lineData[3], int.Parse(lineData[4]), lineData[5], int.Parse(lineData[6]), lineData[7], int.Parse(lineData[8]));
+
 					lines.Add(lineEntry);
+
 				}
 			}
 			while (line != null);

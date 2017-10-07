@@ -111,7 +111,7 @@ public class ManagerPelea : MonoBehaviour {
 							}
 
 							b = Instantiate (prefab, panel);
-							b.transform.SetParent (panel);
+							//b.transform.SetParent (panel);
 
 							b.transform.position = Vector3.zero;
 							b.transform.localScale = Vector3.one;

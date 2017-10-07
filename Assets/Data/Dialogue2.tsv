@@ -1,4 +1,4 @@
-﻿0	Hola, cómo estas?	1	Bien, estaba ansiosa por conocerte	12	Bien, aunque con muchos nervios	12	Bien. Disculpa por llegar tarde, se retraso la niñera	11
+ID	Preguntas	Sprite	Opcion 1	Resultado 1	Opcion 2	Resultado 2	Opcion 3	Resultado 3
 1	Hola, cómo estas?	1	Bien, estaba ansiosa por conocerte	12	Bien, aunque con muchos nervios	12	Bien. Disculpa por llegar tarde, se retraso la niñera	11
 2	De todas las personas en el mundo con quien saldrias a comer?	1	Contigo	16	Con cualquiera que se ofrezca a alejar tus escamas de las mias	28	Sola. No me gusta compartir mi comida	7
 3	Traje tarta de atun y empanadas para comer. ¿Te gusta la comida casera?	1	Si, no sabia que cocinaras, me gustaría comer ahora.	2	Que rico. Vamos a comer	2	Realmente solo necesito que sepas calentar leche para dragoncitos en el microondas	5
@@ -15,19 +15,19 @@
 14	Oh...Y no consideraste darlos en adopción?	1	No, son mis bebés, no los voy a abandonar	7	Ya di en adopción a algunos	7	Aún no terminó el proceso de adopción	7
 15	*Sonrie* Salgamos otro día si quieres	2	Eso me gustaría	23	Creo que sería mejor que eso no pase	28	Contigo? No, gracias	28
 16	Eso es halagador. Pues ya estas aquí, aprovechemos.	2	*Sonrie*	24	No me gusta el humor negro. Eres un idiota. No quiero volver a salir contigo	-1	*Se preocupa* Llamo a un médico?	32
-17	*Se rie* Eso me parece genial. Creo que lo vas a conseguir	2	*Sonrie*	23	Qué me importa lo que tu creas? *Se molesta*	26	Gracias. Yo tambien lo creo	16
+17	*Se rie* Eso me parece genial. Creo que lo vas a conseguir.	2	*Sonrie*	23	Qué me importa lo que tu creas? *Se molesta*	26	Gracias. Yo tambien lo creo	16
 18	Eso es muy feo. Ya lo han hecho antes?	1	Si, ya lo han hecho	21	No y espero que no lo hagan. 	21	Si, pero yo tambien lo hice	21
 19	*Se rie* Espero nunca spoilearte	2	Tu puedes hacerlo	15	No lo hagas, no me gusta que nadie lo haga	24	Ni lo intentes, desataras mi furia *Rie*	15
-20	Me gusta ir a convenciones furry ¿Te gustan los furries?	1	No	24	Si, me parecen adorables. Casi tan adorables como tu	25	¿Qué es un furry?	24
+20	Me gusta ir a convenciones furry ¿Te gustan los furries?	1	No	24	Si, me parecen adorables. Casi tan adorables como tu	25	¿Qué es un furry?	31
 21	Espero que no te lastimen.	1	Gracias. Hablame de ti	20	No se que dices, tu también lo haras.	24	Bueno, hablemos de otra cosa.	7
 22	Si, me gustan. Tengo una niña llamada Susan un niño llamado John	2	Que bonitos nombres	25	Deberías ponerle a tus hijos nombres latinos	24	Quizas los conozca algun día, seguro son tan adorables como tu	25
-23	En realidad...Te gustaría ir a mi casa?		Si, vamos	0	Claro	0	Me encantaría	0
+23	En realidad...Te gustaría ir a mi casa?	1	Si, vamos	0	Claro	0	Me encantaría	0
 24	No digas eso, yo estoy siendo amable contigo	4	Puedo decir lo que quiera	26	Esta bien. Perdón	25	Quién te crees para callarme? *Se altera*	26
 25	Gracias.	2	Gracias a ti por ser amable conmigo	30	De nada *Sonrie*	30	No hace falta que agradezcas	30
-26	Calmate	4	Me estoy cansando de ti, no me quiero calmar	27	Eres idiota o qué?	27	Perdón. Me tranquilizo	24
-27	Pues entonces vete *Se molesta*		No me voy nada	-1	Pudrete	-1	Ven aqui a ver si eres mejor que yo	-1
+26	Calmate	4	Me estoy cansando de ti, no me quiero calmar	27	Eres idiota o qué?	27	Perdón. Me tranquilizo	29
+27	Pues entonces vete *Se molesta*	1	No me voy nada	-1	Pudrete	-1	Ven aqui a ver si eres mejor que yo	-1
 28	*Se sorprende* ¿Por qué?	1	Porque no me gusta como me hablas	24	Solo es una broma *Rie*. 	24	Me caes muy mal. Quiero darte una paliza	-1
-24	*Silencio* Bueno...Te gusto?	1	Si	25	Claro que no, si eres una persona horrible	27	Un poco.	20
+29	*Silencio* Bueno...Te gusto?	1	Si	25	Claro que no, si eres una persona horrible	27	Un poco.	20
 30	No hay de que. Quieres que te acompañe a tu casa?	2	Si	0	Me parece bien	0	Vamos	0
 31	Cambiemos de tema...	1	Bueno...	24	No eres bueno en eso	28	Entiendo.	28
 32	No, estoy bien asi. 	1	Estabas bromeando? No me gusta la gente que bromee con condicionales graves de salud. No vales la pena	-1	No entiendo entonces	31	Esta bien	24
