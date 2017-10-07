@@ -27,7 +27,7 @@ public struct Accion {
 public class Peleador : MonoBehaviour {
 
 	[SerializeField]
-	Animator animator;
+	public Animator animator;
 
 	public int vida;
 	public List<Accion> Acciones;

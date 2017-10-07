@@ -132,9 +132,41 @@ public class ManagerPelea : MonoBehaviour {
 										b.gameObject.SetActive (false);
 									}
 
-									c = peleador.EjecutarAccion (
-										accion,
-										peleadores [1].transform);
+
+									///////////////////////////////
+
+									int indice = 0;
+									//objetivo.position = peleadores[indice].transform.position;
+
+									//if (!proxAccion.objetivoEsElMismo){
+											
+										//if (Input.GetKeyDown(KeyCode.LeftArrow))
+											//{
+												
+												//if (indice > 0)
+												//{
+												//	indice--;
+												//	indice = Random.Range (1, peleadores.Count);                                        
+												//}
+												//objetivo.position = peleadores[indice].transform.position;
+
+
+												
+											//}
+											//if (Input.GetKeyDown(KeyCode.RightArrow)){
+												//indice++;
+												//if (indice >= peleadores.Count)
+												//{
+												//	indice = 0;                                      
+												//}
+												//objetivo.position = peleadores[indice].transform.position;
+
+										//}
+									//}
+
+									////////////////////////////////////
+
+									c = peleador.EjecutarAccion (accion, peleadores [2].transform);
 									//Random.Range (1, peleadores.Count)
 								});
 							}
@@ -142,8 +174,8 @@ public class ManagerPelea : MonoBehaviour {
 
 					} else {
 						//Random.Range (0, peleadores.Count)
-						c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-							peleadores [0].transform);
+						c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, 1)],
+							peleadores [Random.Range (0, 2)].transform);
 					}
 
 					while (c == null) {

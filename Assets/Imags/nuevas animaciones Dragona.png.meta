@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d55624f7b1645ae4a9fad5f33b144aca
-timeCreated: 1507337444
+timeCreated: 1507394437
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -82,6 +82,14 @@ TextureImporter:
     21300150: nuevas animaciones Dragona_75
     21300152: nuevas animaciones Dragona_76
     21300154: nuevas animaciones Dragona_77
+    21300156: nuevas animaciones Dragona_78
+    21300158: nuevas animaciones Dragona_79
+    21300160: nuevas animaciones Dragona_80
+    21300162: nuevas animaciones Dragona_81
+    21300164: nuevas animaciones Dragona_83
+    21300166: nuevas animaciones Dragona_84
+    21300168: nuevas animaciones Dragona_85
+    21300170: nuevas animaciones Dragona_86
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -134,19 +142,27 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 1024
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 1024
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
   spriteSheet:
@@ -156,12 +172,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 2500
-        width: 581
-        height: 798
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +186,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_1
       rect:
         serializedVersion: 2
-        x: 751
-        y: 2499
-        width: 581
-        height: 801
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 702
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +200,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_2
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 2499
-        width: 580
-        height: 801
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1527
+        y: 2486
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,12 +214,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_3
       rect:
         serializedVersion: 2
-        x: 2412
-        y: 2498
-        width: 611
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2385
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -212,12 +228,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_4
       rect:
         serializedVersion: 2
-        x: 3247
-        y: 2498
-        width: 611
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3216
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,12 +242,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_5
       rect:
         serializedVersion: 2
-        x: 4080
-        y: 2498
-        width: 612
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4044
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -240,13 +256,13 @@ TextureImporter:
       name: nuevas animaciones Dragona_6
       rect:
         serializedVersion: 2
-        x: 4916
-        y: 2497
-        width: 611
-        height: 801
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 0}
+        x: 4869
+        y: 2488
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -254,12 +270,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_7
       rect:
         serializedVersion: 2
-        x: 5751
-        y: 2498
-        width: 610
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5726
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,26 +284,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_8
       rect:
         serializedVersion: 2
-        x: 6587
-        y: 2498
-        width: 611
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_9
-      rect:
-        serializedVersion: 2
-        x: 7421
-        y: 2497
-        width: 612
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6557
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -296,13 +298,13 @@ TextureImporter:
       name: nuevas animaciones Dragona_10
       rect:
         serializedVersion: 2
-        x: 8265
-        y: 2500
-        width: 582
-        height: 800
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 0}
+        x: 7384
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -310,12 +312,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_11
       rect:
         serializedVersion: 2
-        x: 9101
-        y: 2499
-        width: 582
-        height: 801
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8214
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -324,13 +326,13 @@ TextureImporter:
       name: nuevas animaciones Dragona_12
       rect:
         serializedVersion: 2
-        x: 9923
-        y: 2498
-        width: 615
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 4, y: 0, z: 0, w: 0}
+        x: 9039
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -338,12 +340,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_13
       rect:
         serializedVersion: 2
-        x: 10762
-        y: 2498
-        width: 611
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9900
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -352,12 +354,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_14
       rect:
         serializedVersion: 2
-        x: 11596
-        y: 2500
-        width: 609
-        height: 800
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 10725
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -366,13 +368,13 @@ TextureImporter:
       name: nuevas animaciones Dragona_15
       rect:
         serializedVersion: 2
-        x: 12431
-        y: 2498
-        width: 612
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 1, w: 0}
+        x: 11555
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -380,26 +382,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_16
       rect:
         serializedVersion: 2
-        x: 13265
-        y: 2498
-        width: 613
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_17
-      rect:
-        serializedVersion: 2
-        x: 14096
-        y: 2498
-        width: 616
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 12383
+        y: 2490
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -408,26 +396,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_18
       rect:
         serializedVersion: 2
-        x: 14937
-        y: 2498
-        width: 610
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_19
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 1650
-        width: 626
+        x: 13241
+        y: 2490
+        width: 690
         height: 810
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -436,12 +410,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_20
       rect:
         serializedVersion: 2
-        x: 741
-        y: 1650
-        width: 618
+        x: 14069
+        y: 2490
+        width: 690
         height: 810
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -450,12 +424,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_21
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 1650
-        width: 603
+        x: 14896
+        y: 2490
+        width: 690
         height: 810
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -464,12 +438,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_22
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 1650
-        width: 588
+        x: 0
+        y: 1652
+        width: 690
         height: 810
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -478,12 +452,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_23
       rect:
         serializedVersion: 2
-        x: 3236
-        y: 1681
-        width: 588
-        height: 779
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 705
+        y: 1652
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -492,12 +466,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_24
       rect:
         serializedVersion: 2
-        x: 4078
-        y: 1681
-        width: 596
-        height: 779
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1496
+        y: 1652
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -506,26 +480,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_25
       rect:
         serializedVersion: 2
-        x: 4910
-        y: 1605
-        width: 848
-        height: 855
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_26
-      rect:
-        serializedVersion: 2
-        x: 5750
-        y: 1608
-        width: 840
-        height: 867
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2320
+        y: 1652
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -534,12 +494,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_27
       rect:
         serializedVersion: 2
-        x: 7415
-        y: 1765
-        width: 756
-        height: 710
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3189
+        y: 1652
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -548,12 +508,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_28
       rect:
         serializedVersion: 2
-        x: 8248
-        y: 1765
-        width: 763
-        height: 695
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4031
+        y: 1652
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -562,12 +522,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_29
       rect:
         serializedVersion: 2
-        x: 9088
-        y: 1765
-        width: 756
-        height: 710
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4905
+        y: 1604
+        width: 850
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -576,12 +536,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_30
       rect:
         serializedVersion: 2
-        x: 9920
-        y: 1650
-        width: 626
-        height: 810
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5741
+        y: 1604
+        width: 850
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -590,26 +550,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_31
       rect:
         serializedVersion: 2
-        x: 10752
-        y: 1650
-        width: 642
-        height: 825
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_32
-      rect:
-        serializedVersion: 2
-        x: 11593
-        y: 1681
-        width: 626
-        height: 779
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6582
+        y: 1737
+        width: 800
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -618,12 +564,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_33
       rect:
         serializedVersion: 2
-        x: 12425
-        y: 1681
-        width: 626
-        height: 779
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7414
+        y: 1739
+        width: 785
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -632,12 +578,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_34
       rect:
         serializedVersion: 2
-        x: 13257
-        y: 1711
-        width: 611
-        height: 764
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8227
+        y: 1744
+        width: 804
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -646,12 +592,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_35
       rect:
         serializedVersion: 2
-        x: 14082
-        y: 1711
-        width: 611
-        height: 749
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9074
+        y: 1739
+        width: 788
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -660,12 +606,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_36
       rect:
         serializedVersion: 2
-        x: 15289
-        y: 2437
-        width: 15
-        height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9910
+        y: 1635
+        width: 667
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -674,26 +620,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_37
       rect:
         serializedVersion: 2
-        x: 14930
-        y: 1681
-        width: 580
-        height: 748
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_38
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 1589
-        width: 15
-        height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 10739
+        y: 1637
+        width: 683
+        height: 833
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -702,12 +634,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_39
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 1589
-        width: 7
-        height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 11576
+        y: 1668
+        width: 657
+        height: 802
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -716,12 +648,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_40
       rect:
         serializedVersion: 2
-        x: 1932
-        y: 1589
-        width: 15
-        height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 12409
+        y: 1668
+        width: 653
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -730,12 +662,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_41
       rect:
         serializedVersion: 2
-        x: 2409
-        y: 848
-        width: 603
-        height: 771
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 13235
+        y: 1694
+        width: 658
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -744,12 +676,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_42
       rect:
         serializedVersion: 2
-        x: 3238
-        y: 845
-        width: 605
-        height: 782
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 14066
+        y: 1701
+        width: 665
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -758,12 +690,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_43
       rect:
         serializedVersion: 2
-        x: 4078
-        y: 827
-        width: 626
-        height: 808
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 14891
+        y: 1673
+        width: 658
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -772,12 +704,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_44
       rect:
         serializedVersion: 2
-        x: 4910
-        y: 825
-        width: 627
-        height: 777
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 850
+        width: 649
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -786,12 +718,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_45
       rect:
         serializedVersion: 2
-        x: 5743
-        y: 826
-        width: 641
-        height: 776
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 710
+        y: 850
+        width: 639
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -800,12 +732,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_46
       rect:
         serializedVersion: 2
-        x: 6568
-        y: 856
-        width: 588
-        height: 756
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1526
+        y: 844
+        width: 675
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -814,26 +746,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_47
       rect:
         serializedVersion: 2
-        x: 7415
-        y: 871
-        width: 588
-        height: 748
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_48
-      rect:
-        serializedVersion: 2
-        x: 8248
-        y: 940
-        width: 504
-        height: 672
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2373
+        y: 844
+        width: 671
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -842,12 +760,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_49
       rect:
         serializedVersion: 2
-        x: 9088
-        y: 940
-        width: 504
-        height: 672
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3203
+        y: 841
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -856,12 +774,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_50
       rect:
         serializedVersion: 2
-        x: 9920
-        y: 1146
-        width: 657
-        height: 473
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4060
+        y: 838
+        width: 690
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -870,12 +788,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_51
       rect:
         serializedVersion: 2
-        x: 10752
-        y: 1146
-        width: 657
-        height: 466
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4871
+        y: 834
+        width: 698
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -884,12 +802,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_52
       rect:
         serializedVersion: 2
-        x: 11577
-        y: 1146
-        width: 634
-        height: 466
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5723
+        y: 828
+        width: 699
+        height: 771
+      alignment: 9
+      pivot: {x: 0.6583779, y: 0.4344701}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -898,12 +816,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_53
       rect:
         serializedVersion: 2
-        x: 12425
-        y: 1146
-        width: 626
-        height: 473
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 6522
+        y: 844
+        width: 684
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -912,26 +830,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_54
       rect:
         serializedVersion: 2
-        x: 13257
-        y: 1283
-        width: 703
-        height: 336
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_55
-      rect:
-        serializedVersion: 2
-        x: 14082
-        y: 1283
-        width: 710
-        height: 329
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7378
+        y: 850
+        width: 674
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,12 +844,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_56
       rect:
         serializedVersion: 2
-        x: 14930
-        y: 1283
-        width: 710
-        height: 329
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8193
+        y: 922
+        width: 590
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -954,12 +858,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_57
       rect:
         serializedVersion: 2
-        x: 0
-        y: 848
-        width: 596
-        height: 741
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9026
+        y: 900
+        width: 597
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -968,12 +872,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_58
       rect:
         serializedVersion: 2
-        x: 736
-        y: 848
-        width: 581
-        height: 382
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 9893
+        y: 1125
+        width: 690
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -982,12 +886,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_59
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 848
-        width: 596
-        height: 403
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 10722
+        y: 1125
+        width: 715
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -996,12 +900,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_60
       rect:
         serializedVersion: 2
-        x: 0
-        y: 481
-        width: 710
-        height: 321
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 11550
+        y: 1121
+        width: 690
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1010,26 +914,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_61
       rect:
         serializedVersion: 2
-        x: 733
-        y: 581
-        width: 749
-        height: 221
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_62
-      rect:
-        serializedVersion: 2
-        x: 1573
-        y: 573
-        width: 749
-        height: 229
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 12379
+        y: 1121
+        width: 690
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1038,12 +928,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_63
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 581
-        width: 748
-        height: 221
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 13227
+        y: 1224
+        width: 751
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1052,12 +942,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_64
       rect:
         serializedVersion: 2
-        x: 3238
-        y: 581
-        width: 748
-        height: 221
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 14063
+        y: 1224
+        width: 753
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1066,12 +956,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_65
       rect:
         serializedVersion: 2
-        x: 4078
-        y: 176
-        width: 649
-        height: 504
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 14910
+        y: 1224
+        width: 730
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1080,12 +970,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_66
       rect:
         serializedVersion: 2
-        x: 4910
-        y: 176
-        width: 657
-        height: 504
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 422
+        width: 731
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1094,12 +984,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_67
       rect:
         serializedVersion: 2
-        x: 5743
-        y: 153
-        width: 611
-        height: 649
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 725
+        y: 547
+        width: 796
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1108,26 +998,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_68
       rect:
         serializedVersion: 2
-        x: 6568
-        y: 0
-        width: 633
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: nuevas animaciones Dragona_69
-      rect:
-        serializedVersion: 2
-        x: 7415
-        y: 61
-        width: 596
-        height: 741
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1549
+        y: 544
+        width: 799
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1136,12 +1012,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_70
       rect:
         serializedVersion: 2
-        x: 8248
-        y: 0
-        width: 626
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2389
+        y: 544
+        width: 815
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1150,12 +1026,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_71
       rect:
         serializedVersion: 2
-        x: 9072
-        y: 61
-        width: 611
-        height: 741
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3219
+        y: 544
+        width: 806
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1164,12 +1040,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_72
       rect:
         serializedVersion: 2
-        x: 9920
-        y: 0
-        width: 626
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4044
+        y: 147
+        width: 727
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1178,12 +1054,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_73
       rect:
         serializedVersion: 2
-        x: 10752
-        y: 0
-        width: 642
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4874
+        y: 147
+        width: 747
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1192,12 +1068,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_74
       rect:
         serializedVersion: 2
-        x: 11577
-        y: 0
-        width: 634
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5683
+        y: 129
+        width: 690
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1206,12 +1082,12 @@ TextureImporter:
       name: nuevas animaciones Dragona_75
       rect:
         serializedVersion: 2
-        x: 12425
+        x: 6532
         y: 0
-        width: 626
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 732
+        height: 825
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1220,26 +1096,124 @@ TextureImporter:
       name: nuevas animaciones Dragona_76
       rect:
         serializedVersion: 2
-        x: 13257
-        y: 0
-        width: 642
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 7366
+        y: 47
+        width: 690
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: nuevas animaciones Dragona_77
+      name: nuevas animaciones Dragona_78
       rect:
         serializedVersion: 2
-        x: 14082
+        x: 8215
         y: 0
-        width: 642
-        height: 802
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 708
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nuevas animaciones Dragona_79
+      rect:
+        serializedVersion: 2
+        x: 9018
+        y: 50
+        width: 699
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nuevas animaciones Dragona_80
+      rect:
+        serializedVersion: 2
+        x: 9873
+        y: 0
+        width: 749
+        height: 825
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nuevas animaciones Dragona_81
+      rect:
+        serializedVersion: 2
+        x: 10722
+        y: 0
+        width: 696
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nuevas animaciones Dragona_83
+      rect:
+        serializedVersion: 2
+        x: 11540
+        y: 0
+        width: 730
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nuevas animaciones Dragona_84
+      rect:
+        serializedVersion: 2
+        x: 12371
+        y: 0
+        width: 721
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nuevas animaciones Dragona_85
+      rect:
+        serializedVersion: 2
+        x: 13208
+        y: 0
+        width: 730
+        height: 825
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nuevas animaciones Dragona_86
+      rect:
+        serializedVersion: 2
+        x: 14045
+        y: 0
+        width: 743
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
