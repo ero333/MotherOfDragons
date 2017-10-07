@@ -1,0 +1,1267 @@
+fileFormatVersion: 2
+guid: a0bc99e6c3edb8e4782f1901d8c08c6d
+timeCreated: 1507321250
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dasdasdyt8_0
+    21300002: dasdasdyt8_1
+    21300004: dasdasdyt8_2
+    21300006: dasdasdyt8_3
+    21300008: dasdasdyt8_4
+    21300010: dasdasdyt8_5
+    21300012: dasdasdyt8_6
+    21300014: dasdasdyt8_7
+    21300016: dasdasdyt8_8
+    21300018: dasdasdyt8_9
+    21300020: dasdasdyt8_10
+    21300022: dasdasdyt8_11
+    21300024: dasdasdyt8_12
+    21300026: dasdasdyt8_13
+    21300028: dasdasdyt8_14
+    21300030: dasdasdyt8_15
+    21300032: dasdasdyt8_16
+    21300034: dasdasdyt8_17
+    21300036: dasdasdyt8_18
+    21300038: dasdasdyt8_19
+    21300040: dasdasdyt8_20
+    21300042: dasdasdyt8_21
+    21300044: dasdasdyt8_22
+    21300046: dasdasdyt8_23
+    21300048: dasdasdyt8_24
+    21300050: dasdasdyt8_25
+    21300052: dasdasdyt8_26
+    21300054: dasdasdyt8_27
+    21300056: dasdasdyt8_28
+    21300058: dasdasdyt8_29
+    21300060: dasdasdyt8_30
+    21300062: dasdasdyt8_31
+    21300064: dasdasdyt8_32
+    21300066: dasdasdyt8_33
+    21300068: dasdasdyt8_34
+    21300070: dasdasdyt8_35
+    21300072: dasdasdyt8_36
+    21300074: dasdasdyt8_37
+    21300076: dasdasdyt8_38
+    21300078: dasdasdyt8_39
+    21300080: dasdasdyt8_40
+    21300082: dasdasdyt8_41
+    21300084: dasdasdyt8_42
+    21300086: dasdasdyt8_43
+    21300088: dasdasdyt8_44
+    21300090: dasdasdyt8_45
+    21300092: dasdasdyt8_46
+    21300094: dasdasdyt8_47
+    21300096: dasdasdyt8_48
+    21300098: dasdasdyt8_49
+    21300100: dasdasdyt8_50
+    21300102: dasdasdyt8_51
+    21300104: dasdasdyt8_52
+    21300106: dasdasdyt8_53
+    21300108: dasdasdyt8_54
+    21300110: dasdasdyt8_55
+    21300112: dasdasdyt8_56
+    21300114: dasdasdyt8_57
+    21300116: dasdasdyt8_58
+    21300118: dasdasdyt8_59
+    21300120: dasdasdyt8_60
+    21300122: dasdasdyt8_61
+    21300124: dasdasdyt8_62
+    21300126: dasdasdyt8_63
+    21300128: dasdasdyt8_64
+    21300130: dasdasdyt8_65
+    21300132: dasdasdyt8_66
+    21300134: dasdasdyt8_67
+    21300136: dasdasdyt8_68
+    21300138: dasdasdyt8_69
+    21300140: dasdasdyt8_70
+    21300142: dasdasdyt8_71
+    21300144: dasdasdyt8_72
+    21300146: dasdasdyt8_73
+    21300148: dasdasdyt8_74
+    21300150: dasdasdyt8_75
+    21300152: dasdasdyt8_76
+    21300154: dasdasdyt8_77
+    21300156: dasdasdyt8_78
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dasdasdyt8_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 15296
+        width: 591
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_1
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 15304
+        width: 599
+        height: 803
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_2
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 15296
+        width: 591
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_3
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 15304
+        width: 623
+        height: 803
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 14453
+        width: 631
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_5
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 14453
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_6
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 14453
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_7
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 14453
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 13603
+        width: 631
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_9
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 13603
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_10
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 13603
+        width: 591
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_11
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 13603
+        width: 591
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 12752
+        width: 631
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_13
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 12752
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_14
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 12752
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_15
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 12752
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 11901
+        width: 631
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_17
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 11901
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_18
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 11901
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_19
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 11925
+        width: 631
+        height: 772
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 11074
+        width: 631
+        height: 772
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_21
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 11090
+        width: 607
+        height: 748
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_22
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 11090
+        width: 607
+        height: 748
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_23
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 11823
+        width: 8
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_24
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 11074
+        width: 583
+        height: 741
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_25
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 10972
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_26
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 10972
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_27
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 10972
+        width: 8
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_28
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 10239
+        width: 599
+        height: 749
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_29
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 10232
+        width: 583
+        height: 732
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_30
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 10232
+        width: 583
+        height: 732
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_31
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 10232
+        width: 575
+        height: 732
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_32
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 9389
+        width: 599
+        height: 748
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_33
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 9373
+        width: 623
+        height: 780
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_34
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 9373
+        width: 631
+        height: 780
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_35
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 9373
+        width: 631
+        height: 780
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 8507
+        width: 631
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_37
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 8507
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_38
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 8507
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_39
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 8507
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_40
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 7656
+        width: 591
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_41
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 7664
+        width: 591
+        height: 803
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_42
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 7672
+        width: 591
+        height: 779
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_43
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 7672
+        width: 583
+        height: 779
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6790
+        width: 843
+        height: 850
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_45
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 6790
+        width: 843
+        height: 858
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_46
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 6868
+        width: 765
+        height: 693
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_47
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 6868
+        width: 757
+        height: 693
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_48
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6018
+        width: 757
+        height: 701
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_49
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 6018
+        width: 757
+        height: 701
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_50
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 5994
+        width: 575
+        height: 740
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_51
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 5994
+        width: 575
+        height: 740
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_52
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 5183
+        width: 505
+        height: 669
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_53
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 5183
+        width: 497
+        height: 669
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_54
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 5285
+        width: 653
+        height: 465
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_55
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5285
+        width: 653
+        height: 465
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_56
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4434
+        width: 631
+        height: 473
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_57
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 4434
+        width: 623
+        height: 473
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_58
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 4505
+        width: 701
+        height: 331
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_59
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 4505
+        width: 701
+        height: 331
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_60
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3655
+        width: 693
+        height: 330
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_61
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 3655
+        width: 701
+        height: 330
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_62
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 3702
+        width: 749
+        height: 236
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_63
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 3702
+        width: 749
+        height: 236
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_64
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2859
+        width: 749
+        height: 229
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_65
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 2859
+        width: 749
+        height: 229
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_66
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 2654
+        width: 653
+        height: 504
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_67
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2654
+        width: 653
+        height: 504
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_68
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1796
+        width: 599
+        height: 654
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_69
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1717
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_70
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1749
+        width: 607
+        height: 748
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_71
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 1717
+        width: 623
+        height: 811
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_72
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 898
+        width: 599
+        height: 748
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_73
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 866
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_74
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 866
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_75
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 866
+        width: 623
+        height: 812
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_76
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 24
+        width: 631
+        height: 803
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_77
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 24
+        width: 623
+        height: 803
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dasdasdyt8_78
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 24
+        width: 623
+        height: 803
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
