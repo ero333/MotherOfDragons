@@ -5,6 +5,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Controlador : MonoBehaviour {
+	public static bool ganasteHijoNormal = false;
+	public static bool ganasteHijoAgua = false;
+
 	public GameObject coinci;
 
 	private int lastNumber;

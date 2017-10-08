@@ -45,6 +45,7 @@ public class ManagerPelea : MonoBehaviour {
 	}
 
 	public void ActualizarInterface(){
+
 		textoEstado.text = "";
 		foreach (var peleador in peleadores)
 		{
@@ -74,6 +75,11 @@ public class ManagerPelea : MonoBehaviour {
 
 	void Start()
 	{
+		if (Controlador.ganasteHijoNormal == false) {
+			peleadores.RemoveAt (1);
+			barraAliado2.enabled = false;
+			//GameObject.Find ("DragoncitoNormal").SetActive = false;
+		}
 		ActualizarInterface();
 		StartCoroutine("Bucle");
 		ganaste.Prepare();
@@ -169,17 +175,29 @@ public class ManagerPelea : MonoBehaviour {
 									//}
 
 									////////////////////////////////////
+									if (Controlador.ganasteHijoNormal == false) {
+										c = peleador.EjecutarAccion (accion, peleadores [1].transform);
+									} else{
+										c = peleador.EjecutarAccion (accion, peleadores [2].transform);
+									}
 
-									c = peleador.EjecutarAccion (accion, peleadores [2].transform);
+
 									//Random.Range (1, peleadores.Count)
 								});
 							}
 						}
 
 					} else {
+
+						if (Controlador.ganasteHijoNormal == false) {
+							c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
+								peleadores [0].transform);
+						} else{
+							c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
+								peleadores [Random.Range (0, 2)].transform);	
+						}
 						//Random.Range (0, peleadores.Count)
-						c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-							peleadores [Random.Range (0, 2)].transform);
+
 					}
 
 					while (c == null) {
