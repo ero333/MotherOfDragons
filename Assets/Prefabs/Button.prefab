@@ -85,8 +85,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa2f24a7a50155a498fab48968c3f47f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  option: 
-  box: {fileID: 0}
+  resultado: 0
+  manager: {fileID: 0}
+  dialogueBox: {fileID: 0}
 --- !u!114 &114544869705885552
 MonoBehaviour:
   m_ObjectHideFlags: 1

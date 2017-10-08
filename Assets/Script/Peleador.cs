@@ -120,11 +120,11 @@ public class Peleador : MonoBehaviour {
 
 			//anim.SetTrigger (accion.animacionTrigger);
 
-			if(accion.nombre== "Ataque")
+			if(accion.nombre== "Golpear")
 				animator.SetTrigger ("Attack");	
 
 			objetivo.SendMessage (accion.mensaje, accion.argumento);
-			yield return new WaitForSeconds (1);
+			yield return new WaitForSeconds (1/2);
 
 			/*
 		} else {

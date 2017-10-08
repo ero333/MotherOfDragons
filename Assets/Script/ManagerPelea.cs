@@ -17,6 +17,7 @@ public class ManagerPelea : MonoBehaviour {
 	public Transform panel;
 
 	public HealthBar barraAliado;
+	public HealthBar barraAliado2;
 	public HealthBar barraEnemigo;
 
 
@@ -50,12 +51,15 @@ public class ManagerPelea : MonoBehaviour {
 			if (peleador.sigueVivo) 
 			{
 
-				if (peleador.aliado) {
-					barraAliado.SetHealth (peleador.vida);  
+				if (peleador.aliado && peleador.nombre == "Dragona") {
+					barraAliado.SetHealth (peleador.vida);
 				} else {
-					barraEnemigo.SetHealth(peleador.vida);  
+					if (peleador.aliado && peleador.nombre == "Dragoncito") {
+						barraAliado2.SetHealth (peleador.vida);
+					} else {
+						barraEnemigo.SetHealth(peleador.vida);  
+					}
 				}
-
 
 		
 
@@ -135,7 +139,7 @@ public class ManagerPelea : MonoBehaviour {
 
 									///////////////////////////////
 
-									int indice = 0;
+									//int indice = 0;
 									//objetivo.position = peleadores[indice].transform.position;
 
 									//if (!proxAccion.objetivoEsElMismo){
@@ -174,7 +178,7 @@ public class ManagerPelea : MonoBehaviour {
 
 					} else {
 						//Random.Range (0, peleadores.Count)
-						c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, 1)],
+						c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
 							peleadores [Random.Range (0, 2)].transform);
 					}
 

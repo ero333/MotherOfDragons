@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: 13c13bf090662c7479efe0d17b8f4a0c
+timeCreated: 1507416679
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: herida sheet_0
+    21300002: herida sheet_1
+    21300004: herida sheet_2
+    21300006: herida sheet_3
+    21300008: herida sheet_4
+    21300010: herida sheet_5
+    21300012: herida sheet_6
+    21300014: herida sheet_7
+    21300016: herida sheet_8
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: herida sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 23
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 204.82227, y: -350.80002}
+        - {x: 162.73242, y: -308.80002}
+        - {x: 246.91211, y: -384.4}
+        - {x: 339.50977, y: -384.4}
+        - {x: 426, y: -342.4}
+        - {x: 426, y: -258.4}
+        - {x: 398.43555, y: -250}
+        - {x: 305.8379, y: 161.59999}
+        - {x: 187.98633, y: 380}
+        - {x: -14.044923, y: 380}
+        - {x: -173.98633, y: 186.79999}
+        - {x: -173.98633, y: -40.000008}
+        - {x: -165.56836, y: -65.200005}
+        - {x: -115.06055, y: -14.800008}
+        - {x: -165.56836, y: -224.8}
+        - {x: -173.98633, y: -275.2}
+        - {x: -165.56836, y: -308.80002}
+        - {x: -148.73242, y: -350.80002}
+        - {x: -115.06055, y: -384.4}
+        - {x: 196.4043, y: -384.4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 25
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 237.34764, y: 306.4}
+        - {x: 136.33202, y: 323.19998}
+        - {x: -141.46095, y: 323.19998}
+        - {x: -309.8203, y: 96.39999}
+        - {x: -309.8203, y: -231.20001}
+        - {x: -292.98438, y: -323.6}
+        - {x: -166.71486, y: -357.2}
+        - {x: 60.5703, y: -357.2}
+        - {x: 220.5117, y: -290}
+        - {x: 321.52734, y: -147.20001}
+        - {x: 321.52734, y: 138.39998}
+      - - {x: -124.625015, y: -239.60002}
+        - {x: -99.37111, y: -180.80002}
+        - {x: -107.78908, y: -214.40001}
+        - {x: -82.53517, y: -256.40002}
+      - - {x: 111.07812, y: -180.80002}
+        - {x: 119.496086, y: -206.00002}
+        - {x: 144.74998, y: -206.00002}
+        - {x: 161.58592, y: -189.20001}
+        - {x: 153.16795, y: -164.00002}
+        - {x: 127.914055, y: -164.00002}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 0
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 149.28125, y: -142.8}
+        - {x: 107.19141, y: -159.6}
+        - {x: 191.3711, y: -117.6}
+        - {x: 233.46094, y: -168}
+        - {x: 250.29688, y: -168}
+        - {x: 275.55078, y: -159.6}
+        - {x: 292.38672, y: -92.4}
+        - {x: 283.96875, y: -67.2}
+        - {x: 292.38672, y: -16.8}
+        - {x: 292.38672, y: 33.6}
+        - {x: 225.04297, y: 75.6}
+        - {x: 199.78906, y: 58.8}
+        - {x: 149.28125, y: 0}
+        - {x: -2.2421885, y: 151.2}
+        - {x: -389.46875, y: 151.2}
+        - {x: -389.46875, y: -168}
+        - {x: -305.28906, y: -285.6}
+        - {x: -195.85547, y: -384.5}
+        - {x: 199.78906, y: -384.5}
+        - {x: 267.1328, y: -378}
+        - {x: 275.55078, y: -277.2}
+        - {x: 225.04297, y: -159.6}
+        - {x: 191.3711, y: -142.8}
+      - - {x: -27.496096, y: -252}
+        - {x: -19.078127, y: -260.4}
+        - {x: 6.1757803, y: -268.8}
+        - {x: -10.660157, y: -252}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4274
+        y: 4
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -212.77747, y: -143.00002}
+        - {x: -406.39075, y: -143.00002}
+        - {x: -406.39075, y: -384.5}
+        - {x: 376.48035, y: -384.5}
+        - {x: 376.48035, y: -311}
+        - {x: 73.43347, y: -201.80002}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_1
+      rect:
+        serializedVersion: 2
+        x: 7757
+        y: 4
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -366.3399, y: -50.600014}
+        - {x: -383.17584, y: -67.40002}
+        - {x: -383.17584, y: -369.80002}
+        - {x: -357.92194, y: -384.5}
+        - {x: 349.18747, y: -384.5}
+        - {x: 349.18747, y: -260.6}
+        - {x: -96.96489, y: -50.600014}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_4
+      rect:
+        serializedVersion: 2
+        x: 11195
+        y: 0
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -181.88445, y: 84}
+        - {x: -291.31802, y: -75.6}
+        - {x: -291.31802, y: -384.5}
+        - {x: 373.7015, y: -384.5}
+        - {x: 373.7015, y: -243.6}
+        - {x: 146.41635, y: 84}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_6
+      rect:
+        serializedVersion: 2
+        x: 12907
+        y: 0
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 145.35896, y: -361.2}
+        - {x: 212.70271, y: -352.8}
+        - {x: 187.4488, y: -378}
+        - {x: 187.4488, y: -384.5}
+        - {x: 381.0621, y: -384.5}
+        - {x: 389.48007, y: -378}
+        - {x: 389.48007, y: -361.2}
+        - {x: 381.0621, y: -319.2}
+        - {x: 35.925365, y: 84}
+        - {x: -199.77776, y: 84}
+        - {x: -300.7934, y: -75.6}
+        - {x: -300.7934, y: -384.5}
+        - {x: 136.941, y: -384.5}
+        - {x: 145.35896, y: -378}
+        - {x: 153.77693, y: -352.8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_7
+      rect:
+        serializedVersion: 2
+        x: 14821
+        y: 0
+        width: 852
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 224.24248, y: 294}
+        - {x: -221.90987, y: 294}
+        - {x: -306.08957, y: 25.2}
+        - {x: -306.08957, y: -336}
+        - {x: -289.25363, y: -369.6}
+        - {x: -213.4919, y: -384.5}
+        - {x: -3.0426764, y: -384.5}
+        - {x: 5.3752923, y: -344.4}
+        - {x: 22.21123, y: -384.5}
+        - {x: 224.24248, y: -384.5}
+      - - {x: -162.98409, y: -268.8}
+        - {x: -162.98409, y: -226.8}
+        - {x: -154.56612, y: -218.4}
+        - {x: -154.56612, y: -285.6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: herida sheet_8
+      rect:
+        serializedVersion: 2
+        x: 16587
+        y: 0
+        width: 653
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.3634, y: 361.2}
+        - {x: 45.691525, y: 319.2}
+        - {x: 28.855589, y: 252}
+        - {x: 28.855589, y: 226.8}
+        - {x: 37.273556, y: 201.6}
+        - {x: 28.855589, y: 235.2}
+        - {x: 12.019651, y: 268.8}
+        - {x: -105.83191, y: 260.4}
+        - {x: -265.77332, y: 25.2}
+        - {x: -265.77332, y: -384.5}
+        - {x: 326.5, y: -384.5}
+        - {x: 326.5, y: 361.2}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
