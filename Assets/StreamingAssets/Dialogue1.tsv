@@ -1,0 +1,27 @@
+ID	Preguntas	Sprite	Opcion 1	Resultado 1	Opcion 2	Resultado 2	Opcion 3	Resultado 3
+1	Hola, soy Pablo. ¿Cómo estas? (Se pone alcohol en gel en las manos)	1	Hola, bien y ¿Tu?	2	Bien. Vi en tu perfíl que te gusta la limpieza, por lo que veo te gusta mucho. ¿Cómo estas?	2	Más o menos. ¿Y Tu?	2
+2	Bien. Los baños estan limpios por si necesitas ir, o por lo menos el de dragones.	1	Ah...Es bueno saberlo (Miras para otro lado)	3	¿Eso es lo primero que se te ocurre decir?	3	Espero que el de dragonas también este limpio.	7
+3	Bueno...¿Te gusta ver series?	1	Si, me encanta ver series. Hay días que ni veo el sol. Soy algo adicta	4	Me gusta ver series pero no veo muchas	4	Odio las series, me quitan tiempo para hacer otras cosas	10
+4	A mi también me gustan. ¿Qué tipo de series te gustan?	1	Me gustan los géneros policiales, la acción y el misterio. ¿Y a ti?	5	Me gusta la comedia y el romance. ¿Tu?	5	Me gusta las series que son raras, independientes o que dejan un final abierto	6
+5	A mi también. Quizás algún día podamos ver alguna	2	Me parece bien	8	Ya veremos	8	Preferiría que no volvamos a vernos	16
+6	Yo nunca las entiendo. Me parecen muy rebuscadas	1	Yo tampoco las entiendo pero me gustan mucho (Te ríes)	10	Parte del encanto es que cada uno entiende cosas diferentes y que te hacen pensar	10	Quizás es porque eres tonto	16
+7	Seguramente si. El baño de dragones se suele ensuciar más rápido que el de dragonas	1	¿Es por qué los dragones son más sucios?	9	Quizás si los dragones tuvieran mejor puntería...(Te ríes)	9	Tal vez sea porque, al ser más rápidos para ir al baño, entran más dragones y por eso se ensucian más 	9
+8	Bueno...¿Y que te gusta hacer?	1	Me encanta dormir y soñar	15	Me gusta escuchar música y ver videos	11	Me gusta salir y divertirme	10
+9	(Se rie) Es probable aunque realmente no se el motivo	2	Yo menos	10	Quizás nadie lo sepa	10	No es algo importante de todos modos	11
+10	Entiendo. Cambiando de tema, ¿Tocas algún instrumento?	1	Me gustaría pero soy muy mala coordinando	11	Si y soy muy buena, ¿Y tu?	11	Si pero aún no se me da muy bien	11
+11	A mi me gusta tocar el piano y estoy aprendiendo a tocar el violín	1	Ah, que bien	13	Que bueno. Sigue practicando	13	No creo que tengas el talento suficiente	16
+12	¿Y consideras que yo soy así?	3	No realmente	10	Si	18	Aún no lo se. ¿Eres así?	23
+13	¿Qué tipos de dragones te atraen?	1	Me gustan los dragones sensibles y tiernos	12	Me gustan rudos y masculinos	12	Me gustan los dragones que son auténticos y liberales	12
+14	¿Te gusta más la playa o el bosque?	1	Me gusta más el bosque. Me agrada estar en la montaña y el ruido de las hojas al pisarlas.	15	Me gusta más la playa. Me encanta tomar sol y meterme al mar.	15	No me gusta salir de viaje.	17
+15	A mi me gusta quedarme en casa. Me gusta la tranquilidad de mi hogar	1	Eso es super aburrido. Con razón tienes esa cara.	16	¿Y a veces no te sientes solo o te aburres?	24	A mi también me gusta estar en casa a veces.	21
+16	Bueno...No tienes que hablarme así	4	La verdad no vales la pena. Me voy	-1	Sólo digo lo que pienso. Si no te gusta te puedes ir	17	Lo siento. No quería ser descortés	18
+17	Una cosa es decir lo que piensas y otra es ser grosera	4	Tienes razón. Mejor hablemos de otra cosa	18	No quería ser grosera. Perdón	18	Y tu eres un idiota.	-1
+18	Esta bien.  ¿Te gusta el chocolate?	1	Amo el chocolate. Mi sueño es tener una casa de dulces	20	Me gusta comer chocolate de vez en cuando pero no soy una gran fan.	19	Odio el chocolate.	19
+19	A mi me fascina. Mi favorito es el chocolate con menta	1	¡¿Chocolate con menta?! Que asco. ¿Cómo puedes comerte eso?	21	A mi tambien me gusta	21	Debería ser un delito mezclar algo tan rico como el chocolate con algo tan feo como la menta	21
+20	No creo que dure mucho tu casa si te gusta tanto el chocolate (Se ríe)	2	(Te pones triste) Es verdad. Me voy a comer mi propia casa (Te pones a llorar)	22	Creo que no me gustaría comerme el piso, el techo y el baño...(Te ríes)	21	¡Tendré mi casa de chocolate! (Te enfureces)	16
+21	Supongo que es cuestión de gustos	1	Creo que si	25	Espero que el resto de mis gustos me agraden tanto como tu. Vayamos a un lugar con menos gente...	0	La verdad es que mis gustos son mejores que los tuyos. Tu y tus gustos no valen la pena.	-1
+22	(Le acaricia el hombro) No llores. Sólo estaba bromeando.	1	Esta bien. (Te secas las lágrimas)	26	Te odio. Rompiste mi sueño.	-1	Quiero una casa de chocolate en donde vivamos juntos. (Lo besas)	0
+23	Creo que lo vas a descubrir en algún momento	1	Eso me gustaría. Y también me gustaría descubrirte a ti por completo	0	Me parece una pérdida de tiempo lo que dices y como eres. No somos compatibles.	-1	Eso espero.	25
+24	Estando solo puedes conocerte mejor a ti mismo. Descubrir cómo eres y qué quieres.	1	No lo había visto de esa forma. Lo voy a probar 	23	Me gusta como piensas	25	Me parece una tontería	21
+25	Bueno ¿Te acompaño a tu casa?	1	Si ¿te gustaría pasar?	0	No, no me gustas y no quiero volver a verte.	-1	Vamos	0
+26	¿Te sientes mejor?	1	Si, gracias. (Le sonriés timidamente)	25	Perdón, no se que me pasó.	25	Un poco	25

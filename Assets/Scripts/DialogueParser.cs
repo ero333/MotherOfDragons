@@ -44,7 +44,7 @@ public class DialogueParser : MonoBehaviour {
 		//string file = "Assets/Data/Dialogue1.tsv";
 		//string file = dialo1.text;
 
-		string file = "Assets/Data/Dialogue";
+		string file = Application.streamingAssetsPath + "/Dialogue";
 		string sceneNum = SceneManager.GetActiveScene ().name;
 
 		sceneNum = Regex.Replace (sceneNum, "[^0-9]", "");

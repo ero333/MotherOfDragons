@@ -58,7 +58,8 @@ public class ManagerPelea : MonoBehaviour {
 					if (peleador.aliado && peleador.nombre == "Dragoncito") {
 						barraAliado2.SetHealth (peleador.vida);
 					} else {
-						barraEnemigo.SetHealth(peleador.vida);  
+						barraEnemigo.SetHealth(peleador.vida);
+
 					}
 				}
 

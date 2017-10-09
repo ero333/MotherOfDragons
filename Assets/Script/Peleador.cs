@@ -11,12 +11,8 @@ public struct Accion {
 	public string nombre;
 	//public bool estatico;
 	public bool objetivoEsElMismo;
-
-
-
 	public string mensaje;
 	public int argumento;
-
 	public string animacionTrigger;
 
 	public int costoMana;
@@ -28,7 +24,7 @@ public class Peleador : MonoBehaviour {
 
 	[SerializeField]
 	public Animator animator;
-
+	public HealthBar barraSalud;
 	public int vida;
 	public List<Accion> Acciones;
 	public string nombre;
@@ -102,6 +98,12 @@ public class Peleador : MonoBehaviour {
 		//anim = GetComponent<Animator>();
 		//nv = GetComponent<NavMeshAgent>();
 		cubrimiento=1;
+
+		if(nombre == "Dragoncito" && Controlador.ganasteHijoNormal == false){
+			animator.speed = 0;
+			gameObject.SetActive (false);
+			barraSalud.gameObject.SetActive (false);
+		}
 
 		// Alternativa a setear el animator desde el inspector en el editor
 		//animator = gameObject.GetComponent<Animator> ();

@@ -98,7 +98,8 @@ public class DialogueManager : MonoBehaviour {
 			case -1:
 			 
 				print("COMBATE!");
-				SceneManager.LoadScene ("Combate");
+				int sceneNum = SceneManager.GetActiveScene ().buildIndex;
+				SceneManager.LoadScene (sceneNum+1);
 				break;
 
 		case 0:
