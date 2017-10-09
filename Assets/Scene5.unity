@@ -536,6 +536,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinci: {fileID: 0}
+  dragNormal: {fileID: 0}
+  dragAgua: {fileID: 0}
 --- !u!4 &402308291
 Transform:
   m_ObjectHideFlags: 0
