@@ -1,20 +1,19 @@
 fileFormatVersion: 2
-guid: be5825a3b4ff77a45989a9d559ec25dc
-timeCreated: 1507579848
+guid: c6f4481fcaa650043b7fa92a7a76448f
+timeCreated: 1507579215
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: aire sheet_0
-    21300002: aire sheet_1
-    21300004: aire sheet_2
-    21300006: aire sheet_3
-    21300008: aire sheet_4
-    21300010: aire sheet_5
-    21300012: aire sheet_6
-    21300014: aire sheet_7
-    21300016: aire sheet_8
-    21300018: aire sheet_9
-    21300020: aire sheet_10
+    21300000: tierra sheet_0
+    21300002: tierra sheet_1
+    21300004: tierra sheet_2
+    21300006: tierra sheet_3
+    21300008: tierra sheet_4
+    21300010: tierra sheet_5
+    21300012: tierra sheet_6
+    21300014: tierra sheet_7
+    21300016: tierra sheet_8
+    21300018: tierra sheet_9
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -86,97 +85,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: aire sheet_0
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 1518
-        width: 12
-        height: 10
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_1
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 1513
-        width: 7
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_2
-      rect:
-        serializedVersion: 2
-        x: 1629
-        y: 951
-        width: 967
-        height: 677
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_3
-      rect:
-        serializedVersion: 2
-        x: 3367
-        y: 948
-        width: 982
-        height: 604
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_4
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 1509
-        width: 7
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_5
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 1501
-        width: 14
-        height: 10
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_6
+      name: tierra sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 948
-        width: 1085
-        height: 556
+        y: 607
+        width: 692
+        height: 569
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,12 +99,26 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_7
+      name: tierra sheet_1
       rect:
         serializedVersion: 2
-        x: 1078
-        y: 1394
-        width: 12
+        x: 358
+        y: 1150
+        width: 20
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tierra sheet_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1154
+        width: 9
         height: 7
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -198,13 +127,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_8
+      name: tierra sheet_3
       rect:
         serializedVersion: 2
-        x: 1095
-        y: 1176
-        width: 7
-        height: 9
+        x: 1008
+        y: 607
+        width: 721
+        height: 609
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,13 +141,55 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_9
+      name: tierra sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 607
+        width: 684
+        height: 506
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tierra sheet_6
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 717
+        width: 4
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tierra sheet_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 680
+        width: 6
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tierra sheet_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 905
-        height: 654
+        width: 584
+        height: 542
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,13 +197,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_10
+      name: tierra sheet_9
       rect:
         serializedVersion: 2
-        x: 1629
+        x: 1009
         y: 0
-        width: 1643
-        height: 958
+        width: 1009
+        height: 575
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

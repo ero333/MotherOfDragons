@@ -1,20 +1,17 @@
 fileFormatVersion: 2
-guid: be5825a3b4ff77a45989a9d559ec25dc
-timeCreated: 1507579848
+guid: 15389dbf73cac5046ad0512d77a092a2
+timeCreated: 1507581481
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: aire sheet_0
-    21300002: aire sheet_1
-    21300004: aire sheet_2
-    21300006: aire sheet_3
-    21300008: aire sheet_4
-    21300010: aire sheet_5
-    21300012: aire sheet_6
-    21300014: aire sheet_7
-    21300016: aire sheet_8
-    21300018: aire sheet_9
-    21300020: aire sheet_10
+    21300000: normal bloquear sheet_0
+    21300002: normal bloquear sheet_1
+    21300004: normal bloquear sheet_2
+    21300006: normal bloquear sheet_3
+    21300008: normal bloquear sheet_4
+    21300010: normal bloquear sheet_5
+    21300012: normal bloquear sheet_6
+    21300014: normal bloquear sheet_7
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -86,13 +83,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: aire sheet_0
+      name: normal bloquear sheet_1
       rect:
         serializedVersion: 2
-        x: 204
-        y: 1518
-        width: 12
-        height: 10
+        x: 1937
+        y: 687
+        width: 722
+        height: 610
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,13 +97,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_1
+      name: normal bloquear sheet_2
       rect:
         serializedVersion: 2
-        x: 644
-        y: 1513
-        width: 7
-        height: 7
+        x: 2801
+        y: 692
+        width: 869
+        height: 667
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,69 +111,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_2
-      rect:
-        serializedVersion: 2
-        x: 1629
-        y: 951
-        width: 967
-        height: 677
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_3
-      rect:
-        serializedVersion: 2
-        x: 3367
-        y: 948
-        width: 982
-        height: 604
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_4
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 1509
-        width: 7
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_5
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 1501
-        width: 14
-        height: 10
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_6
+      name: normal bloquear sheet_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 948
-        width: 1085
-        height: 556
+        y: 7
+        width: 933
+        height: 676
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,13 +125,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_7
+      name: normal bloquear sheet_4
       rect:
         serializedVersion: 2
-        x: 1078
-        y: 1394
-        width: 12
-        height: 7
+        x: 938
+        y: 683
+        width: 722
+        height: 554
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,13 +139,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_8
+      name: normal bloquear sheet_5
       rect:
         serializedVersion: 2
-        x: 1095
-        y: 1176
-        width: 7
-        height: 9
+        x: 1866
+        y: 7
+        width: 933
+        height: 678
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,29 +153,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: aire sheet_9
+      name: normal bloquear sheet_6
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 9
+        width: 869
+        height: 667
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: normal bloquear sheet_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 905
-        height: 654
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: aire sheet_10
-      rect:
-        serializedVersion: 2
-        x: 1629
-        y: 0
-        width: 1643
-        height: 958
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        y: 686
+        width: 790
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

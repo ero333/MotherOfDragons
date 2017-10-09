@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 54c749fe33a9b7d4cbcf8117225d4310
-timeCreated: 1507568851
+timeCreated: 1507580108
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -142,22 +142,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1045
         y: 0
-        width: 960
+        width: 1075
         height: 685
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: fuego sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1971
-        y: 357
-        width: 128
-        height: 136
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
