@@ -1,17 +1,14 @@
 fileFormatVersion: 2
-guid: 5c1b2fb996f55f645ad0b8014aeae3b1
-timeCreated: 1507584899
+guid: a1564087c6dc80e4c9928178b341875f
+timeCreated: 1507585559
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: normalherido sheet_0
-    21300002: normalherido sheet_1
-    21300004: normalherido sheet_2
-    21300006: normalherido sheet_3
-    21300008: normalherido sheet_4
-    21300010: normalherido sheet_5
-    21300012: normalherido sheet_6
-    21300014: normalherido sheet_7
+    21300000: diego sheet_0
+    21300002: diego sheet_1
+    21300004: diego sheet_2
+    21300006: diego sheet_3
+    21300008: diego sheet_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -83,99 +80,71 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: normalherido sheet_1
+      name: diego sheet_0
       rect:
         serializedVersion: 2
-        x: 2109
-        y: 694
-        width: 720
-        height: 609
+        x: 246
+        y: 815
+        width: 740
+        height: 819
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: normalherido sheet_2
+      name: diego sheet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1101
-        width: 4
-        height: 6
+        x: 1345
+        y: 817
+        width: 547
+        height: 769
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: normalherido sheet_3
+      name: diego sheet_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 690
-        width: 733
-        height: 534
+        x: 2197
+        y: 862
+        width: 842
+        height: 682
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: normalherido sheet_4
+      name: diego sheet_3
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 690
-        width: 725
-        height: 554
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: normalherido sheet_5
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 12
-        width: 806
-        height: 677
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: normalherido sheet_6
-      rect:
-        serializedVersion: 2
-        x: 1011
-        y: 1
-        width: 936
-        height: 612
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: normalherido sheet_7
-      rect:
-        serializedVersion: 2
-        x: 2010
+        x: 252
         y: 0
-        width: 1008
-        height: 386
+        width: 775
+        height: 797
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 0
+        width: 1030
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
