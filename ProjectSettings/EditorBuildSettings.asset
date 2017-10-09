@@ -16,19 +16,31 @@ EditorBuildSettings:
     guid: d3f0ed8d81651414dbda885d600685be
   - enabled: 1
     path: Assets/Scene3.unity
-    guid: 4d94f152892c0f543b27adfe8c86e56d
+    guid: b14e3820d23e8814c9ecfe812923db3c
   - enabled: 1
     path: Assets/perfil2.unity
-    guid: 60831cff427f0cb4987b2d6df8bf0b7b
+    guid: 6291666a61af3134c916259207ccc991
   - enabled: 1
     path: Assets/Scene1.unity
-    guid: 25deccfc5f4f6a14aace6067c6ce6ab4
+    guid: 6f8fdfbd10eb2e449bb34142739a32a5
   - enabled: 1
     path: Assets/perfil3.unity
-    guid: 155cba8f46e2d5c4e88f82a1b7ccc507
+    guid: 441368d8c310bfb4c9af5e42beab2f0b
   - enabled: 1
     path: Assets/Scene2.unity
     guid: 9fd51f4e8c5dc9d419fb44de12849d8d
+  - enabled: 1
+    path: Assets/perfil4.unity
+    guid: 202e14ea27f47214b8837f119535311d
+  - enabled: 1
+    path: Assets/Scene4.unity
+    guid: c225626671fef8441b70a27686f427f0
+  - enabled: 1
+    path: Assets/perfil5.unity
+    guid: bfef43d6807de364285f589b7d38f7e9
+  - enabled: 1
+    path: Assets/Scene5.unity
+    guid: eed1c77b75f93554594659376e4f863b
   - enabled: 1
     path: Assets/Combate.unity
     guid: 42dca41fb1ebd28448c1de9090ecc8f2
@@ -38,9 +50,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/menu.unity
     guid: f70488c431f41b04fbcddf528a9312cb
-  - enabled: 1
-    path: Assets/Scene4.unity
+  - enabled: 0
+    path: Assets/Scene6.unity
+    guid: 269e8636761a1964cb293356501dca0a
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/60831cff427f0cb4987b2d6df8bf0b7b
+    guid: 60831cff427f0cb4987b2d6df8bf0b7b
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/155cba8f46e2d5c4e88f82a1b7ccc507
+    guid: 155cba8f46e2d5c4e88f82a1b7ccc507
+  - enabled: 0
+    path: 
     guid: ca51740604089d2468994e94c104cf8f
+  - enabled: 0
+    path: 
+    guid: 4d94f152892c0f543b27adfe8c86e56d
+  - enabled: 0
+    path: 
+    guid: 25deccfc5f4f6a14aace6067c6ce6ab4
   - enabled: 0
     path: 
     guid: a9da580cd506de44983de02caffa548a

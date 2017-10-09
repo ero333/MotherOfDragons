@@ -9,8 +9,16 @@ public class Controlador : MonoBehaviour {
 	public static bool ganasteHijoAgua = false;
 
 	public GameObject coinci;
+	public Image dragNormal;
+	public Image dragAgua;
 
 	private int lastNumber;
+
+	void Start(){
+		if (ganasteHijoNormal == true) {
+			dragNormal.enabled = true;
+		}
+	}
 
 	int GetRandom (int min, int max)
 	{

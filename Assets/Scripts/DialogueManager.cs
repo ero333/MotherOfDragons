@@ -106,7 +106,7 @@ public class DialogueManager : MonoBehaviour {
 			print ("HUEVITO!!");
 			animator.SetTrigger ("GANAR");
 			ganaste.enabled = true;
-			if(SceneManager.GetActiveScene().name == "Scene1"){
+			if(SceneManager.GetActiveScene().name == "Scene1" || SceneManager.GetActiveScene().name == "Scene2"){
 				Controlador.ganasteHijoNormal = true;
 			}
 

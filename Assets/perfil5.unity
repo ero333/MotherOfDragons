@@ -415,7 +415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171, y: -616}
+  m_AnchoredPosition: {x: 171, y: -647}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &57597367
@@ -784,7 +784,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 186fcdb6b05e12041b3a4436775770ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9feb874c83ae4d14ba3368eabbafaa98, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1755,8 +1755,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 175, y: -654.7}
-  m_SizeDelta: {x: 68.5, y: 5.1}
+  m_AnchoredPosition: {x: 175, y: -711.3}
+  m_SizeDelta: {x: 68.5, y: 5.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1127221200
 MonoBehaviour:
@@ -2468,8 +2468,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84.899994, y: 223}
-  m_SizeDelta: {x: 415, y: 155}
+  m_AnchoredPosition: {x: -84.899994, y: 237.3}
+  m_SizeDelta: {x: 415, y: 95.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489229476
 MonoBehaviour:
@@ -2492,18 +2492,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: f35635284306af843a8573d603e4635d, type: 3}
-    m_FontSize: 77
+    m_FontSize: 54
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 150
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xC1ngel"
+  m_Text: Israel
 --- !u!222 &1489229477
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2740,7 +2740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169, y: -526}
+  m_AnchoredPosition: {x: 169, y: -557}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1882589948
@@ -2816,7 +2816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 169.14, y: -744}
+  m_AnchoredPosition: {x: 169.14, y: -775}
   m_SizeDelta: {x: 361.86, y: 193.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982442051
@@ -2851,9 +2851,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.9
-  m_Text: "Drag\xF3n de fuegol, Estudiante\r\n\n\n#chicas lindas, #mujeres, #dragonas,
-    #dragoncitas\n\nHoLAa, mE LlamO AnGEl y tEngO 18 a\xD1os...Me Gustar\xEDA coNnocer
-    chiCas liNDaS pAra sEr aMigoS o Algo m\xC1ss jeje\r\n"
+  m_Text: "Drag\xF3n de agua, Estudiante de dise\xF1o de indumentaria\n\n\nHobby:
+    Dise\xF1ar mi ropa con tela reciclada.\nIsrael es un drag\xF3n que est\xE1 en
+    primer a\xF1o de dise\xF1o de indumentaria pero lleva dise\xF1ando y creando ropa
+    desde que pudo aprender a usar una m\xE1quina de coser (ignoremos que sus primeras
+    prendas eran horribles). Tambi\xE9n tiene un locutor interno que le exige presentarse
+    en tercera persona. Les manda saludos.\r"
 --- !u!222 &1982442052
 CanvasRenderer:
   m_ObjectHideFlags: 0
