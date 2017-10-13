@@ -49,41 +49,52 @@ public class ManagerPelea : MonoBehaviour {
 		textoEstado.text = "";
 		foreach (var peleador in peleadores)
 		{
-			if (peleador.sigueVivo) 
-			{
 
-				if (peleador.aliado && peleador.nombre == "Dragona") {
-					barraAliado.SetHealth (peleador.vida);
-				} else {
-					if (peleador.aliado && peleador.nombre == "Dragoncito") {
-						barraAliado2.SetHealth (peleador.vida);
+			if (peleador.enabled) {
+				if (peleador.sigueVivo) {
+
+					if (peleador.aliado && peleador.nombre == "Dragona") {
+						barraAliado.SetHealth (peleador.vida);
 					} else {
-						barraEnemigo.SetHealth(peleador.vida);
+						if (peleador.aliado && peleador.nombre == "Dragoncito") {
+							barraAliado2.SetHealth (peleador.vida);
+						} else {
+							barraEnemigo.SetHealth (peleador.vida);
 
+						}
 					}
-				}
 
 		
 
 
-				textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
-				peleador.nombre + " HP: " + peleador.vida + "/100 MANA: " + peleador.mana + "/100.</color>\n";
-			}
+					textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
+					peleador.nombre + " HP: " + peleador.vida + "/100 MANA: " + peleador.mana + "/100.</color>\n";
+				}
 
-			
+			}
 		}
 	}
 
 	void Start()
 	{
-		if (Controlador.ganasteHijoNormal == false) {
-			peleadores.RemoveAt (1);
-			barraAliado2.enabled = false;
-			//GameObject.Find ("DragoncitoNormal").SetActive = false;
+		//if (Controlador.ganasteHijoNormal == false) {
+		//	peleadores.RemoveAt (1);
+		//	barraAliado2.enabled = false;
+		//}
+
+		if(Controlador.ganasteHijoNormal == true){
+			GameObject.Find ("DragoncitoNormal").SetActive (true);
 		}
+		for (int i = 0; i < peleadores.Count; i++)
+		{
+			if(!peleadores[i].enabled){
+				peleadores.RemoveAt (i);
+			}
+		}
+
 		ActualizarInterface();
 		StartCoroutine("Bucle");
-		ganaste.Prepare();
+		ganaste.Prepare ();
 		perdiste.Prepare ();
 	}
 
@@ -103,16 +114,14 @@ public class ManagerPelea : MonoBehaviour {
 					poolBotones [i].gameObject.SetActive (false);
 				}
 
-				if (peleador.sigueVivo) 
-				{
-					if (peleador.aliado) 
-					{
+				if (peleador.enabled){
+				if (peleador.sigueVivo) {
+					if (peleador.aliado) {
 
-						Accion proxAccion = new Accion();
+						Accion proxAccion = new Accion ();
 						bool sw = false;
 
-						foreach (var accion in peleador.Acciones) 
-						{	
+						foreach (var accion in peleador.Acciones) {	
 							Button b = null;
 							for (int i = 0; i < poolBotones.Count; i++) {
 								if (!poolBotones [i].gameObject.activeInHierarchy) {
@@ -151,36 +160,36 @@ public class ManagerPelea : MonoBehaviour {
 
 									//if (!proxAccion.objetivoEsElMismo){
 											
-										//if (Input.GetKeyDown(KeyCode.LeftArrow))
-											//{
+									//if (Input.GetKeyDown(KeyCode.LeftArrow))
+									//{
 												
-												//if (indice > 0)
-												//{
-												//	indice--;
-												//	indice = Random.Range (1, peleadores.Count);                                        
-												//}
-												//objetivo.position = peleadores[indice].transform.position;
+									//if (indice > 0)
+									//{
+									//	indice--;
+									//	indice = Random.Range (1, peleadores.Count);                                        
+									//}
+									//objetivo.position = peleadores[indice].transform.position;
 
 
 												
-											//}
-											//if (Input.GetKeyDown(KeyCode.RightArrow)){
-												//indice++;
-												//if (indice >= peleadores.Count)
-												//{
-												//	indice = 0;                                      
-												//}
-												//objetivo.position = peleadores[indice].transform.position;
+									//}
+									//if (Input.GetKeyDown(KeyCode.RightArrow)){
+									//indice++;
+									//if (indice >= peleadores.Count)
+									//{
+									//	indice = 0;                                      
+									//}
+									//objetivo.position = peleadores[indice].transform.position;
 
-										//}
+									//}
 									//}
 
 									////////////////////////////////////
-									if (Controlador.ganasteHijoNormal == false) {
-										c = peleador.EjecutarAccion (accion, peleadores [1].transform);
-									} else{
-										c = peleador.EjecutarAccion (accion, peleadores [2].transform);
-									}
+									//if (Controlador.ganasteHijoNormal == false) {
+										c = peleador.EjecutarAccion (accion, peleadores[peleadores.Count - 1].transform);
+									//} else {
+									//	c = peleador.EjecutarAccion (accion, peleadores [2].transform);
+									//}
 
 
 									//Random.Range (1, peleadores.Count)
@@ -190,13 +199,13 @@ public class ManagerPelea : MonoBehaviour {
 
 					} else {
 
-						if (Controlador.ganasteHijoNormal == false) {
+						//if (Controlador.ganasteHijoNormal == false) {
+						//	c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
+						//		peleadores [0].transform);
+						//} else {
 							c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-								peleadores [0].transform);
-						} else{
-							c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-								peleadores [Random.Range (0, 2)].transform);	
-						}
+								peleadores [Random.Range (0, (peleadores.Count -2))].transform);	
+						//}
 						//Random.Range (0, peleadores.Count)
 
 					}
@@ -208,7 +217,7 @@ public class ManagerPelea : MonoBehaviour {
 					yield return StartCoroutine (c);
 					yield return new WaitForSeconds (1);
 				}
-
+			}
 			
 				if (peleador.aliado) { 
 

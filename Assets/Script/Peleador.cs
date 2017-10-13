@@ -99,11 +99,12 @@ public class Peleador : MonoBehaviour {
 		//nv = GetComponent<NavMeshAgent>();
 		cubrimiento=1;
 
-		if(nombre == "Dragoncito" && Controlador.ganasteHijoNormal == false){
-			animator.speed = 0;
-			gameObject.SetActive (false);
-			barraSalud.gameObject.SetActive (false);
-		}
+
+		//if(nombre == "Dragoncito" && Controlador.ganasteHijoNormal == false){
+		//	animator.speed = 0;
+		//	gameObject.SetActive (false);
+		//	barraSalud.gameObject.SetActive (false);
+		//}
 
 		// Alternativa a setear el animator desde el inspector en el editor
 		//animator = gameObject.GetComponent<Animator> ();
