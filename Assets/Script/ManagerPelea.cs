@@ -7,6 +7,7 @@ using UnityEngine.Video;
 
 public class ManagerPelea : MonoBehaviour {
 
+	public List<GameObject> dragoncitos;
 	public List<Peleador> peleadores;
 	public VideoPlayer ganaste;
 	public VideoPlayer perdiste;
@@ -82,14 +83,13 @@ public class ManagerPelea : MonoBehaviour {
 		//	barraAliado2.enabled = false;
 		//}
 
-		if(Controlador.ganasteHijoNormal == true){
-			GameObject.Find ("DragoncitoNormal").SetActive (true);
+		if (Controlador.dragoncito1 > 0) {
+			dragoncitos [Controlador.dragoncito1].SetActive (true); 
+			dragoncitos [Controlador.dragoncito1].transform.position = new Vector3 (-5, -3, dragoncitos [0].transform.position.z);
 		}
-		for (int i = 0; i < peleadores.Count; i++)
-		{
-			if(!peleadores[i].enabled){
-				peleadores.RemoveAt (i);
-			}
+		if (Controlador.dragoncito2 > 0) {
+			dragoncitos [Controlador.dragoncito2].SetActive (true); 
+			dragoncitos [Controlador.dragoncito2].transform.position = new Vector3 (-5, -3, dragoncitos [0].transform.position.z);
 		}
 
 		ActualizarInterface();
@@ -149,7 +149,7 @@ public class ManagerPelea : MonoBehaviour {
 								b.onClick.AddListener (() => {
 
 									for (int j = 0; j < poolBotones.Count; j++) {
-										b.gameObject.SetActive (false);
+											poolBotones[j].gameObject.SetActive(false);
 									}
 
 

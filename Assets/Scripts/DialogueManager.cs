@@ -108,7 +108,7 @@ public class DialogueManager : MonoBehaviour {
 			animator.SetTrigger ("GANAR");
 			ganaste.enabled = true;
 			if(SceneManager.GetActiveScene().name == "Scene1" || SceneManager.GetActiveScene().name == "Scene2"){
-				Controlador.ganasteHijoNormal = true;
+				Controlador.HijosGanados[0] = true;
 			}
 
 			StartCoroutine (Esperar());

@@ -5,8 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Controlador : MonoBehaviour {
-	public static bool ganasteHijoNormal = false;
-	public static bool ganasteHijoAgua = false;
+	public static bool[] HijosGanados;
+
+	public static int dragoncito1 = -1;
+	public static int dragoncito2 = -1;
 
 	public GameObject coinci;
 	public Image dragNormal;
@@ -15,17 +17,26 @@ public class Controlador : MonoBehaviour {
 	private int lastNumber;
 
 	void Start(){
-		if (ganasteHijoNormal == true) {
-			dragNormal.enabled = true;
+
+		HijosGanados = new bool[11];
+		lastNumber = -1;
+
+		// En vez de esto hay que cargar los dragonciotosm que ya ganaste del save
+		for (int i = 0; i < 11; i++) {
+			
+			HijosGanados [i] = false;
 		}
 	}
 
 	int GetRandom (int min, int max)
 	{
 		int rand = Random.Range (min, max);
-		while (rand == lastNumber)
+		while (rand == lastNumber) { 
 			rand = Random.Range (min, max);
+		}
 		lastNumber = rand;
+
+		Debug.Log (lastNumber);
 		return rand;
 	}
 
@@ -34,7 +45,8 @@ public class Controlador : MonoBehaviour {
 		//int perfilesIndice = Random.Range (1, 4);
 		//if (perfilesIndice != perfilesIndice) {
 
-		int perfilesIndice = GetRandom(1,4);
+		int perfilesIndice = GetRandom(1,5);
+
 		SceneManager.LoadScene ("perfil" + perfilesIndice.ToString ());
 	}
 
