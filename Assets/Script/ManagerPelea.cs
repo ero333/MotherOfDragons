@@ -19,6 +19,7 @@ public class ManagerPelea : MonoBehaviour {
 
 	public HealthBar barraAliado;
 	public HealthBar barraAliado2;
+	public HealthBar barraAliado3;
 	public HealthBar barraEnemigo;
 
 
@@ -57,11 +58,13 @@ public class ManagerPelea : MonoBehaviour {
 					if (peleador.aliado && peleador.nombre == "Dragona") {
 						barraAliado.SetHealth (peleador.vida);
 					} else {
-						if (peleador.aliado && peleador.nombre == "Dragoncito") {
+						if (peleador.aliado && Controlador.dragoncito1 != -1) {
 							barraAliado2.SetHealth (peleador.vida);
 						} else {
+							if(peleador.aliado && Controlador.dragoncito2 != -1){
+								barraAliado3.SetHealth (peleador.vida);
+							}
 							barraEnemigo.SetHealth (peleador.vida);
-
 						}
 					}
 
@@ -83,13 +86,15 @@ public class ManagerPelea : MonoBehaviour {
 		//	barraAliado2.enabled = false;
 		//}
 
-		if (Controlador.dragoncito1 > 0) {
+		if (Controlador.dragoncito1 > -1) {
 			dragoncitos [Controlador.dragoncito1].SetActive (true); 
 			dragoncitos [Controlador.dragoncito1].transform.position = new Vector3 (-5, -3, dragoncitos [0].transform.position.z);
+			barraAliado2.enabled = true;
 		}
-		if (Controlador.dragoncito2 > 0) {
+		if (Controlador.dragoncito2 > -1) {
 			dragoncitos [Controlador.dragoncito2].SetActive (true); 
-			dragoncitos [Controlador.dragoncito2].transform.position = new Vector3 (-5, -3, dragoncitos [0].transform.position.z);
+			dragoncitos [Controlador.dragoncito2].transform.position = new Vector3 (-5, 0, dragoncitos [0].transform.position.z);
+			barraAliado3.enabled = true;
 		}
 
 		ActualizarInterface();
