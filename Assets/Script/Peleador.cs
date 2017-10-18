@@ -9,12 +9,10 @@ using UnityEngine.SceneManagement;
 public struct Accion {
 
 	public string nombre;
-	//public bool estatico;
 	public bool objetivoEsElMismo;
 	public string mensaje;
 	public int argumento;
 	public string animacionTrigger;
-
 	public int costoMana;
 
 

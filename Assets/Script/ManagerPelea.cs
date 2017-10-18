@@ -112,14 +112,14 @@ public class ManagerPelea : MonoBehaviour {
 			aliadosvivos = false;
 			enemigosvivos = false;
 			foreach (var peleador in peleadores) {
-
+				if (peleador.enabled){
 				IEnumerator c = null;
 
 				for (int i = 0; i < poolBotones.Count; i++) {
 					poolBotones [i].gameObject.SetActive (false);
 				}
 
-				if (peleador.enabled){
+
 				if (peleador.sigueVivo) {
 					if (peleador.aliado) {
 
