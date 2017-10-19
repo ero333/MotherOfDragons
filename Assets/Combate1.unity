@@ -1235,7 +1235,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Tierra
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -1938,7 +1938,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Arena
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -2748,7 +2748,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Hielo
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -3097,7 +3097,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Metal
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -3582,7 +3582,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Fuego
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -5124,7 +5124,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Lodo
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -5535,7 +5535,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Normal
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -5872,7 +5872,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Electrico
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -6193,7 +6193,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Aire
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -6444,7 +6444,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Lava
   mana: 100
   cubrimiento: 20
   aliado: 1
@@ -6636,7 +6636,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Bloquear
     costoMana: 0
-  nombre: Dragoncito
+  nombre: Dragoncito Agua
   mana: 100
   cubrimiento: 20
   aliado: 1
