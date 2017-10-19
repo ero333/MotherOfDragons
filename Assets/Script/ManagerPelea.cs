@@ -5,7 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
-public class ManagerPelea : MonoBehaviour {
+public class ManagerPelea : MonoBehaviour
+{
 
 	public List<GameObject> dragoncitos;
 	public List<Peleador> peleadores;
@@ -36,7 +37,8 @@ public class ManagerPelea : MonoBehaviour {
 
 
 
-	void Awake (){
+	void Awake ()
+	{
 		if (singleton != null) {
 
 			Destroy (gameObject);
@@ -46,13 +48,15 @@ public class ManagerPelea : MonoBehaviour {
 
 	}
 
-	public void ActualizarInterface(){
+
+
+	public void ActualizarInterface ()
+	{
 
 		textoEstado.text = "";
-		foreach (var peleador in peleadores)
-		{
+		foreach (var peleador in peleadores) {
 
-			if (peleador.enabled) {
+			if (peleador.isActiveAndEnabled ) {
 				if (peleador.sigueVivo) {
 
 					if (peleador.aliado && peleador.nombre == "Dragona") {
@@ -61,7 +65,7 @@ public class ManagerPelea : MonoBehaviour {
 						if (peleador.aliado && Controlador.dragoncito1 != -1) {
 							barraAliado2.SetHealth (peleador.vida);
 						} else {
-							if(peleador.aliado && Controlador.dragoncito2 != -1){
+							if (peleador.aliado && Controlador.dragoncito2 != -1) {
 								barraAliado3.SetHealth (peleador.vida);
 							}
 							barraEnemigo.SetHealth (peleador.vida);
@@ -79,12 +83,19 @@ public class ManagerPelea : MonoBehaviour {
 		}
 	}
 
-	void Start()
+	void Start ()
 	{
-		//if (Controlador.ganasteHijoNormal == false) {
-		//	peleadores.RemoveAt (1);
-		//	barraAliado2.enabled = false;
-		//}
+
+		foreach (var peleador in peleadores) {
+	
+			if (peleador.nombre != "Dragona" && peleador.nombre != "Mateo") {
+
+				peleador.gameObject.SetActive (false);
+				Debug.Log ("Desactivando: "+peleador.nombre);
+			} else {
+				Debug.Log ("No desactivado: "+peleador.nombre);
+			}
+		}
 
 		if (Controlador.dragoncito1 > -1) {
 			dragoncitos [Controlador.dragoncito1].SetActive (true); 
@@ -92,147 +103,164 @@ public class ManagerPelea : MonoBehaviour {
 			barraAliado2.enabled = true;
 		}
 		if (Controlador.dragoncito2 > -1) {
-			dragoncitos [Controlador.dragoncito2].SetActive (true); 
+			dragoncitos [Controlador.dragoncito2].SetActive (true);
 			dragoncitos [Controlador.dragoncito2].transform.position = new Vector3 (-5, 0, dragoncitos [0].transform.position.z);
 			barraAliado3.enabled = true;
 		}
-
-		ActualizarInterface();
-		StartCoroutine("Bucle");
+			
+		ActualizarInterface ();
+		StartCoroutine ("Bucle");
 		ganaste.Prepare ();
 		perdiste.Prepare ();
 	}
 
 
-	List<Button> poolBotones = new List<Button>();
-	IEnumerator Bucle (){
+	List<Button> poolBotones = new List<Button> ();
+
+	IEnumerator Bucle ()
+	{
 		bool aliadosvivos = true;
 		bool enemigosvivos = true;
 		while (aliadosvivos || enemigosvivos) {
 			aliadosvivos = false;
 			enemigosvivos = false;
 			foreach (var peleador in peleadores) {
-				if (peleador.enabled){
+
 				IEnumerator c = null;
+				if (peleador.isActiveAndEnabled ) {
+				
+					Debug.Log(peleador.nombre);
+					Debug.Log (peleador.enabled);
 
-				for (int i = 0; i < poolBotones.Count; i++) {
-					poolBotones [i].gameObject.SetActive (false);
-				}
+
+					for (int i = 0; i < poolBotones.Count; i++) {
+						poolBotones [i].gameObject.SetActive (false);
+					}
+
+					if (peleador.sigueVivo) {
+						if (peleador.aliado) {
+
+							Accion proxAccion = new Accion ();
+							bool sw = false;
+
+							foreach (var accion in peleador.Acciones) {	
+								Button b = null;
+								for (int i = 0; i < poolBotones.Count; i++) {
+									if (!poolBotones [i].gameObject.activeInHierarchy) {
+										b = poolBotones [i];
+
+									}
+								}
+
+								b = Instantiate (prefab, panel);
+								//b.transform.SetParent (panel);
+
+								b.transform.position = Vector3.zero;
+								b.transform.localScale = Vector3.one;
+
+								poolBotones.Add (b);
+
+								b.gameObject.SetActive (true);
+
+								b.onClick.RemoveAllListeners ();
+								b.GetComponentInChildren<Text> ().text = accion.nombre;
+								if (peleador.mana < accion.costoMana) {
+									b.interactable = false;
+								} else {
+									b.interactable = true;
+									b.onClick.AddListener (() => {
+
+										for (int j = 0; j < poolBotones.Count; j++) {
+											poolBotones [j].gameObject.SetActive (false);
+										}
 
 
-				if (peleador.sigueVivo) {
-					if (peleador.aliado) {
+										///////////////////////////////
 
-						Accion proxAccion = new Accion ();
-						bool sw = false;
+										//int indice = 0;
+										//objetivo.position = peleadores[indice].transform.position;
 
-						foreach (var accion in peleador.Acciones) {	
-							Button b = null;
-							for (int i = 0; i < poolBotones.Count; i++) {
-								if (!poolBotones [i].gameObject.activeInHierarchy) {
-									b = poolBotones [i];
+										//if (!proxAccion.objetivoEsElMismo){
+											
+										//if (Input.GetKeyDown(KeyCode.LeftArrow))
+										//{
+												
+										//if (indice > 0)
+										//{
+										//	indice--;
+										//	indice = Random.Range (1, peleadores.Count);                                        
+										//}
+										//objetivo.position = peleadores[indice].transform.position;
 
+
+												
+										//}
+										//if (Input.GetKeyDown(KeyCode.RightArrow)){
+										//indice++;
+										//if (indice >= peleadores.Count)
+										//{
+										//	indice = 0;                                      
+										//}
+										//objetivo.position = peleadores[indice].transform.position;
+
+										//}
+										//}
+
+										////////////////////////////////////
+										//if (Controlador.ganasteHijoNormal == false) {
+										c = peleador.EjecutarAccion (accion, peleadores [peleadores.Count - 1].transform);
+										//} else {
+										//	c = peleador.EjecutarAccion (accion, peleadores [2].transform);
+										//}
+
+
+										//Random.Range (1, peleadores.Count)
+									});
 								}
 							}
 
-							b = Instantiate (prefab, panel);
-							//b.transform.SetParent (panel);
+						} else {
 
-							b.transform.position = Vector3.zero;
-							b.transform.localScale = Vector3.one;
-
-							poolBotones.Add (b);
-
-							b.gameObject.SetActive (true);
-
-							b.onClick.RemoveAllListeners ();
-							b.GetComponentInChildren<Text> ().text = accion.nombre;
-							if (peleador.mana < accion.costoMana) {
-								b.interactable = false;
-							} else {
-								b.interactable = true;
-								b.onClick.AddListener (() => {
-
-									for (int j = 0; j < poolBotones.Count; j++) {
-											poolBotones[j].gameObject.SetActive(false);
-									}
+							//if (Controlador.ganasteHijoNormal == false) {
+							//	c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
+							//		peleadores [0].transform);
+							//} else {
 
 
-									///////////////////////////////
+							/*int index = peleadores.IndexOf(peleador.isActiveAndEnabled);
 
-									//int indice = 0;
-									//objetivo.position = peleadores[indice].transform.position;
-
-									//if (!proxAccion.objetivoEsElMismo){
-											
-									//if (Input.GetKeyDown(KeyCode.LeftArrow))
-									//{
-												
-									//if (indice > 0)
-									//{
-									//	indice--;
-									//	indice = Random.Range (1, peleadores.Count);                                        
-									//}
-									//objetivo.position = peleadores[indice].transform.position;
+							if (index >= 0)
+							{
+								GameObject o = peleadores[index];
+							}*/
 
 
-												
-									//}
-									//if (Input.GetKeyDown(KeyCode.RightArrow)){
-									//indice++;
-									//if (indice >= peleadores.Count)
-									//{
-									//	indice = 0;                                      
-									//}
-									//objetivo.position = peleadores[indice].transform.position;
+							c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
+								peleadores [Random.Range (0, (peleadores.Count - 2))].transform);	
+							//}
+							//Random.Range (0, peleadores.Count)
 
-									//}
-									//}
-
-									////////////////////////////////////
-									//if (Controlador.ganasteHijoNormal == false) {
-										c = peleador.EjecutarAccion (accion, peleadores[peleadores.Count - 1].transform);
-									//} else {
-									//	c = peleador.EjecutarAccion (accion, peleadores [2].transform);
-									//}
-
-
-									//Random.Range (1, peleadores.Count)
-								});
-							}
 						}
 
-					} else {
+						while (c == null) {
+							yield return null;
+						}
 
-						//if (Controlador.ganasteHijoNormal == false) {
-						//	c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-						//		peleadores [0].transform);
-						//} else {
-							c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-								peleadores [Random.Range (0, (peleadores.Count -2))].transform);	
-						//}
-						//Random.Range (0, peleadores.Count)
-
+						yield return StartCoroutine (c);
+						yield return new WaitForSeconds (1);
 					}
-
-					while (c == null) {
-						yield return null;
-					}
-
-					yield return StartCoroutine (c);
-					yield return new WaitForSeconds (1);
-				}
-			}
+				
 			
-				if (peleador.aliado) { 
+					if (peleador.aliado) { 
 
-					if (peleador.sigueVivo) {
-						aliadosvivos = true;
-					}
+						if (peleador.sigueVivo) {
+							aliadosvivos = true;
+						}
 
-				} else { 
-					if (peleador.sigueVivo) { 
-						enemigosvivos = true;
+					} else { 
+						if (peleador.sigueVivo) { 
+							enemigosvivos = true;
+						}
 					}
 				}
 		
@@ -245,7 +273,7 @@ public class ManagerPelea : MonoBehaviour {
 				SceneManager.LoadScene ("perfil1");
 			} 
 
-			if(!enemigosvivos) { 
+			if (!enemigosvivos) { 
 				Debug.Log ("GANASTE");
 				ganaste.Play ();
 				yield return new WaitForSeconds (5);

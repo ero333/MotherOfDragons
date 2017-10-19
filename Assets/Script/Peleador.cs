@@ -9,10 +9,12 @@ using UnityEngine.SceneManagement;
 public struct Accion {
 
 	public string nombre;
+	//public bool estatico;
 	public bool objetivoEsElMismo;
 	public string mensaje;
 	public int argumento;
 	public string animacionTrigger;
+
 	public int costoMana;
 
 
@@ -30,8 +32,12 @@ public class Peleador : MonoBehaviour {
 	public float cubrimiento;
 	public bool aliado;
 	public bool sigueVivo = true;
+	public int perderturnos=0;
 
 
+	void PerderTurnos(int cant) {
+		perderturnos += cant; 
+	}
 
 
 	void Atacar(int cant)
@@ -110,52 +116,57 @@ public class Peleador : MonoBehaviour {
 
 	public IEnumerator EjecutarAccion(Accion accion, Transform objetivo){
 
-		CambiarMana (-accion.costoMana);
-		if (accion.objetivoEsElMismo) { 
-			objetivo = transform;
+		if(perderturnos>0) {
+			perderturnos--;
 		}
+	    else {
+			CambiarMana (-accion.costoMana);
+			if (accion.objetivoEsElMismo) { 
+				objetivo = transform;
+			}
 
 
 
-		//if (accion.estatico) {
-
+			//if (accion.estatico) {
 			//anim.SetTrigger (accion.animacionTrigger);
 
-			if(accion.nombre== "Golpear")
-				animator.SetTrigger ("Attack");	
+				if(accion.nombre== "Golpear")
+					animator.SetTrigger ("Attack");	
 
-			objetivo.SendMessage (accion.mensaje, accion.argumento);
-			yield return new WaitForSeconds (1/2);
+				objetivo.SendMessage (accion.mensaje, accion.argumento);
+				yield return new WaitForSeconds (1/2);
 
-			/*
-		} else {
-			Vector3 PosInicial = transform.position;
+				/*
+			} else {
+				Vector3 PosInicial = transform.position;
 
-			transform.LookAt (objetivo.transform.position);
-			//nv.SetDestination (objetivo.position);
-			//anim.SetFloat("Speed", 1);
+				transform.LookAt (objetivo.transform.position);
+				//nv.SetDestination (objetivo.position);
+				//anim.SetFloat("Speed", 1);
 
-			while (Vector3.Distance (transform.position, objetivo.position) > 2)
-				yield return null;
-			//nv.speed = 0;
-			//anim.SetFloat("Speed", 0);
+				while (Vector3.Distance (transform.position, objetivo.position) > 2)
+					yield return null;
+				//nv.speed = 0;
+				//anim.SetFloat("Speed", 0);
 
-			yield return new WaitForSeconds (0.5f);
-			//anim.SetTrigger (accion.animacionTrigger);
-			yield return new WaitForSeconds (0.1f);
-			objetivo.SendMessage (accion.mensaje, accion.argumento);
-			yield return new WaitForSeconds (1);
+				yield return new WaitForSeconds (0.5f);
+				//anim.SetTrigger (accion.animacionTrigger);
+				yield return new WaitForSeconds (0.1f);
+				objetivo.SendMessage (accion.mensaje, accion.argumento);
+				yield return new WaitForSeconds (1);
 
-			transform.LookAt (PosInicial);
-			//nv.SetDestination (PosInicial);
-			//nv.speed = 3.5f;
-			//anim.SetFloat("Speed", 1);
+				transform.LookAt (PosInicial);
+				//nv.SetDestination (PosInicial);
+				//nv.speed = 3.5f;
+				//anim.SetFloat("Speed", 1);
 
-			while (Vector3.Distance (transform.position, objetivo.position) > 0.1f)
-				yield return null;
-			//anim.SetFloat("Speed", 0);
+				while (Vector3.Distance (transform.position, objetivo.position) > 0.1f)
+					yield return null;
+				//anim.SetFloat("Speed", 0);
 
+			}
+			*/
+			
 		}
-		*/
 	}
 }
