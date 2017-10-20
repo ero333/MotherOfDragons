@@ -72,7 +72,6 @@ public class ManagerPelea : MonoBehaviour
 						}
 					}
 
-		
 
 
 					textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
@@ -85,6 +84,36 @@ public class ManagerPelea : MonoBehaviour
 
 	void Start ()
 	{
+		if(Controlador.escenaPrevia == "Scene1"){
+			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
+			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
+			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
+			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
+		}
+		if(Controlador.escenaPrevia == "Scene2"){
+			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
+			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
+			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
+			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
+		}
+		if(Controlador.escenaPrevia == "Scene3"){
+			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
+			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
+			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
+			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
+		}
+		if(Controlador.escenaPrevia == "Scene4"){
+			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
+			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
+			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
+			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
+		}
+		if(Controlador.escenaPrevia == "Scene3"){
+			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
+			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
+			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
+			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
+		}
 
 		foreach (var peleador in peleadores) {
 	

@@ -10,6 +10,8 @@ public class Controlador : MonoBehaviour {
 	public static int dragoncito1 = 2;//el dragoncito nº1 que va a pelear, definido por un número del 0 al 10 
 	public static int dragoncito2 = 4;
 
+	public static string escenaPrevia = "Scene1";
+
 	public GameObject coinci;
 	public Image dragNormal;
 	public Image dragAgua;

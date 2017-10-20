@@ -98,8 +98,9 @@ public class DialogueManager : MonoBehaviour {
 			case -1:
 			 
 				print("COMBATE!");
-				int sceneNum = SceneManager.GetActiveScene ().buildIndex;
-				SceneManager.LoadScene (sceneNum+1);
+				//int sceneNum = SceneManager.GetActiveScene ().buildIndex;
+				//SceneManager.LoadScene (sceneNum+1);
+				SceneManager.LoadScene ("Combate1");
 				break;
 
 		case 0:
@@ -109,6 +110,7 @@ public class DialogueManager : MonoBehaviour {
 			ganaste.enabled = true;
 			if(SceneManager.GetActiveScene().name == "Scene1" || SceneManager.GetActiveScene().name == "Scene2"){
 				Controlador.HijosGanados[0] = true;
+				Controlador.escenaPrevia = "Scene1";
 			}
 
 			StartCoroutine (Esperar());
