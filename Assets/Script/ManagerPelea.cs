@@ -25,9 +25,15 @@ public class ManagerPelea : MonoBehaviour
 
 	public int enemigoActual;
 
+	GameObject marcaDragon;
+	GameObject marcaDragona;
+
+	GameObject marcaDragoncitoA1;
+	GameObject marcaDragoncitoA2;
 
 
-
+	[SerializeField]
+	GameObject indicadorTurno;
 	/*
 	public void SetHealth(int vida){
 		
@@ -84,7 +90,14 @@ public class ManagerPelea : MonoBehaviour
 
 	void Start ()
 	{
+
 		enemigoActual = 12; 
+		marcaDragon = GameObject.Find("Marca Dragon");
+		marcaDragona = GameObject.Find("Marca Dragona");
+
+		marcaDragoncitoA1 = GameObject.Find("Marca Dragoncito 1 Aliado");
+		marcaDragoncitoA2 = GameObject.Find("Marca Dragoncito 2 Aliado");
+
 		if(Controlador.escenaPrevia == "Scene1"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
@@ -134,12 +147,15 @@ public class ManagerPelea : MonoBehaviour
 
 		if (Controlador.dragoncito1 > -1) {
 			dragoncitos [Controlador.dragoncito1].SetActive (true); 
-			dragoncitos [Controlador.dragoncito1].transform.position = new Vector3 (-5, -3, dragoncitos [0].transform.position.z);
+			GameObject marca = GameObject.Find ("Marca Dragoncito 1 Aliado");
+			dragoncitos [Controlador.dragoncito1].transform.position = marca.transform.position;
 			barraAliado2.enabled = true;
 		}
 		if (Controlador.dragoncito2 > -1) {
+			
 			dragoncitos [Controlador.dragoncito2].SetActive (true);
-			dragoncitos [Controlador.dragoncito2].transform.position = new Vector3 (-5, 0, dragoncitos [0].transform.position.z);
+			GameObject marca = GameObject.Find ("Marca Dragoncito 2 Aliado");
+			dragoncitos [Controlador.dragoncito2].transform.position = marca.transform.position;
 			barraAliado3.enabled = true;
 		}
 			
@@ -175,20 +191,30 @@ public class ManagerPelea : MonoBehaviour
 					if (peleador.sigueVivo) {
 						if (peleador.aliado) {
 
+							indicadorTurno.SetActive (true);
+							indicadorTurno.transform.position = marcaDragona.transform.position;
+
+
 							Accion proxAccion = new Accion ();
 							bool sw = false;
 
+
+
+
 							foreach (var accion in peleador.Acciones) {	
 								Button b = null;
+
 								for (int i = 0; i < poolBotones.Count; i++) {
+									
 									if (!poolBotones [i].gameObject.activeInHierarchy) {
 										b = poolBotones [i];
 
 									}
+
+
 								}
 
 								b = Instantiate (prefab, panel);
-								//b.transform.SetParent (panel);
 
 								b.transform.position = Vector3.zero;
 								b.transform.localScale = Vector3.one;
@@ -201,46 +227,23 @@ public class ManagerPelea : MonoBehaviour
 								b.GetComponentInChildren<Text> ().text = accion.nombre;
 								if (peleador.mana < accion.costoMana) {
 									b.interactable = false;
+
 								} else {
 									b.interactable = true;
 									b.onClick.AddListener (() => {
+
+
+
+
 
 										for (int j = 0; j < poolBotones.Count; j++) {
 											poolBotones [j].gameObject.SetActive (false);
 										}
 
 
-										///////////////////////////////
-
-										//int indice = 0;
-										//objetivo.position = peleadores[indice].transform.position;
-
-										//if (!proxAccion.objetivoEsElMismo){
-											
-										//if (Input.GetKeyDown(KeyCode.LeftArrow))
-										//{
-												
-										//if (indice > 0)
-										//{
-										//	indice--;
-										//	indice = Random.Range (1, peleadores.Count);                                        
-										//}
-										//objetivo.position = peleadores[indice].transform.position;
 
 
-												
-										//}
-										//if (Input.GetKeyDown(KeyCode.RightArrow)){
-										//indice++;
-										//if (indice >= peleadores.Count)
-										//{
-										//	indice = 0;                                      
-										//}
-										//objetivo.position = peleadores[indice].transform.position;
-
-										//}
-										//}
-
+								
 										////////////////////////////////////
 										//if (Controlador.ganasteHijoNormal == false) {
 
@@ -274,27 +277,20 @@ public class ManagerPelea : MonoBehaviour
 										//} else {
 										//	c = peleador.EjecutarAccion (accion, peleadores [2].transform);
 										//}
+									 
 
+										});
 
-										//Random.Range (1, peleadores.Count)
-									});
 								}
 							}
+						}
 
-						} else {
-
-							//if (Controlador.ganasteHijoNormal == false) {
-							//	c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-							//		peleadores [0].transform);
-							//} else {
+					 		else {
 
 
-							/*int index = peleadores.IndexOf(peleador.isActiveAndEnabled);
+							indicadorTurno.SetActive(true);
+							indicadorTurno.transform.position = marcaDragon.transform.position;
 
-							if (index >= 0)
-							{
-								GameObject o = peleadores[index];
-							}*/
 
 							int acciontomada = Random.Range (0, peleador.Acciones.Count);
 
@@ -307,6 +303,7 @@ public class ManagerPelea : MonoBehaviour
 							
 							//}
 							//Random.Range (0, peleadores.Count)
+
 
 						}
 
