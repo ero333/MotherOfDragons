@@ -138,6 +138,7 @@ public class DialogueParser : MonoBehaviour {
 			
 			switch(option) {
 			case 1:
+				
 				return lines [lineNumber].options1;
 				break;
 

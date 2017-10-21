@@ -23,6 +23,8 @@ public class ManagerPelea : MonoBehaviour
 	public HealthBar barraAliado3;
 	public HealthBar barraEnemigo;
 
+	public int enemigoActual;
+
 
 
 
@@ -72,8 +74,6 @@ public class ManagerPelea : MonoBehaviour
 						}
 					}
 
-
-
 					textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
 					peleador.nombre + " HP: " + peleador.vida + "/100 MANA: " + peleador.mana + "/100.</color>\n";
 				}
@@ -84,35 +84,41 @@ public class ManagerPelea : MonoBehaviour
 
 	void Start ()
 	{
+		enemigoActual = 12; 
 		if(Controlador.escenaPrevia == "Scene1"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
+			enemigoActual = 12; 
 		}
 		if(Controlador.escenaPrevia == "Scene2"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
+			enemigoActual = 12; 
 		}
 		if(Controlador.escenaPrevia == "Scene3"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
+			enemigoActual = 12; 
 		}
 		if(Controlador.escenaPrevia == "Scene4"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
+			enemigoActual = 12; 
 		}
 		if(Controlador.escenaPrevia == "Scene3"){
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
+			enemigoActual = 12; 
 		}
 
 		foreach (var peleador in peleadores) {
@@ -237,7 +243,34 @@ public class ManagerPelea : MonoBehaviour
 
 										////////////////////////////////////
 										//if (Controlador.ganasteHijoNormal == false) {
-										c = peleador.EjecutarAccion (accion, peleadores [peleadores.Count - 1].transform);
+
+										/*
+										if ( peleadores.IndexOf(peleador) == Controlador.dragoncito1 ) {
+
+											// Sterterar sopbre dragocito 1 el triangulo
+
+										}
+
+										if (peleadores.IndexOf(peleador) == Controlador.dragoncito2 ) {
+
+											// Sterterar sopbre dragocito 2 el triangulo
+
+										}
+
+										if (peleadores.IndexOf(peleador) == 0 ) {
+
+											// Sterterar sopbre dragna
+
+										}
+										*/
+
+
+										if ( accion.nombre =="Curar" ) {
+											c = peleador.EjecutarAccion (accion, peleadores [ElegirAliado()].transform);
+										}
+										else { 
+											c = peleador.EjecutarAccion (accion, peleadores [ElegirEnemigo()].transform);
+										} 
 										//} else {
 										//	c = peleador.EjecutarAccion (accion, peleadores [2].transform);
 										//}
@@ -263,9 +296,15 @@ public class ManagerPelea : MonoBehaviour
 								GameObject o = peleadores[index];
 							}*/
 
+							int acciontomada = Random.Range (0, peleador.Acciones.Count);
 
-							c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],
-								peleadores [Random.Range (0, (peleadores.Count - 2))].transform);	
+							if (peleador.Acciones [acciontomada].nombre == "Curar") {
+								c = peleador.EjecutarAccion (peleador.Acciones [acciontomada], peleadores [ElegirEnemigo()].transform);								
+							} else {
+								c = peleador.EjecutarAccion (peleador.Acciones [acciontomada], peleadores [ElegirAliado()].transform);	
+							}
+							//c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],	peleadores [Random.Range (0, (peleadores.Count - 2))].transform);	
+							
 							//}
 							//Random.Range (0, peleadores.Count)
 
@@ -297,6 +336,8 @@ public class ManagerPelea : MonoBehaviour
 
 			if (!aliadosvivos) { 
 				Debug.Log ("PERDISTE");
+				Controlador.escenaPrevia = "no";
+
 				perdiste.Play ();
 				yield return new WaitForSeconds (5);
 				SceneManager.LoadScene ("perfil1");
@@ -304,11 +345,65 @@ public class ManagerPelea : MonoBehaviour
 
 			if (!enemigosvivos) { 
 				Debug.Log ("GANASTE");
+				Controlador.escenaPrevia = "no";
 				ganaste.Play ();
 				yield return new WaitForSeconds (5);
 				SceneManager.LoadScene ("perfil1");
 			}
 		}
 
+	}
+
+
+	int ElegirEnemigo() {
+
+		//return peleadores.Count - 1
+			
+		return enemigoActual; 
+	}
+
+	int ElegirAliado() {
+		int cantaliados = 1;
+		if (Controlador.dragoncito1 > -1) {
+			cantaliados++;
+		}
+		if (Controlador.dragoncito2 > -1) {
+			cantaliados++;
+		}
+
+		int cual = Random.Range (0, cantaliados);
+		if (cual != 0) { 
+			if (cual == 1) {
+				// Es el dragoncito 1			
+				if (peleadores [Controlador.dragoncito1].sigueVivo) {
+					cual = Controlador.dragoncito1;
+				} else {
+					if (cantaliados < 3)
+						cual = 0;
+					else {
+						if (peleadores [Controlador.dragoncito2].sigueVivo) {
+							cual = Controlador.dragoncito2;
+						} else {
+							cual = 0;
+						}
+					}
+				} 
+			} else {
+				// Entonmces el dragoncito 2	
+				if (peleadores [Controlador.dragoncito2].sigueVivo) {
+					cual = Controlador.dragoncito2;
+				} else {
+					if (peleadores [Controlador.dragoncito1].sigueVivo) {	
+						cual = Random.Range (0, 1);
+						if (cual == 1) {
+							cual = Controlador.dragoncito1;
+						}
+					} else {
+						cual = 0;
+					}
+				}
+			}
+		}
+		return cual;
 	}
 }
