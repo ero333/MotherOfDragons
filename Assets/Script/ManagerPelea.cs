@@ -191,9 +191,6 @@ public class ManagerPelea : MonoBehaviour
 					if (peleador.sigueVivo) {
 						if (peleador.aliado) {
 
-							indicadorTurno.SetActive (true);
-							indicadorTurno.transform.position = marcaDragona.transform.position;
-
 
 							Accion proxAccion = new Accion ();
 							bool sw = false;
@@ -247,25 +244,29 @@ public class ManagerPelea : MonoBehaviour
 										////////////////////////////////////
 										//if (Controlador.ganasteHijoNormal == false) {
 
-										/*
+
 										if ( peleadores.IndexOf(peleador) == Controlador.dragoncito1 ) {
 
 											// Sterterar sopbre dragocito 1 el triangulo
-
+											indicadorTurno.SetActive (true);
+											indicadorTurno.transform.position = marcaDragoncitoA1.transform.position;
 										}
 
 										if (peleadores.IndexOf(peleador) == Controlador.dragoncito2 ) {
 
 											// Sterterar sopbre dragocito 2 el triangulo
-
+											indicadorTurno.SetActive (true);
+											indicadorTurno.transform.position = marcaDragoncitoA2.transform.position;
 										}
 
 										if (peleadores.IndexOf(peleador) == 0 ) {
 
 											// Sterterar sopbre dragna
+											indicadorTurno.SetActive (true);
+									  		indicadorTurno.transform.position = marcaDragona.transform.position;
 
 										}
-										*/
+									
 
 
 										if ( accion.nombre =="Curar" ) {
