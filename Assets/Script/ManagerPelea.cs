@@ -98,14 +98,14 @@ public class ManagerPelea : MonoBehaviour
 		marcaDragoncitoA1 = GameObject.Find("Marca Dragoncito 1 Aliado");
 		marcaDragoncitoA2 = GameObject.Find("Marca Dragoncito 2 Aliado");
 
-		if(Controlador.escenaPrevia == "Scene1"){
+		if(Controlador.escenaPrevia == "Scene1" || Controlador.escenaPrevia == "Scene2" || Controlador.escenaPrevia == "Scene3" || Controlador.escenaPrevia == "Scene4" || Controlador.escenaPrevia == "Scene5"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			enemigoActual = 12; 
 		}
-		if(Controlador.escenaPrevia == "Scene2"){
+		/*if(Controlador.escenaPrevia == "Scene2"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
@@ -132,7 +132,7 @@ public class ManagerPelea : MonoBehaviour
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
 			enemigoActual = 12; 
-		}
+		}*/
 
 		foreach (var peleador in peleadores) {
 	

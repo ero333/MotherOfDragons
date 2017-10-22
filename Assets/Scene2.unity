@@ -536,6 +536,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinci: {fileID: 0}
+  dragNormal: {fileID: 0}
+  dragAgua: {fileID: 0}
+  dragFuego: {fileID: 0}
+  dragAire: {fileID: 0}
+  dragTierra: {fileID: 0}
+  dragArena: {fileID: 0}
+  dragLodo: {fileID: 0}
+  dragLava: {fileID: 0}
+  dragMetal: {fileID: 0}
+  dragHielo: {fileID: 0}
+  dragElectrico: {fileID: 0}
 --- !u!4 &402308291
 Transform:
   m_ObjectHideFlags: 0
@@ -1764,11 +1775,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPoses:
-  - {fileID: 21300000, guid: 979067d51513c0644b62f76c4c2ef61a, type: 3}
-  - {fileID: 21300000, guid: 73c0e614cd6678d48b3570ccb1d85ef1, type: 3}
-  - {fileID: 21300000, guid: 94278f4f232870342895dfc0d7f65691, type: 3}
-  - {fileID: 21300000, guid: 6b27220aaaaa4854bb527fa9fc796c0b, type: 3}
-  - {fileID: 21300000, guid: 68b396d1959f51049a0a27f75b36333d, type: 3}
+  - {fileID: 21300000, guid: f4beb35c283ff1144b08c3c7a19a5e08, type: 3}
+  - {fileID: 21300000, guid: 68f2b4ef2f3beb141bd623f9ce3bfc34, type: 3}
+  - {fileID: 21300000, guid: f7517129403b4064a8613e333a4c0164, type: 3}
+  - {fileID: 21300000, guid: 1fbda1ba16bccf24ba14b607268d7423, type: 3}
+  - {fileID: 21300000, guid: f4beb35c283ff1144b08c3c7a19a5e08, type: 3}
 --- !u!212 &1870133267
 SpriteRenderer:
   m_ObjectHideFlags: 0

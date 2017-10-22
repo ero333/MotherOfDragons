@@ -59,7 +59,6 @@ public class DialogueManager : MonoBehaviour {
 		Debug.Log("HUEVITO");
 		yield return new WaitForSeconds(5);
 		SceneManager.LoadScene ("perfil1");
-		Debug.Log("After Waiting 2 Seconds");
 	}
 	IEnumerator Pelear() {
 		Debug.Log("PELEA");
@@ -70,19 +69,19 @@ public class DialogueManager : MonoBehaviour {
 	void Responder1()
 	{
 		SetDialog(choiceBox1.resultado);
-		Debug.Log("Respondiste 1; Ir a linea "+choiceBox1.resultado);
+		//Debug.Log("Respondiste 1; Ir a linea "+choiceBox1.resultado);
 	}
 
 	void Responder2()
 	{
 		SetDialog(choiceBox2.resultado);
-		Debug.Log("Respondiste 2; Ir a linea "+choiceBox2.resultado);
+		//Debug.Log("Respondiste 2; Ir a linea "+choiceBox2.resultado);
 	}
 
 	void Responder3()
 	{
 		SetDialog(choiceBox3.resultado);
-		Debug.Log("Respondiste 3; Ir a linea "+choiceBox3.resultado);
+		//Debug.Log("Respondiste 3; Ir a linea "+choiceBox3.resultado);
 	}
 
 	void SetDialog(int linea) {
@@ -102,13 +101,10 @@ public class DialogueManager : MonoBehaviour {
 				break;
 
 		case 0:
-					
-			print ("HUEVITO!!");
-			animator.SetTrigger ("GANAR");
-			ganaste.enabled = true;
 			if(SceneManager.GetActiveScene().name == "Scene1"){
 				Controlador.HijosGanados[9] = true;
 				Controlador.escenaPrevia = "Scene1";
+				print (Controlador.HijosGanados[9]);
 			}
 			if(SceneManager.GetActiveScene().name == "Scene2"){
 				Controlador.HijosGanados[2] = true;
@@ -127,8 +123,11 @@ public class DialogueManager : MonoBehaviour {
 				Controlador.escenaPrevia = "Scene5";
 			}
 
-
+			print ("HUEVITO!!");
+			animator.SetTrigger ("GANAR");
+			ganaste.enabled = true;
 			StartCoroutine (Esperar());
+
 				break;
 
 		default:

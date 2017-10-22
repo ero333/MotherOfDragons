@@ -146,7 +146,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &106846120
 Prefab:
@@ -538,6 +538,15 @@ MonoBehaviour:
   coinci: {fileID: 0}
   dragNormal: {fileID: 0}
   dragAgua: {fileID: 0}
+  dragFuego: {fileID: 0}
+  dragAire: {fileID: 0}
+  dragTierra: {fileID: 0}
+  dragArena: {fileID: 0}
+  dragLodo: {fileID: 0}
+  dragLava: {fileID: 0}
+  dragMetal: {fileID: 0}
+  dragHielo: {fileID: 0}
+  dragElectrico: {fileID: 0}
 --- !u!4 &402308291
 Transform:
   m_ObjectHideFlags: 0
@@ -549,7 +558,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &441053336
 GameObject:
@@ -1014,7 +1023,7 @@ RectTransform:
   - {fileID: 1837129908}
   - {fileID: 691329257}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1790,9 +1799,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterPoses:
   - {fileID: 21300000, guid: 73c0e614cd6678d48b3570ccb1d85ef1, type: 3}
-  - {fileID: 21300000, guid: 979067d51513c0644b62f76c4c2ef61a, type: 3}
   - {fileID: 21300000, guid: 94278f4f232870342895dfc0d7f65691, type: 3}
   - {fileID: 21300000, guid: 6b27220aaaaa4854bb527fa9fc796c0b, type: 3}
+  - {fileID: 21300000, guid: 68b396d1959f51049a0a27f75b36333d, type: 3}
   - {fileID: 21300000, guid: 68b396d1959f51049a0a27f75b36333d, type: 3}
 --- !u!212 &1870133267
 SpriteRenderer:
@@ -1974,7 +1983,7 @@ Prefab:
     - target: {fileID: 224107267693210380, guid: 1e31894865aaa4b4780e19006a13e33e,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224107267693210380, guid: 1e31894865aaa4b4780e19006a13e33e,
         type: 2}

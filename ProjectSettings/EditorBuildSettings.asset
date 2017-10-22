@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/portada.unity
-    guid: 3adb6b0179147b5498e282c88c8d7b8a
   - enabled: 1
     path: Assets/juego.unity
     guid: 4f5701b5ee1a25e4bb7238041d7533f4
@@ -18,17 +15,11 @@ EditorBuildSettings:
     path: Assets/Scene3.unity
     guid: b14e3820d23e8814c9ecfe812923db3c
   - enabled: 1
-    path: Assets/Combate2.unity
-    guid: 9c6d24c690782464f87e7c61193c010d
-  - enabled: 1
     path: Assets/perfil2.unity
     guid: 6291666a61af3134c916259207ccc991
   - enabled: 1
     path: Assets/Scene1.unity
     guid: 6f8fdfbd10eb2e449bb34142739a32a5
-  - enabled: 1
-    path: Assets/Combate1.unity
-    guid: 42dca41fb1ebd28448c1de9090ecc8f2
   - enabled: 1
     path: Assets/perfil3.unity
     guid: 441368d8c310bfb4c9af5e42beab2f0b
@@ -36,17 +27,11 @@ EditorBuildSettings:
     path: Assets/Scene2.unity
     guid: 9fd51f4e8c5dc9d419fb44de12849d8d
   - enabled: 1
-    path: Assets/Combate3.unity
-    guid: aa6775da4eac81d4a92a827348ac7654
-  - enabled: 1
     path: Assets/perfil4.unity
     guid: 202e14ea27f47214b8837f119535311d
   - enabled: 1
     path: Assets/Scene4.unity
     guid: c225626671fef8441b70a27686f427f0
-  - enabled: 1
-    path: Assets/Combate4.unity
-    guid: 8cc9be8c769d2cc41a8537a25dd0ae16
   - enabled: 1
     path: Assets/perfil5.unity
     guid: bfef43d6807de364285f589b7d38f7e9
@@ -54,22 +39,37 @@ EditorBuildSettings:
     path: Assets/Scene5.unity
     guid: eed1c77b75f93554594659376e4f863b
   - enabled: 1
-    path: Assets/Combate5.unity
+    path: Assets/Combate1.unity
+    guid: 42dca41fb1ebd28448c1de9090ecc8f2
+  - enabled: 0
+    path: 
+    guid: 9c6d24c690782464f87e7c61193c010d
+  - enabled: 0
+    path: Assets/portada.unity
+    guid: 3adb6b0179147b5498e282c88c8d7b8a
+  - enabled: 0
+    path: 
+    guid: 8cc9be8c769d2cc41a8537a25dd0ae16
+  - enabled: 0
+    path: 
+    guid: aa6775da4eac81d4a92a827348ac7654
+  - enabled: 0
+    path: 
     guid: 8cff6dfa94fc8d944a4ccf04da688590
   - enabled: 0
-    path: Assets/coinci.unity
+    path: 
     guid: bfcaee1d4f1a5b1478bd1bc06f1116ee
   - enabled: 0
-    path: Assets/menu.unity
+    path: 
     guid: f70488c431f41b04fbcddf528a9312cb
   - enabled: 0
-    path: Assets/Scene6.unity
+    path: 
     guid: 269e8636761a1964cb293356501dca0a
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/60831cff427f0cb4987b2d6df8bf0b7b
+    path: 
     guid: 60831cff427f0cb4987b2d6df8bf0b7b
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/155cba8f46e2d5c4e88f82a1b7ccc507
+    path: 
     guid: 155cba8f46e2d5c4e88f82a1b7ccc507
   - enabled: 0
     path: 
