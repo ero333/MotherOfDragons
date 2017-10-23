@@ -140,7 +140,7 @@ public class ManagerPelea : MonoBehaviour
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
-			enemigoActual = 12;
+			enemigoActual = 23;
 			dragoncitoE1 = 9;
 			dragoncitoE2 = 4;
 		}
@@ -149,28 +149,28 @@ public class ManagerPelea : MonoBehaviour
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
-			enemigoActual = 16; 
+			enemigoActual = 27;
 		}
 		if(Controlador.escenaPrevia == "Scene3"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
-			enemigoActual = 15; 
+			enemigoActual = 24;
 		}
 		if(Controlador.escenaPrevia == "Scene4"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
-			enemigoActual = 13; 
+			enemigoActual = 26;
 		}
 		if(Controlador.escenaPrevia == "Scene5"){
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
-			enemigoActual = 14; 
+			enemigoActual = 25;
 		}
 
 		foreach (var peleador in peleadores) {

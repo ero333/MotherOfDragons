@@ -2640,10 +2640,21 @@ MonoBehaviour:
   - {fileID: 1360834549}
   - {fileID: 722615457}
   - {fileID: 860789883}
+  - {fileID: 200168602}
+  - {fileID: 1703061576}
+  - {fileID: 788093480}
+  - {fileID: 1043974833}
+  - {fileID: 2031284756}
+  - {fileID: 319489916}
+  - {fileID: 1890328477}
+  - {fileID: 1882651464}
+  - {fileID: 1427631249}
+  - {fileID: 1825698490}
+  - {fileID: 2079493096}
   - {fileID: 312980215}
-  - {fileID: 1145182034}
-  - {fileID: 420042295}
   - {fileID: 635925479}
+  - {fileID: 420042295}
+  - {fileID: 1145182034}
   - {fileID: 1564194935}
   dragoncitosEnemigos:
   - {fileID: 2079493096}
