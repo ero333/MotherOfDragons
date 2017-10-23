@@ -1,0 +1,1441 @@
+fileFormatVersion: 2
+guid: c31f38a8ab81b7a42912373b95865dfc
+timeCreated: 1508726598
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragona nuevo nuevo sprite ultimo_0
+    21300002: dragona nuevo nuevo sprite ultimo_1
+    21300004: dragona nuevo nuevo sprite ultimo_2
+    21300006: dragona nuevo nuevo sprite ultimo_3
+    21300008: dragona nuevo nuevo sprite ultimo_4
+    21300010: dragona nuevo nuevo sprite ultimo_5
+    21300012: dragona nuevo nuevo sprite ultimo_6
+    21300014: dragona nuevo nuevo sprite ultimo_7
+    21300016: dragona nuevo nuevo sprite ultimo_8
+    21300018: dragona nuevo nuevo sprite ultimo_9
+    21300020: dragona nuevo nuevo sprite ultimo_10
+    21300022: dragona nuevo nuevo sprite ultimo_11
+    21300024: dragona nuevo nuevo sprite ultimo_12
+    21300026: dragona nuevo nuevo sprite ultimo_13
+    21300028: dragona nuevo nuevo sprite ultimo_14
+    21300030: dragona nuevo nuevo sprite ultimo_15
+    21300032: dragona nuevo nuevo sprite ultimo_16
+    21300034: dragona nuevo nuevo sprite ultimo_17
+    21300036: dragona nuevo nuevo sprite ultimo_18
+    21300038: dragona nuevo nuevo sprite ultimo_19
+    21300040: dragona nuevo nuevo sprite ultimo_20
+    21300042: dragona nuevo nuevo sprite ultimo_21
+    21300044: dragona nuevo nuevo sprite ultimo_22
+    21300046: dragona nuevo nuevo sprite ultimo_23
+    21300048: dragona nuevo nuevo sprite ultimo_24
+    21300050: dragona nuevo nuevo sprite ultimo_25
+    21300052: dragona nuevo nuevo sprite ultimo_26
+    21300054: dragona nuevo nuevo sprite ultimo_27
+    21300056: dragona nuevo nuevo sprite ultimo_28
+    21300058: dragona nuevo nuevo sprite ultimo_29
+    21300060: dragona nuevo nuevo sprite ultimo_30
+    21300062: dragona nuevo nuevo sprite ultimo_31
+    21300064: dragona nuevo nuevo sprite ultimo_32
+    21300066: dragona nuevo nuevo sprite ultimo_33
+    21300068: dragona nuevo nuevo sprite ultimo_34
+    21300070: dragona nuevo nuevo sprite ultimo_35
+    21300072: dragona nuevo nuevo sprite ultimo_36
+    21300074: dragona nuevo nuevo sprite ultimo_37
+    21300076: dragona nuevo nuevo sprite ultimo_38
+    21300078: dragona nuevo nuevo sprite ultimo_39
+    21300080: dragona nuevo nuevo sprite ultimo_40
+    21300082: dragona nuevo nuevo sprite ultimo_41
+    21300084: dragona nuevo nuevo sprite ultimo_42
+    21300086: dragona nuevo nuevo sprite ultimo_43
+    21300088: dragona nuevo nuevo sprite ultimo_44
+    21300090: dragona nuevo nuevo sprite ultimo_45
+    21300092: dragona nuevo nuevo sprite ultimo_46
+    21300094: dragona nuevo nuevo sprite ultimo_47
+    21300096: dragona nuevo nuevo sprite ultimo_48
+    21300098: dragona nuevo nuevo sprite ultimo_49
+    21300100: dragona nuevo nuevo sprite ultimo_50
+    21300102: dragona nuevo nuevo sprite ultimo_51
+    21300104: dragona nuevo nuevo sprite ultimo_52
+    21300106: dragona nuevo nuevo sprite ultimo_53
+    21300108: dragona nuevo nuevo sprite ultimo_54
+    21300110: dragona nuevo nuevo sprite ultimo_55
+    21300112: dragona nuevo nuevo sprite ultimo_56
+    21300114: dragona nuevo nuevo sprite ultimo_57
+    21300116: dragona nuevo nuevo sprite ultimo_58
+    21300118: dragona nuevo nuevo sprite ultimo_59
+    21300120: dragona nuevo nuevo sprite ultimo_60
+    21300122: dragona nuevo nuevo sprite ultimo_61
+    21300124: dragona nuevo nuevo sprite ultimo_62
+    21300126: dragona nuevo nuevo sprite ultimo_63
+    21300128: dragona nuevo nuevo sprite ultimo_64
+    21300130: dragona nuevo nuevo sprite ultimo_65
+    21300132: dragona nuevo nuevo sprite ultimo_66
+    21300134: dragona nuevo nuevo sprite ultimo_67
+    21300136: dragona nuevo nuevo sprite ultimo_68
+    21300138: dragona nuevo nuevo sprite ultimo_69
+    21300140: dragona nuevo nuevo sprite ultimo_70
+    21300142: dragona nuevo nuevo sprite ultimo_71
+    21300144: dragona nuevo nuevo sprite ultimo_72
+    21300146: dragona nuevo nuevo sprite ultimo_73
+    21300148: dragona nuevo nuevo sprite ultimo_74
+    21300150: dragona nuevo nuevo sprite ultimo_75
+    21300152: dragona nuevo nuevo sprite ultimo_76
+    21300154: dragona nuevo nuevo sprite ultimo_77
+    21300156: dragona nuevo nuevo sprite ultimo_78
+    21300158: dragona nuevo nuevo sprite ultimo_79
+    21300160: dragona nuevo nuevo sprite ultimo_80
+    21300162: dragona nuevo nuevo sprite ultimo_81
+    21300164: dragona nuevo nuevo sprite ultimo_82
+    21300166: dragona nuevo nuevo sprite ultimo_83
+    21300168: dragona nuevo nuevo sprite ultimo_84
+    21300170: dragona nuevo nuevo sprite ultimo_85
+    21300172: dragona nuevo nuevo sprite ultimo_86
+    21300174: dragona nuevo nuevo sprite ultimo_87
+    21300176: dragona nuevo nuevo sprite ultimo_88
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4274
+        width: 593
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_1
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 4274
+        width: 598
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_2
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 4274
+        width: 594
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_3
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 4274
+        width: 628
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_4
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 4274
+        width: 626
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_5
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 4274
+        width: 622
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_6
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 4274
+        width: 622
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_7
+      rect:
+        serializedVersion: 2
+        x: 5837
+        y: 4274
+        width: 627
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_8
+      rect:
+        serializedVersion: 2
+        x: 6676
+        y: 4274
+        width: 622
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_9
+      rect:
+        serializedVersion: 2
+        x: 7509
+        y: 4274
+        width: 627
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_10
+      rect:
+        serializedVersion: 2
+        x: 8354
+        y: 4274
+        width: 593
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_11
+      rect:
+        serializedVersion: 2
+        x: 9187
+        y: 4274
+        width: 599
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_12
+      rect:
+        serializedVersion: 2
+        x: 10015
+        y: 4274
+        width: 622
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_13
+      rect:
+        serializedVersion: 2
+        x: 10848
+        y: 4274
+        width: 628
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3429
+        width: 619
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_15
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 3429
+        width: 625
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_16
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 3429
+        width: 627
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_17
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 3429
+        width: 628
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_18
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 3429
+        width: 626
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_19
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 3463
+        width: 630
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_20
+      rect:
+        serializedVersion: 2
+        x: 5004
+        y: 3463
+        width: 632
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_21
+      rect:
+        serializedVersion: 2
+        x: 5837
+        y: 3492
+        width: 604
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_22
+      rect:
+        serializedVersion: 2
+        x: 6673
+        y: 3492
+        width: 602
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_23
+      rect:
+        serializedVersion: 2
+        x: 7869
+        y: 4218
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_24
+      rect:
+        serializedVersion: 2
+        x: 8705
+        y: 4218
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_25
+      rect:
+        serializedVersion: 2
+        x: 9542
+        y: 4218
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_26
+      rect:
+        serializedVersion: 2
+        x: 10375
+        y: 4218
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_27
+      rect:
+        serializedVersion: 2
+        x: 10848
+        y: 3492
+        width: 605
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_28
+      rect:
+        serializedVersion: 2
+        x: 7509
+        y: 3475
+        width: 582
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_29
+      rect:
+        serializedVersion: 2
+        x: 8342
+        y: 3475
+        width: 582
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_30
+      rect:
+        serializedVersion: 2
+        x: 9176
+        y: 3475
+        width: 587
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_31
+      rect:
+        serializedVersion: 2
+        x: 10015
+        y: 3475
+        width: 582
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2642
+        width: 596
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_33
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 2613
+        width: 627
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_34
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2613
+        width: 633
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_35
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 2613
+        width: 632
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_36
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 2580
+        width: 626
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_37
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 2579
+        width: 622
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_38
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 2584
+        width: 622
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_39
+      rect:
+        serializedVersion: 2
+        x: 5837
+        y: 2584
+        width: 627
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_40
+      rect:
+        serializedVersion: 2
+        x: 6676
+        y: 2584
+        width: 592
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_41
+      rect:
+        serializedVersion: 2
+        x: 7509
+        y: 2584
+        width: 593
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_42
+      rect:
+        serializedVersion: 2
+        x: 8343
+        y: 2612
+        width: 587
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_43
+      rect:
+        serializedVersion: 2
+        x: 9179
+        y: 2612
+        width: 589
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_44
+      rect:
+        serializedVersion: 2
+        x: 10015
+        y: 2533
+        width: 844
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_45
+      rect:
+        serializedVersion: 2
+        x: 10848
+        y: 2533
+        width: 842
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 756
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_47
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1848
+        width: 759
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_48
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1848
+        width: 759
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_49
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1848
+        width: 762
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_50
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1796
+        width: 604
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_51
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 1739
+        width: 622
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_52
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 1899
+        width: 599
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_53
+      rect:
+        serializedVersion: 2
+        x: 5971
+        y: 2535
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_54
+      rect:
+        serializedVersion: 2
+        x: 7509
+        y: 2316
+        width: 753
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_55
+      rect:
+        serializedVersion: 2
+        x: 8343
+        y: 2316
+        width: 753
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_56
+      rect:
+        serializedVersion: 2
+        x: 9181
+        y: 2316
+        width: 748
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_57
+      rect:
+        serializedVersion: 2
+        x: 10015
+        y: 2316
+        width: 747
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_58
+      rect:
+        serializedVersion: 2
+        x: 10848
+        y: 2218
+        width: 702
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_59
+      rect:
+        serializedVersion: 2
+        x: 5838
+        y: 1916
+        width: 658
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_60
+      rect:
+        serializedVersion: 2
+        x: 6676
+        y: 1916
+        width: 656
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1368
+        width: 693
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_62
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1368
+        width: 701
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_63
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1368
+        width: 702
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_64
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1231
+        width: 628
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_65
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1231
+        width: 627
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_66
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 1232
+        width: 656
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_67
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 1233
+        width: 656
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_68
+      rect:
+        serializedVersion: 2
+        x: 5837
+        y: 1025
+        width: 502
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_69
+      rect:
+        serializedVersion: 2
+        x: 6676
+        y: 1025
+        width: 501
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_70
+      rect:
+        serializedVersion: 2
+        x: 7509
+        y: 962
+        width: 576
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_71
+      rect:
+        serializedVersion: 2
+        x: 8342
+        y: 962
+        width: 577
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_72
+      rect:
+        serializedVersion: 2
+        x: 9199
+        y: 888
+        width: 593
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_73
+      rect:
+        serializedVersion: 2
+        x: 10032
+        y: 888
+        width: 599
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_74
+      rect:
+        serializedVersion: 2
+        x: 10871
+        y: 888
+        width: 593
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 619
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_76
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 38
+        width: 622
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_77
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 38
+        width: 627
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_78
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 38
+        width: 627
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_79
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 38
+        width: 622
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_80
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 38
+        width: 622
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_81
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 38
+        width: 628
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_82
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 37
+        width: 594
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_83
+      rect:
+        serializedVersion: 2
+        x: 6693
+        y: 38
+        width: 597
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_84
+      rect:
+        serializedVersion: 2
+        x: 7509
+        y: 38
+        width: 627
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_85
+      rect:
+        serializedVersion: 2
+        x: 8342
+        y: 39
+        width: 628
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_86
+      rect:
+        serializedVersion: 2
+        x: 9181
+        y: 39
+        width: 622
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_87
+      rect:
+        serializedVersion: 2
+        x: 10015
+        y: 38
+        width: 622
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragona nuevo nuevo sprite ultimo_88
+      rect:
+        serializedVersion: 2
+        x: 10848
+        y: 38
+        width: 628
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 1346fa3b65c0c64439534d9ffbce4c5f
+timeCreated: 1508731268
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheet especial fuego_0
+    21300002: sheet especial fuego_1
+    21300004: sheet especial fuego_2
+    21300006: sheet especial fuego_3
+    21300008: sheet especial fuego_4
+    21300010: sheet especial fuego_5
+    21300012: sheet especial fuego_6
+    21300014: sheet especial fuego_7
+    21300016: sheet especial fuego_8
+    21300018: sheet especial fuego_9
+    21300020: sheet especial fuego_10
+    21300022: sheet especial fuego_11
+    21300024: sheet especial fuego_12
+    21300026: sheet especial fuego_13
+    21300028: sheet especial fuego_14
+    21300030: sheet especial fuego_15
+    21300032: sheet especial fuego_16
+    21300034: sheet especial fuego_17
+    21300036: sheet especial fuego_18
+    21300038: sheet especial fuego_19
+    21300040: sheet especial fuego_20
+    21300042: sheet especial fuego_21
+    21300044: sheet especial fuego_29
+    21300046: sheet especial fuego_30
+    21300048: sheet especial fuego_31
+    21300050: sheet especial fuego_34
+    21300052: sheet especial fuego_37
+    21300054: sheet especial fuego_38
+    21300056: sheet especial fuego_39
+    21300058: sheet especial fuego_65
+    21300060: sheet especial fuego_66
+    21300062: sheet especial fuego_67
+    21300064: sheet especial fuego_68
+    21300066: sheet especial fuego_69
+    21300068: sheet especial fuego_70
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet especial fuego_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3235
+        width: 674
+        height: 626
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_1
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 3236
+        width: 675
+        height: 625
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_2
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 3236
+        width: 723
+        height: 619
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_3
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 3236
+        width: 723
+        height: 619
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_4
+      rect:
+        serializedVersion: 2
+        x: 6267
+        y: 3235
+        width: 730
+        height: 613
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_5
+      rect:
+        serializedVersion: 2
+        x: 7831
+        y: 3235
+        width: 737
+        height: 613
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_6
+      rect:
+        serializedVersion: 2
+        x: 9402
+        y: 3235
+        width: 731
+        height: 702
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_7
+      rect:
+        serializedVersion: 2
+        x: 10967
+        y: 3235
+        width: 730
+        height: 702
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_8
+      rect:
+        serializedVersion: 2
+        x: 12538
+        y: 3239
+        width: 764
+        height: 719
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 761
+        height: 723
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_10
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2160
+        width: 1129
+        height: 833
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_11
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 2160
+        width: 1129
+        height: 833
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_12
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 2160
+        width: 1357
+        height: 833
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_13
+      rect:
+        serializedVersion: 2
+        x: 6281
+        y: 2160
+        width: 1350
+        height: 833
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_14
+      rect:
+        serializedVersion: 2
+        x: 7831
+        y: 2153
+        width: 1261
+        height: 702
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_15
+      rect:
+        serializedVersion: 2
+        x: 9058
+        y: 2691
+        width: 89
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_16
+      rect:
+        serializedVersion: 2
+        x: 9399
+        y: 2153
+        width: 1257
+        height: 701
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_17
+      rect:
+        serializedVersion: 2
+        x: 10629
+        y: 2691
+        width: 89
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_18
+      rect:
+        serializedVersion: 2
+        x: 10966
+        y: 2153
+        width: 1585
+        height: 702
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_19
+      rect:
+        serializedVersion: 2
+        x: 12551
+        y: 2160
+        width: 1561
+        height: 833
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1078
+        width: 1398
+        height: 834
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_21
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1078
+        width: 1391
+        height: 834
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_29
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 1072
+        width: 1438
+        height: 1023
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_30
+      rect:
+        serializedVersion: 2
+        x: 4696
+        y: 1072
+        width: 1445
+        height: 1019
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_31
+      rect:
+        serializedVersion: 2
+        x: 6261
+        y: 1076
+        width: 1390
+        height: 1024
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_34
+      rect:
+        serializedVersion: 2
+        x: 7831
+        y: 1078
+        width: 1395
+        height: 1017
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_37
+      rect:
+        serializedVersion: 2
+        x: 9402
+        y: 1078
+        width: 1400
+        height: 1071
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_38
+      rect:
+        serializedVersion: 2
+        x: 10967
+        y: 1072
+        width: 1524
+        height: 1077
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_39
+      rect:
+        serializedVersion: 2
+        x: 12538
+        y: 1072
+        width: 1425
+        height: 1089
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_65
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 1376
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_66
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 0
+        width: 1389
+        height: 1065
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_67
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 0
+        width: 1414
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_68
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 5
+        width: 1440
+        height: 1069
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_69
+      rect:
+        serializedVersion: 2
+        x: 6274
+        y: 0
+        width: 1375
+        height: 1074
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet especial fuego_70
+      rect:
+        serializedVersion: 2
+        x: 7845
+        y: 0
+        width: 1384
+        height: 1070
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

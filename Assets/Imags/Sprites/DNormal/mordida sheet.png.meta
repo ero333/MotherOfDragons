@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 7171b63d8648170439ea8abba0f7f642
+timeCreated: 1508738542
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mordida sheet_0
+    21300002: mordida sheet_1
+    21300004: mordida sheet_2
+    21300006: mordida sheet_3
+    21300008: mordida sheet_4
+    21300010: mordida sheet_5
+    21300012: mordida sheet_6
+    21300014: mordida sheet_7
+    21300016: mordida sheet_8
+    21300018: mordida sheet_9
+    21300020: mordida sheet_10
+    21300022: mordida sheet_11
+    21300024: mordida sheet_12
+    21300026: mordida sheet_13
+    21300028: mordida sheet_14
+    21300030: mordida sheet_15
+    21300032: mordida sheet_16
+    21300034: mordida sheet_17
+    21300036: mordida sheet_18
+    21300038: mordida sheet_19
+    21300040: mordida sheet_20
+    21300042: mordida sheet_21
+    21300044: mordida sheet_22
+    21300046: mordida sheet_23
+    21300048: mordida sheet_24
+    21300050: mordida sheet_25
+    21300052: mordida sheet_26
+    21300054: mordida sheet_27
+    21300056: mordida sheet_28
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mordida sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_1
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_2
+      rect:
+        serializedVersion: 2
+        x: 6444
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_3
+      rect:
+        serializedVersion: 2
+        x: 9669
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_4
+      rect:
+        serializedVersion: 2
+        x: 12890
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_5
+      rect:
+        serializedVersion: 2
+        x: 16114
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_6
+      rect:
+        serializedVersion: 2
+        x: 19337
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_7
+      rect:
+        serializedVersion: 2
+        x: 22568
+        y: 3024
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2020
+        width: 3224
+        height: 1008
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 2014
+        width: 3224
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_10
+      rect:
+        serializedVersion: 2
+        x: 6441
+        y: 2017
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_11
+      rect:
+        serializedVersion: 2
+        x: 9658
+        y: 2013
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_12
+      rect:
+        serializedVersion: 2
+        x: 12874
+        y: 2009
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_13
+      rect:
+        serializedVersion: 2
+        x: 16107
+        y: 1990
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_14
+      rect:
+        serializedVersion: 2
+        x: 19334
+        y: 2017
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_15
+      rect:
+        serializedVersion: 2
+        x: 22568
+        y: 2008
+        width: 3224
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1012
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 1008
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_18
+      rect:
+        serializedVersion: 2
+        x: 6446
+        y: 992
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_19
+      rect:
+        serializedVersion: 2
+        x: 9662
+        y: 987
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_20
+      rect:
+        serializedVersion: 2
+        x: 12907
+        y: 998
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_21
+      rect:
+        serializedVersion: 2
+        x: 16125
+        y: 960
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_22
+      rect:
+        serializedVersion: 2
+        x: 19348
+        y: 949
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_23
+      rect:
+        serializedVersion: 2
+        x: 22568
+        y: 955
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_26
+      rect:
+        serializedVersion: 2
+        x: 6440
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_27
+      rect:
+        serializedVersion: 2
+        x: 9670
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mordida sheet_28
+      rect:
+        serializedVersion: 2
+        x: 12906
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

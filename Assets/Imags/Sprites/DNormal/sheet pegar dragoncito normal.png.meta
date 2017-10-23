@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: 85d3262d7e9c06c44990bfcd915392af
+timeCreated: 1508736337
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheet pegar dragoncito normal_0
+    21300002: sheet pegar dragoncito normal_1
+    21300004: sheet pegar dragoncito normal_2
+    21300006: sheet pegar dragoncito normal_3
+    21300008: sheet pegar dragoncito normal_4
+    21300010: sheet pegar dragoncito normal_5
+    21300012: sheet pegar dragoncito normal_6
+    21300014: sheet pegar dragoncito normal_7
+    21300016: sheet pegar dragoncito normal_8
+    21300018: sheet pegar dragoncito normal_9
+    21300020: sheet pegar dragoncito normal_10
+    21300022: sheet pegar dragoncito normal_11
+    21300024: sheet pegar dragoncito normal_12
+    21300026: sheet pegar dragoncito normal_13
+    21300028: sheet pegar dragoncito normal_14
+    21300030: sheet pegar dragoncito normal_15
+    21300032: sheet pegar dragoncito normal_16
+    21300034: sheet pegar dragoncito normal_17
+    21300036: sheet pegar dragoncito normal_18
+    21300038: sheet pegar dragoncito normal_19
+    21300040: sheet pegar dragoncito normal_20
+    21300042: sheet pegar dragoncito normal_21
+    21300044: sheet pegar dragoncito normal_22
+    21300046: sheet pegar dragoncito normal_23
+    21300048: sheet pegar dragoncito normal_24
+    21300050: sheet pegar dragoncito normal_25
+    21300052: sheet pegar dragoncito normal_26
+    21300054: sheet pegar dragoncito normal_27
+    21300056: sheet pegar dragoncito normal_28
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4159
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_1
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 4157
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_2
+      rect:
+        serializedVersion: 2
+        x: 6452
+        y: 4158
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_3
+      rect:
+        serializedVersion: 2
+        x: 9675
+        y: 4158
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_4
+      rect:
+        serializedVersion: 2
+        x: 12901
+        y: 4166
+        width: 3224
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_5
+      rect:
+        serializedVersion: 2
+        x: 16127
+        y: 4163
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_6
+      rect:
+        serializedVersion: 2
+        x: 19345
+        y: 4222
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_7
+      rect:
+        serializedVersion: 2
+        x: 22571
+        y: 4225
+        width: 3221
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3146
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_9
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 3116
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_10
+      rect:
+        serializedVersion: 2
+        x: 6450
+        y: 2801
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_11
+      rect:
+        serializedVersion: 2
+        x: 9679
+        y: 2801
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_12
+      rect:
+        serializedVersion: 2
+        x: 12902
+        y: 2797
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_13
+      rect:
+        serializedVersion: 2
+        x: 16129
+        y: 2793
+        width: 3224
+        height: 1008
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_14
+      rect:
+        serializedVersion: 2
+        x: 19347
+        y: 3211
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_15
+      rect:
+        serializedVersion: 2
+        x: 22568
+        y: 3206
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1382
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_17
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 1382
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_18
+      rect:
+        serializedVersion: 2
+        x: 6442
+        y: 1377
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_19
+      rect:
+        serializedVersion: 2
+        x: 9668
+        y: 1378
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_20
+      rect:
+        serializedVersion: 2
+        x: 12897
+        y: 1382
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_21
+      rect:
+        serializedVersion: 2
+        x: 16125
+        y: 1362
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_22
+      rect:
+        serializedVersion: 2
+        x: 19344
+        y: 1366
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_23
+      rect:
+        serializedVersion: 2
+        x: 22568
+        y: 1365
+        width: 3224
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_25
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_26
+      rect:
+        serializedVersion: 2
+        x: 6441
+        y: 0
+        width: 3220
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_27
+      rect:
+        serializedVersion: 2
+        x: 9650
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet pegar dragoncito normal_28
+      rect:
+        serializedVersion: 2
+        x: 12876
+        y: 0
+        width: 3224
+        height: 1008
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

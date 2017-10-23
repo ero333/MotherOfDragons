@@ -1,0 +1,961 @@
+fileFormatVersion: 2
+guid: 17f06588b623ad64295f1a0ebf8b7b1d
+timeCreated: 1508728321
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheet dragoncito normal 1_0
+    21300002: sheet dragoncito normal 1_1
+    21300004: sheet dragoncito normal 1_2
+    21300006: sheet dragoncito normal 1_3
+    21300008: sheet dragoncito normal 1_4
+    21300010: sheet dragoncito normal 1_5
+    21300012: sheet dragoncito normal 1_6
+    21300014: sheet dragoncito normal 1_7
+    21300016: sheet dragoncito normal 1_8
+    21300018: sheet dragoncito normal 1_9
+    21300020: sheet dragoncito normal 1_10
+    21300022: sheet dragoncito normal 1_11
+    21300024: sheet dragoncito normal 1_12
+    21300026: sheet dragoncito normal 1_13
+    21300028: sheet dragoncito normal 1_14
+    21300030: sheet dragoncito normal 1_15
+    21300032: sheet dragoncito normal 1_16
+    21300034: sheet dragoncito normal 1_17
+    21300036: sheet dragoncito normal 1_18
+    21300038: sheet dragoncito normal 1_19
+    21300040: sheet dragoncito normal 1_20
+    21300042: sheet dragoncito normal 1_21
+    21300044: sheet dragoncito normal 1_22
+    21300046: sheet dragoncito normal 1_23
+    21300048: sheet dragoncito normal 1_24
+    21300050: sheet dragoncito normal 1_25
+    21300052: sheet dragoncito normal 1_26
+    21300054: sheet dragoncito normal 1_27
+    21300056: sheet dragoncito normal 1_28
+    21300058: sheet dragoncito normal 1_29
+    21300060: sheet dragoncito normal 1_30
+    21300062: sheet dragoncito normal 1_31
+    21300064: sheet dragoncito normal 1_32
+    21300066: sheet dragoncito normal 1_33
+    21300068: sheet dragoncito normal 1_34
+    21300070: sheet dragoncito normal 1_35
+    21300072: sheet dragoncito normal 1_36
+    21300074: sheet dragoncito normal 1_37
+    21300076: sheet dragoncito normal 1_38
+    21300078: sheet dragoncito normal 1_39
+    21300080: sheet dragoncito normal 1_40
+    21300082: sheet dragoncito normal 1_41
+    21300084: sheet dragoncito normal 1_42
+    21300086: sheet dragoncito normal 1_43
+    21300088: sheet dragoncito normal 1_44
+    21300090: sheet dragoncito normal 1_45
+    21300092: sheet dragoncito normal 1_46
+    21300094: sheet dragoncito normal 1_47
+    21300096: sheet dragoncito normal 1_48
+    21300098: sheet dragoncito normal 1_49
+    21300100: sheet dragoncito normal 1_50
+    21300102: sheet dragoncito normal 1_51
+    21300104: sheet dragoncito normal 1_52
+    21300106: sheet dragoncito normal 1_53
+    21300108: sheet dragoncito normal 1_54
+    21300110: sheet dragoncito normal 1_55
+    21300112: sheet dragoncito normal 1_56
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1369
+        width: 965
+        height: 1263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_1
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 2043
+        width: 763
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_2
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 2043
+        width: 756
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_3
+      rect:
+        serializedVersion: 2
+        x: 5620
+        y: 2602
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_4
+      rect:
+        serializedVersion: 2
+        x: 6629
+        y: 2604
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_5
+      rect:
+        serializedVersion: 2
+        x: 7101
+        y: 2043
+        width: 731
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_6
+      rect:
+        serializedVersion: 2
+        x: 8109
+        y: 2043
+        width: 737
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_7
+      rect:
+        serializedVersion: 2
+        x: 9187
+        y: 2046
+        width: 737
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_8
+      rect:
+        serializedVersion: 2
+        x: 10201
+        y: 2046
+        width: 731
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_9
+      rect:
+        serializedVersion: 2
+        x: 11139
+        y: 2049
+        width: 884
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_10
+      rect:
+        serializedVersion: 2
+        x: 12152
+        y: 2049
+        width: 879
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_11
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1369
+        width: 962
+        height: 1225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_12
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 2043
+        width: 757
+        height: 561
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_13
+      rect:
+        serializedVersion: 2
+        x: 5051
+        y: 2463
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_14
+      rect:
+        serializedVersion: 2
+        x: 5073
+        y: 2043
+        width: 744
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_15
+      rect:
+        serializedVersion: 2
+        x: 6065
+        y: 2463
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_16
+      rect:
+        serializedVersion: 2
+        x: 6082
+        y: 2043
+        width: 749
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_17
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1357
+        width: 775
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_18
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 1357
+        width: 776
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_19
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 1357
+        width: 775
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_20
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 1356
+        width: 751
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_21
+      rect:
+        serializedVersion: 2
+        x: 6068
+        y: 1356
+        width: 757
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_22
+      rect:
+        serializedVersion: 2
+        x: 7069
+        y: 1356
+        width: 760
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_23
+      rect:
+        serializedVersion: 2
+        x: 8083
+        y: 1356
+        width: 757
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_24
+      rect:
+        serializedVersion: 2
+        x: 9090
+        y: 1356
+        width: 764
+        height: 571
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_25
+      rect:
+        serializedVersion: 2
+        x: 10104
+        y: 1356
+        width: 764
+        height: 571
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_26
+      rect:
+        serializedVersion: 2
+        x: 11125
+        y: 1356
+        width: 756
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_27
+      rect:
+        serializedVersion: 2
+        x: 12139
+        y: 1356
+        width: 750
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 754
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_29
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 677
+        width: 764
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_30
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 677
+        width: 757
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_31
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 677
+        width: 757
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_32
+      rect:
+        serializedVersion: 2
+        x: 6065
+        y: 677
+        width: 779
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_33
+      rect:
+        serializedVersion: 2
+        x: 7078
+        y: 677
+        width: 774
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_34
+      rect:
+        serializedVersion: 2
+        x: 8651
+        y: 1238
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_35
+      rect:
+        serializedVersion: 2
+        x: 9663
+        y: 1236
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_36
+      rect:
+        serializedVersion: 2
+        x: 10130
+        y: 677
+        width: 738
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_37
+      rect:
+        serializedVersion: 2
+        x: 11144
+        y: 677
+        width: 732
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_38
+      rect:
+        serializedVersion: 2
+        x: 12222
+        y: 680
+        width: 732
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_39
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 677
+        width: 757
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_40
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 677
+        width: 751
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_41
+      rect:
+        serializedVersion: 2
+        x: 8086
+        y: 1097
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_42
+      rect:
+        serializedVersion: 2
+        x: 8108
+        y: 677
+        width: 745
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_43
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 1097
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_44
+      rect:
+        serializedVersion: 2
+        x: 9116
+        y: 677
+        width: 744
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_45
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 10
+        width: 815
+        height: 679
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_46
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 940
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_47
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 0
+        width: 937
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_48
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 0
+        width: 937
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_49
+      rect:
+        serializedVersion: 2
+        x: 4034
+        y: 0
+        width: 1020
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_50
+      rect:
+        serializedVersion: 2
+        x: 5047
+        y: 0
+        width: 1014
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_51
+      rect:
+        serializedVersion: 2
+        x: 6058
+        y: 0
+        width: 1017
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_52
+      rect:
+        serializedVersion: 2
+        x: 7069
+        y: 0
+        width: 1014
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_53
+      rect:
+        serializedVersion: 2
+        x: 8096
+        y: 0
+        width: 1007
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_54
+      rect:
+        serializedVersion: 2
+        x: 9090
+        y: 0
+        width: 1014
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_55
+      rect:
+        serializedVersion: 2
+        x: 11112
+        y: 0
+        width: 1027
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sheet dragoncito normal 1_56
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 0
+        width: 1011
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
