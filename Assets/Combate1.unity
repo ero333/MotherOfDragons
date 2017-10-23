@@ -1214,23 +1214,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Cansar
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarMana
     argumento: -100
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Tierra
   mana: 100
@@ -1448,23 +1442,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Arena
   mana: 100
@@ -2117,12 +2105,6 @@ MonoBehaviour:
     argumento: -20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
-    costoMana: 0
   nombre: Dragoncito Aire
   mana: 100
   cubrimiento: 20
@@ -2299,23 +2281,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Arena
   mana: 100
@@ -2557,11 +2533,11 @@ RectTransform:
   - {fileID: 863513430}
   - {fileID: 1664653604}
   - {fileID: 37157507}
-  - {fileID: 1789074490}
   - {fileID: 1360834546}
-  - {fileID: 860789879}
-  - {fileID: 151168791}
+  - {fileID: 1789074490}
   - {fileID: 1641058901}
+  - {fileID: 151168791}
+  - {fileID: 860789879}
   - {fileID: 1503662741}
   - {fileID: 722615453}
   - {fileID: 1726077820}
@@ -2571,8 +2547,8 @@ RectTransform:
   - {fileID: 810480198}
   - {fileID: 1106356716}
   - {fileID: 1790862303}
-  - {fileID: 2031284758}
   - {fileID: 1427631251}
+  - {fileID: 2031284758}
   - {fileID: 2079493098}
   - {fileID: 1703061578}
   - {fileID: 319489918}
@@ -3363,23 +3339,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Hielo
   mana: 100
@@ -3521,23 +3491,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Electrico
   mana: 100
@@ -3774,23 +3738,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Metal
   mana: 100
@@ -4209,7 +4167,7 @@ RectTransform:
   m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
   m_Children: []
   m_Father: {fileID: 352163949}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -4288,23 +4246,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Fuego
   mana: 100
@@ -4988,23 +4940,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Metal
   mana: 100
@@ -6013,23 +5959,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Lodo
   mana: 100
@@ -6183,7 +6123,7 @@ RectTransform:
   m_LocalScale: {x: 10.212743, y: 10.212743, z: 10.212743}
   m_Children: []
   m_Father: {fileID: 352163949}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -6242,9 +6182,9 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
@@ -6253,12 +6193,6 @@ MonoBehaviour:
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Normal
   mana: 100
@@ -6544,23 +6478,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Normal
   mana: 100
@@ -6621,7 +6549,7 @@ RectTransform:
   m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
   m_Children: []
   m_Father: {fileID: 352163949}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -6812,23 +6740,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Electrico
   mana: 100
@@ -6930,7 +6852,7 @@ RectTransform:
   m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
   m_Children: []
   m_Father: {fileID: 352163949}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -7009,23 +6931,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Tornado
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -20
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Aire
   mana: 100
@@ -7505,23 +7421,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
     mensaje: CambiarVida
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Lava
   mana: 100
@@ -7624,7 +7534,7 @@ RectTransform:
   m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
   m_Children: []
   m_Father: {fileID: 352163949}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -7697,7 +7607,7 @@ MonoBehaviour:
   barraSalud: {fileID: 424454362}
   vida: 100
   Acciones:
-  - nombre: Curar
+  - nombre: Golpear
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: 30
@@ -7705,8 +7615,14 @@ MonoBehaviour:
     costoMana: 0
   - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: 30
     animacionTrigger: Ataque
     costoMana: 0
   nombre: Dragoncito Agua
@@ -7922,12 +7838,6 @@ MonoBehaviour:
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Hielo
   mana: 100
@@ -8414,9 +8324,9 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
@@ -8425,12 +8335,6 @@ MonoBehaviour:
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Lava
   mana: 100
@@ -8590,23 +8494,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
     animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Defensa
-    objetivoEsElMismo: 1
-    mensaje: Bloquear
-    argumento: 20
-    animacionTrigger: Bloquear
     costoMana: 0
   nombre: Dragoncito Lodo
   mana: 100
@@ -9091,13 +8989,19 @@ MonoBehaviour:
   barraSalud: {fileID: 424454362}
   vida: 100
   Acciones:
-  - nombre: Curar
+  - nombre: Golpear
     objetivoEsElMismo: 0
     mensaje: CambiarVida
-    argumento: 30
+    argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Defender
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Especial
     objetivoEsElMismo: 1
     mensaje: CambiarVida
     argumento: 20
@@ -9162,7 +9066,7 @@ RectTransform:
   m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
   m_Children: []
   m_Father: {fileID: 352163949}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
