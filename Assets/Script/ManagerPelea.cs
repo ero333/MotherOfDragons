@@ -95,7 +95,7 @@ public class ManagerPelea : MonoBehaviour
 			}
 		}
 
-	foreach (var dragoncitosE in dragoncitosEnemigos) {
+	/*foreach (var dragoncitosE in dragoncitosEnemigos) {
 			if (dragoncitosE.isActiveAndEnabled) {
 				if (dragoncitosE.sigueVivo) {
 					
@@ -104,7 +104,7 @@ public class ManagerPelea : MonoBehaviour
 				}
 			}
 			
-		}
+		}*/
 	}
 
 	void Start ()
