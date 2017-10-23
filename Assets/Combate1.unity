@@ -1139,7 +1139,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349.36, y: -171.37}
+  m_AnchoredPosition: {x: 349.36002, y: -171.37}
   m_SizeDelta: {x: 86.19, y: 56.08}
   m_Pivot: {x: 0.51, y: 0.7003939}
 --- !u!223 &151168792
@@ -1356,6 +1356,182 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &200168598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 200168604}
+  - component: {fileID: 200168603}
+  - component: {fileID: 200168602}
+  - component: {fileID: 200168601}
+  - component: {fileID: 200168600}
+  - component: {fileID: 200168599}
+  m_Layer: 0
+  m_Name: DragoncitoArena (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &200168599
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200168598}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &200168600
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200168598}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5de06a14764c8b640ae86c9695962cae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &200168601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200168598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &200168602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200168598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 200168600}
+  barraSalud: {fileID: 1743567372}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Arena
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &200168603
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200168598}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9b816cc10ead206468a9dbcfc07b24d6, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &200168604
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200168598}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 438.99997, y: -101.99998}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211742752 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114505218976444442, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -1837,6 +2013,182 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 226454934}
   m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+--- !u!1 &319489912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 319489918}
+  - component: {fileID: 319489917}
+  - component: {fileID: 319489916}
+  - component: {fileID: 319489915}
+  - component: {fileID: 319489914}
+  - component: {fileID: 319489913}
+  m_Layer: 0
+  m_Name: DragoncitoAire (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &319489913
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319489912}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &319489914
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319489912}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6210732cd46af0145b03f54246c4707f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &319489915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319489912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &319489916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319489912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 319489914}
+  barraSalud: {fileID: 411787097}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Tornado
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Aire
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &319489917
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319489912}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9b816cc10ead206468a9dbcfc07b24d6, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &319489918
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319489912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 559.4, y: -154.29999}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &328559527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,6 +2571,17 @@ RectTransform:
   - {fileID: 810480198}
   - {fileID: 1106356716}
   - {fileID: 1790862303}
+  - {fileID: 2031284758}
+  - {fileID: 1427631251}
+  - {fileID: 2079493098}
+  - {fileID: 1703061578}
+  - {fileID: 319489918}
+  - {fileID: 788093482}
+  - {fileID: 1825698492}
+  - {fileID: 200168604}
+  - {fileID: 1043974835}
+  - {fileID: 1890328479}
+  - {fileID: 1882651466}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2238,6 +2601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae38506d65067d458476b8cb6aae942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dragoncitoE1: -1
+  dragoncitoE2: -1
   dragoncitos:
   - {fileID: 860789878}
   - {fileID: 328559527}
@@ -2250,6 +2615,18 @@ MonoBehaviour:
   - {fileID: 1726077819}
   - {fileID: 1360834545}
   - {fileID: 722615452}
+  dragonesForros:
+  - {fileID: 2079493092}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
+  - {fileID: 1427631245}
   peleadores:
   - {fileID: 37157511}
   - {fileID: 328559532}
@@ -2264,6 +2641,22 @@ MonoBehaviour:
   - {fileID: 722615457}
   - {fileID: 860789883}
   - {fileID: 312980215}
+  - {fileID: 1145182034}
+  - {fileID: 420042295}
+  - {fileID: 635925479}
+  - {fileID: 1564194935}
+  dragoncitosEnemigos:
+  - {fileID: 2079493096}
+  - {fileID: 200168602}
+  - {fileID: 1703061576}
+  - {fileID: 788093480}
+  - {fileID: 1043974833}
+  - {fileID: 2031284756}
+  - {fileID: 319489916}
+  - {fileID: 1890328477}
+  - {fileID: 1882651464}
+  - {fileID: 1427631249}
+  - {fileID: 1825698490}
   ganaste: {fileID: 1106356717}
   perdiste: {fileID: 810480197}
   prefab: {fileID: 114560469451642346, guid: fb262a15bf7c7bc46b248bcdf9bbfccd, type: 2}
@@ -2286,6 +2679,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224719231796353236, guid: bbd31357ba21b244297c2766f5a6bae2,
     type: 2}
   m_PrefabInternal: {fileID: 2044746640}
+--- !u!114 &420042295 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114921580537000960, guid: 150ef4801cc5d5f44bfaa4f74175b757,
+    type: 2}
+  m_PrefabInternal: {fileID: 579735574}
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
 --- !u!114 &424454362 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114505218976444442, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -2704,6 +3103,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3368281f5abee7848888f74bc46e9139, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &635925479 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114214293318687324, guid: 3368281f5abee7848888f74bc46e9139,
+    type: 2}
+  m_PrefabInternal: {fileID: 635406457}
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
 --- !u!224 &639907860 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224203929065328998, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -3013,6 +3418,182 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &788093476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 788093482}
+  - component: {fileID: 788093481}
+  - component: {fileID: 788093480}
+  - component: {fileID: 788093479}
+  - component: {fileID: 788093478}
+  - component: {fileID: 788093477}
+  m_Layer: 0
+  m_Name: DragoncitoElectrico (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &788093477
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788093476}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &788093478
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788093476}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5de06a14764c8b640ae86c9695962cae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &788093479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788093476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &788093480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788093476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 788093478}
+  barraSalud: {fileID: 1869086594}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Electrico
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &788093481
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788093476}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9b816cc10ead206468a9dbcfc07b24d6, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &788093482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788093476}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 724.3001, y: -154.29999}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &810480196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,7 +4202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 794, y: -238}
+  m_AnchoredPosition: {x: 794.00006, y: -238}
   m_SizeDelta: {x: 35.429993, y: 24.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &860789880
@@ -4304,6 +4885,182 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1043974829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1043974835}
+  - component: {fileID: 1043974834}
+  - component: {fileID: 1043974833}
+  - component: {fileID: 1043974832}
+  - component: {fileID: 1043974831}
+  - component: {fileID: 1043974830}
+  m_Layer: 0
+  m_Name: DragoncitoMetal (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &1043974830
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043974829}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &1043974831
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043974829}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5de06a14764c8b640ae86c9695962cae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1043974832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043974829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &1043974833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043974829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1043974831}
+  barraSalud: {fileID: 1743567372}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Metal
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &1043974834
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043974829}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9b816cc10ead206468a9dbcfc07b24d6, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &1043974835
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043974829}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 438.99997, y: -101.99998}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1059299776 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224203929065328998, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -4819,6 +5576,12 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
+--- !u!114 &1145182034 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114689230102590254, guid: 2c8094cef7a43cd49a6c9950b77687a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 677415895}
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
 --- !u!1001 &1145250610
 Prefab:
   m_ObjectHideFlags: 0
@@ -5678,6 +6441,182 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1427631245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1427631251}
+  - component: {fileID: 1427631250}
+  - component: {fileID: 1427631249}
+  - component: {fileID: 1427631248}
+  - component: {fileID: 1427631247}
+  - component: {fileID: 1427631246}
+  m_Layer: 0
+  m_Name: DragoncitoNormal (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &1427631246
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427631245}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &1427631247
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427631245}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2fa214cb5f62ad841a42ab8d13b3e6cb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1427631248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427631245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &1427631249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427631245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1427631247}
+  barraSalud: {fileID: 1844780657}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Normal
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &1427631250
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427631245}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300008, guid: 15389dbf73cac5046ad0512d77a092a2, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &1427631251
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427631245}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 161.48245, y: -186.42636}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475445070 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114016224165849496, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -5787,7 +6726,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 724.3, y: -154.3}
+  m_AnchoredPosition: {x: 724.3001, y: -154.3}
   m_SizeDelta: {x: 35.429993, y: 24.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1503662742
@@ -5933,6 +6872,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224329796872197162, guid: 3368281f5abee7848888f74bc46e9139,
     type: 2}
   m_PrefabInternal: {fileID: 635406457}
+--- !u!114 &1564194935 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114568828561095502, guid: 53619836a230c414db7b99076230c12a,
+    type: 2}
+  m_PrefabInternal: {fileID: 11447596}
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
 --- !u!224 &1598523980 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224203929065328998, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -6263,6 +7208,182 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1680488483}
+--- !u!1 &1703061572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1703061578}
+  - component: {fileID: 1703061577}
+  - component: {fileID: 1703061576}
+  - component: {fileID: 1703061575}
+  - component: {fileID: 1703061574}
+  - component: {fileID: 1703061573}
+  m_Layer: 0
+  m_Name: DragoncitoTierra (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &1703061573
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703061572}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &1703061574
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703061572}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe016b090ea1dad41a70888c8a041e7b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1703061575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703061572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &1703061576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703061572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1703061574}
+  barraSalud: {fileID: 211742752}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Cansar
+    objetivoEsElMismo: 0
+    mensaje: CambiarMana
+    argumento: -100
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Tierra
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &1703061577
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703061572}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: c6f4481fcaa650043b7fa92a7a76448f, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &1703061578
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1703061572}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.47, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 349.35992, y: -171.37}
+  m_SizeDelta: {x: 86.19, y: 56.08}
+  m_Pivot: {x: 0.51, y: 0.7003939}
 --- !u!1 &1726077819
 GameObject:
   m_ObjectHideFlags: 0
@@ -6687,6 +7808,182 @@ Transform:
   m_Father: {fileID: 352163949}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1825698486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1825698492}
+  - component: {fileID: 1825698491}
+  - component: {fileID: 1825698490}
+  - component: {fileID: 1825698489}
+  - component: {fileID: 1825698488}
+  - component: {fileID: 1825698487}
+  m_Layer: 0
+  m_Name: DragoncitoHielo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &1825698487
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825698486}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &1825698488
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825698486}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5de06a14764c8b640ae86c9695962cae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1825698489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825698486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &1825698490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825698486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1825698488}
+  barraSalud: {fileID: 1743567372}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Hielo
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &1825698491
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825698486}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9b816cc10ead206468a9dbcfc07b24d6, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &1825698492
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825698486}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 438.99997, y: -101.99998}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844780657 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114505218976444442, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -7014,6 +8311,358 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224719231796353236, guid: bbd31357ba21b244297c2766f5a6bae2,
     type: 2}
   m_PrefabInternal: {fileID: 1960528738}
+--- !u!1 &1882651460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1882651466}
+  - component: {fileID: 1882651465}
+  - component: {fileID: 1882651464}
+  - component: {fileID: 1882651463}
+  - component: {fileID: 1882651462}
+  - component: {fileID: 1882651461}
+  m_Layer: 0
+  m_Name: DragoncitoLava (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &1882651461
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882651460}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &1882651462
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882651460}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5de06a14764c8b640ae86c9695962cae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1882651463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882651460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &1882651464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882651460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1882651462}
+  barraSalud: {fileID: 1743567372}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Lava
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &1882651465
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882651460}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9b816cc10ead206468a9dbcfc07b24d6, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &1882651466
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882651460}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 438.99997, y: -101.99998}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1890328473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1890328479}
+  - component: {fileID: 1890328478}
+  - component: {fileID: 1890328477}
+  - component: {fileID: 1890328476}
+  - component: {fileID: 1890328475}
+  - component: {fileID: 1890328474}
+  m_Layer: 0
+  m_Name: DragoncitoLodo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &1890328474
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890328473}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &1890328475
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890328473}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5de06a14764c8b640ae86c9695962cae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1890328476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890328473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &1890328477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890328473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1890328475}
+  barraSalud: {fileID: 1743567372}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Lodo
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &1890328478
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890328473}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9b816cc10ead206468a9dbcfc07b24d6, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &1890328479
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1890328473}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 438.99997, y: -101.99998}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1939525550 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224719231796353236, guid: bbd31357ba21b244297c2766f5a6bae2,
@@ -7345,6 +8994,170 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2031284752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2031284758}
+  - component: {fileID: 2031284757}
+  - component: {fileID: 2031284756}
+  - component: {fileID: 2031284755}
+  - component: {fileID: 2031284754}
+  - component: {fileID: 2031284753}
+  m_Layer: 0
+  m_Name: DragoncitoAgua (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &2031284753
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031284752}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &2031284754
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031284752}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b0af8eadb45ccb4690563208fcdf836, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &2031284755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031284752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &2031284756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031284752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2031284754}
+  barraSalud: {fileID: 424454362}
+  vida: 100
+  Acciones:
+  - nombre: Curar
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: 30
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defender
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  nombre: Dragoncito Agua
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &2031284757
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031284752}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 13885ea1afb0ef44fb4a0ef472373305, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &2031284758
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031284752}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 266.00006, y: -243.00005}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2044746640
 Prefab:
   m_ObjectHideFlags: 0
@@ -7666,6 +9479,182 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1082312553}
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1 &2079493092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2079493098}
+  - component: {fileID: 2079493097}
+  - component: {fileID: 2079493096}
+  - component: {fileID: 2079493095}
+  - component: {fileID: 2079493094}
+  - component: {fileID: 2079493093}
+  m_Layer: 0
+  m_Name: DragoncitoFuego (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!223 &2079493093
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079493092}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!95 &2079493094
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079493092}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48ac46b17ac6b12418c4fa788fb6820a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &2079493095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079493092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc550ca4d1c0aa4f8fb1d4113fe551a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  heatlhBarImage: {fileID: 85485796}
+--- !u!114 &2079493096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079493092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b9599d064ad7b40a3233c777d442a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2079493094}
+  barraSalud: {fileID: 333618973}
+  vida: 100
+  Acciones:
+  - nombre: Golpear
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -10
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: "Ara\xF1azo"
+    objetivoEsElMismo: 0
+    mensaje: CambiarVida
+    argumento: -15
+    animacionTrigger: Ataque
+    costoMana: 0
+  - nombre: Defensa
+    objetivoEsElMismo: 1
+    mensaje: Bloquear
+    argumento: 20
+    animacionTrigger: Bloquear
+    costoMana: 0
+  nombre: Dragoncito Fuego
+  mana: 100
+  cubrimiento: 20
+  aliado: 0
+  sigueVivo: 1
+  perderturnos: 0
+--- !u!212 &2079493097
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079493092}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 54c749fe33a9b7d4cbcf8117225d4310, type: 3}
+  m_Color: {r: 0.897, g: 0.953, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 35.43, y: 24.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!224 &2079493098
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079493092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.212599, y: 10.212599, z: 10.212599}
+  m_Children: []
+  m_Father: {fileID: 352163949}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 794.00006, y: -238.00002}
+  m_SizeDelta: {x: 35.429993, y: 24.8}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2093193412 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224719231796353236, guid: bbd31357ba21b244297c2766f5a6bae2,

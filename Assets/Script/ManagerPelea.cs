@@ -7,9 +7,14 @@ using UnityEngine.Video;
 
 public class ManagerPelea : MonoBehaviour
 {
+	public int dragoncitoE1 = -1;
+	public int dragoncitoE2 = -1;
 
 	public List<GameObject> dragoncitos;
+	public List<GameObject> dragonesForros;
 	public List<Peleador> peleadores;
+	public List<Peleador> dragoncitosEnemigos;
+
 	public VideoPlayer ganaste;
 	public VideoPlayer perdiste;
 	public static ManagerPelea singleton;
@@ -31,6 +36,8 @@ public class ManagerPelea : MonoBehaviour
 	GameObject marcaDragoncitoA1;
 	GameObject marcaDragoncitoA2;
 
+	GameObject marcaDragoncitoE1;
+	GameObject marcaDragoncitoE2;
 
 	[SerializeField]
 	GameObject indicadorTurno;
@@ -64,7 +71,7 @@ public class ManagerPelea : MonoBehaviour
 		textoEstado.text = "";
 		foreach (var peleador in peleadores) {
 
-			if (peleador.isActiveAndEnabled ) {
+			if (peleador.isActiveAndEnabled) {
 				if (peleador.sigueVivo) {
 
 					if (peleador.aliado && peleador.nombre == "Dragona") {
@@ -79,6 +86,7 @@ public class ManagerPelea : MonoBehaviour
 							barraEnemigo.SetHealth (peleador.vida);
 						}
 					}
+						
 
 					textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
 					peleador.nombre + " HP: " + peleador.vida + "/100 MANA: " + peleador.mana + "/100.</color>\n";
@@ -86,53 +94,77 @@ public class ManagerPelea : MonoBehaviour
 
 			}
 		}
+
+	foreach (var dragoncitosE in dragoncitosEnemigos) {
+			if (dragoncitosE.isActiveAndEnabled) {
+				if (dragoncitosE.sigueVivo) {
+					
+					textoEstado.text += "<color=" + (dragoncitosE.aliado ? "blue" : "red") + ">" +
+					dragoncitosE.nombre + " HP: " + dragoncitosE.vida + "/100 MANA: " + dragoncitosE.mana + "/100.</color>\n";
+				}
+			}
+			
+		}
 	}
 
 	void Start ()
 	{
+		
+		print ("eee" + peleadores[9] + "eee");
+		print ("eee" + peleadores[9].name + "eee");
+		print (peleadores[9].name + " (Peleador)");
+		Controlador.dragoncito1 = 9;
+		dragoncitoE1 = 9;
+		Controlador.HijosGanados [9] = true;
+		enemigoActual = 12;
 
-		enemigoActual = 12; 
+
 		marcaDragon = GameObject.Find("Marca Dragon");
 		marcaDragona = GameObject.Find("Marca Dragona");
 
 		marcaDragoncitoA1 = GameObject.Find("Marca Dragoncito 1 Aliado");
 		marcaDragoncitoA2 = GameObject.Find("Marca Dragoncito 2 Aliado");
 
-		if(Controlador.escenaPrevia == "Scene1" || Controlador.escenaPrevia == "Scene2" || Controlador.escenaPrevia == "Scene3" || Controlador.escenaPrevia == "Scene4" || Controlador.escenaPrevia == "Scene5"){
+		marcaDragoncitoE1 = GameObject.Find("Marca Dragoncito 1 Enemigo");
+		marcaDragoncitoE2 = GameObject.Find("Marca Dragoncito 2 Enemigo");
+
+		if(Controlador.escenaPrevia == "Scene1" ){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
-			enemigoActual = 12; 
+			enemigoActual = 12;
+			dragoncitoE1 = 9;
+			dragoncitoE2 = 4;
 		}
-		/*if(Controlador.escenaPrevia == "Scene2"){
+		if(Controlador.escenaPrevia == "Scene2"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
-			enemigoActual = 12; 
+			enemigoActual = 16; 
 		}
 		if(Controlador.escenaPrevia == "Scene3"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
-			enemigoActual = 12; 
+			enemigoActual = 15; 
 		}
 		if(Controlador.escenaPrevia == "Scene4"){
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
-			enemigoActual = 12; 
+			enemigoActual = 13; 
 		}
-		if(Controlador.escenaPrevia == "Scene3"){
+		if(Controlador.escenaPrevia == "Scene5"){
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
 			GameObject.FindGameObjectWithTag ("mateo").SetActive (false);
-			enemigoActual = 12; 
-		}*/
+			enemigoActual = 14; 
+		}
 
 		foreach (var peleador in peleadores) {
 	
@@ -143,6 +175,27 @@ public class ManagerPelea : MonoBehaviour
 			} else {
 				Debug.Log ("No desactivado: "+peleador.nombre);
 			}
+		}
+
+		foreach (var dra in dragoncitosEnemigos) {
+
+			if (dra.nombre != "Dragona" && dra.nombre != "Mateo") {
+				dra.gameObject.SetActive (false);
+				Debug.Log ("Desactivando: "+dra.nombre);
+			} else {
+				Debug.Log ("No desactivado: "+dra.nombre);
+			}
+		}
+
+		if(dragoncitoE1 > -1){
+			dragonesForros [dragoncitoE1].SetActive (true);
+			GameObject marca = GameObject.Find ("Marca Dragoncito 1 Enemigo");
+			dragonesForros [dragoncitoE1].transform.position = marca.transform.position;
+		}
+		if(dragoncitoE2 > -1){
+			dragonesForros [dragoncitoE2].SetActive (true);
+			GameObject marca = GameObject.Find ("Marca Dragoncito 1 Enemigo");
+			dragonesForros [dragoncitoE2].transform.position = marca.transform.position;
 		}
 
 		if (Controlador.dragoncito1 > -1) {
@@ -175,6 +228,69 @@ public class ManagerPelea : MonoBehaviour
 		while (aliadosvivos || enemigosvivos) {
 			aliadosvivos = false;
 			enemigosvivos = false;
+			foreach (var dra in dragoncitosEnemigos) {
+
+				IEnumerator c = null;
+				if (dra.isActiveAndEnabled ) {
+
+					Debug.Log(dra.nombre);
+					Debug.Log (dra.enabled);
+
+
+					for (int i = 0; i < poolBotones.Count; i++) {
+						poolBotones [i].gameObject.SetActive (false);
+					}
+
+					if (dra.sigueVivo) {
+						if (dra.aliado) {
+
+
+							Accion proxAccion = new Accion ();
+							bool sw = false;
+
+
+						}
+
+						else {
+
+							int acciontomada = Random.Range (0, dra.Acciones.Count);
+
+							if (dra.Acciones [acciontomada].nombre == "Curar") {
+								c = dra.EjecutarAccion (dra.Acciones [acciontomada], peleadores [ElegirEnemigo()].transform);								
+							} else {
+								c = dra.EjecutarAccion (dra.Acciones [acciontomada], peleadores [ElegirAliado()].transform);	
+							}
+							//c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],	peleadores [Random.Range (0, (peleadores.Count - 2))].transform);	
+
+							//}
+							//Random.Range (0, peleadores.Count)
+
+
+						}
+
+						while (c == null) {
+							yield return null;
+						}
+
+						yield return StartCoroutine (c);
+						yield return new WaitForSeconds (1);
+					}
+
+
+					if (!dra.aliado) { 
+
+						if (dra.sigueVivo) {
+							enemigosvivos = true;
+						}
+
+					} else { 
+						if (dra.sigueVivo) { 
+							aliadosvivos = true;
+						}
+					}
+				}
+
+			}
 			foreach (var peleador in peleadores) {
 
 				IEnumerator c = null;
@@ -191,6 +307,8 @@ public class ManagerPelea : MonoBehaviour
 					if (peleador.sigueVivo) {
 						if (peleador.aliado) {
 
+							indicadorTurno.SetActive (true);
+							indicadorTurno.transform.position = marcaDragona.transform.position;
 
 							Accion proxAccion = new Accion ();
 							bool sw = false;
@@ -245,27 +363,21 @@ public class ManagerPelea : MonoBehaviour
 										//if (Controlador.ganasteHijoNormal == false) {
 
 
-										if ( peleadores.IndexOf(peleador) == Controlador.dragoncito1 ) {
-
+										//if (peleadores.IndexOf(peleador).Equals(peleadores[Controlador.dragoncito1].name + " (Peleador)")) {
+										if(Controlador.dragoncito1 == 9){
 											// Sterterar sopbre dragocito 1 el triangulo
 											indicadorTurno.SetActive (true);
 											indicadorTurno.transform.position = marcaDragoncitoA1.transform.position;
 										}
 
-										if (peleadores.IndexOf(peleador) == Controlador.dragoncito2 ) {
+										/*if (peleadores.IndexOf(peleador).Equals(peleadores[Controlador.dragoncito2].name + " (Peleador)")) {
 
 											// Sterterar sopbre dragocito 2 el triangulo
 											indicadorTurno.SetActive (true);
 											indicadorTurno.transform.position = marcaDragoncitoA2.transform.position;
 										}
+*/
 
-										if (peleadores.IndexOf(peleador) == 0 ) {
-
-											// Sterterar sopbre dragna
-											indicadorTurno.SetActive (true);
-									  		indicadorTurno.transform.position = marcaDragona.transform.position;
-
-										}
 									
 
 
@@ -354,10 +466,53 @@ public class ManagerPelea : MonoBehaviour
 
 
 	int ElegirEnemigo() {
+		int cantenemigos = 1;
+		if (dragoncitoE1 > -1) {
+			cantenemigos++;
+		}
+		if (dragoncitoE2 > -1) {
+			cantenemigos++;
+		}
+
+		int cual = Random.Range (0, cantenemigos);
+		if (cual != 0) { 
+			if (cual == 1) {
+				// Es el dragoncito 1			
+				if (peleadores [dragoncitoE1].sigueVivo) {
+					cual = dragoncitoE1;
+				} else {
+					if (cantenemigos < 3)
+						cual = 0;
+					else {
+						if (peleadores [dragoncitoE1].sigueVivo) {
+							cual = dragoncitoE2;
+						} else {
+							cual = 0;
+						}
+					}
+				} 
+			} else {
+				// Entonmces el dragoncito 2	
+				if (peleadores [dragoncitoE2].sigueVivo) {
+					cual = dragoncitoE2;
+				} else {
+					if (peleadores [dragoncitoE1].sigueVivo) {	
+						cual = Random.Range (0, 1);
+						if (cual == 1) {
+							cual = dragoncitoE1;
+						}
+					} else {
+						cual = 0;
+					}
+				}
+			}
+		}
+		return cual;
+
 
 		//return peleadores.Count - 1
 			
-		return enemigoActual; 
+		//return enemigoActual; 
 	}
 
 	int ElegirAliado() {
