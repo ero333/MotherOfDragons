@@ -1974,7 +1974,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1901052120340436, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
@@ -5507,7 +5507,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1901052120340436, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
@@ -7381,7 +7381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349.35995, y: -171.37}
+  m_AnchoredPosition: {x: 349.35992, y: -171.37}
   m_SizeDelta: {x: 86.19, y: 56.08}
   m_Pivot: {x: 0.51, y: 0.7003939}
 --- !u!1 &1726077819

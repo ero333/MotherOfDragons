@@ -109,7 +109,7 @@ public class ManagerPelea : MonoBehaviour
 
 	void Start ()
 	{
-		
+
 		print ("eee" + peleadores[9] + "eee");
 		print ("eee" + peleadores[9].name + "eee");
 		print (peleadores[9].name + " (Peleador)");
@@ -119,6 +119,12 @@ public class ManagerPelea : MonoBehaviour
 		Controlador.escenaPrevia = "Scene1";
 		enemigoActual = 12;
 
+		if (Controlador.dragoncito1 < 0) {
+		barraAliado2.gameObject.SetActive (false);
+		}
+		if (Controlador.dragoncito2 < 0) {
+			barraAliado3.gameObject.SetActive (false);
+		}
 
 		marcaDragon = GameObject.Find("Marca Dragon");
 		marcaDragona = GameObject.Find("Marca Dragona");

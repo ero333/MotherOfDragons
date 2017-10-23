@@ -97,10 +97,15 @@ public class Peleador : MonoBehaviour {
 	//NavMeshAgent nv;
 	ManagerPelea mp;
 
+	void Awake() {
+
+		mp = GameObject.Find ("Canvas").GetComponent<ManagerPelea> ();
+	}	
+
+
 	void Start () {
 
-
-		mp = ManagerPelea.singleton;
+		//mp = ManagerPelea.singleton;
 		//anim = GetComponent<Animator>();
 		//nv = GetComponent<NavMeshAgent>();
 		cubrimiento=1;
