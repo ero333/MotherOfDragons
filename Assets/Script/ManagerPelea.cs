@@ -116,6 +116,7 @@ public class ManagerPelea : MonoBehaviour
 		Controlador.dragoncito1 = 9;
 		dragoncitoE1 = 9;
 		Controlador.HijosGanados [9] = true;
+		Controlador.escenaPrevia = "Scene1";
 		enemigoActual = 12;
 
 
