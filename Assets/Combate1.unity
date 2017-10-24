@@ -732,23 +732,17 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
-    objetivoEsElMismo: 1
-    mensaje: CambiarVida
-    argumento: 20
-    animacionTrigger: Ataque
-    costoMana: 0
-  - nombre: Recuperar
-    objetivoEsElMismo: 1
-    mensaje: CambiarMana
-    argumento: 20
-    animacionTrigger: Ataque
-    costoMana: 0
   - nombre: Defensa
     objetivoEsElMismo: 1
     mensaje: Bloquear
     argumento: 20
     animacionTrigger: Bloquear
+    costoMana: 0
+  - nombre: Curar
+    objetivoEsElMismo: 1
+    mensaje: CambiarVida
+    argumento: 20
+    animacionTrigger: Ataque
     costoMana: 0
   nombre: Dragona
   mana: 100
@@ -2591,6 +2585,7 @@ MonoBehaviour:
   - {fileID: 1726077819}
   - {fileID: 1360834545}
   - {fileID: 722615452}
+  - {fileID: 860789878}
   dragonesForros:
   - {fileID: 2079493092}
   - {fileID: 1427631245}
@@ -2603,6 +2598,7 @@ MonoBehaviour:
   - {fileID: 1427631245}
   - {fileID: 1427631245}
   - {fileID: 1427631245}
+  - {fileID: 2079493092}
   peleadores:
   - {fileID: 37157511}
   - {fileID: 328559532}
