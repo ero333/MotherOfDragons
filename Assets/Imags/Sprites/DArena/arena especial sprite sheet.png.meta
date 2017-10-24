@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 93efc73f0f8da104892905cbc034d9c5
+timeCreated: 1508803935
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: arena especial sprite sheet_0
+    21300002: arena especial sprite sheet_1
+    21300004: arena especial sprite sheet_2
+    21300006: arena especial sprite sheet_3
+    21300008: arena especial sprite sheet_4
+    21300010: arena especial sprite sheet_5
+    21300012: arena especial sprite sheet_6
+    21300014: arena especial sprite sheet_7
+    21300016: arena especial sprite sheet_8
+    21300018: arena especial sprite sheet_9
+    21300020: arena especial sprite sheet_10
+    21300022: arena especial sprite sheet_11
+    21300024: arena especial sprite sheet_12
+    21300026: arena especial sprite sheet_13
+    21300028: arena especial sprite sheet_14
+    21300030: arena especial sprite sheet_15
+    21300032: arena especial sprite sheet_16
+    21300034: arena especial sprite sheet_17
+    21300036: arena especial sprite sheet_18
+    21300038: arena especial sprite sheet_19
+    21300040: arena especial sprite sheet_20
+    21300042: arena especial sprite sheet_21
+    21300044: arena especial sprite sheet_22
+    21300046: arena especial sprite sheet_23
+    21300048: arena especial sprite sheet_24
+    21300050: arena especial sprite sheet_25
+    21300052: arena especial sprite sheet_26
+    21300054: arena especial sprite sheet_27
+    21300056: arena especial sprite sheet_28
+    21300058: arena especial sprite sheet_29
+    21300060: arena especial sprite sheet_30
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arena especial sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3227
+        width: 870
+        height: 672
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 3231
+        width: 873
+        height: 668
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 3239
+        width: 880
+        height: 682
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 25, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5749
+        y: 3225
+        width: 859
+        height: 687
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 6, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7749
+        y: 3233
+        width: 786
+        height: 698
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 9660
+        y: 3237
+        width: 796
+        height: 694
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 11, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 11634
+        y: 3234
+        width: 733
+        height: 868
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 13556
+        y: 3233
+        width: 735
+        height: 874
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2158
+        width: 736
+        height: 868
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 2155
+        width: 739
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3958
+        y: 2150
+        width: 730
+        height: 868
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5874
+        y: 2158
+        width: 898
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 7783
+        y: 2158
+        width: 906
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 11, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 9711
+        y: 2161
+        width: 1313
+        height: 871
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 11633
+        y: 2158
+        width: 1316
+        height: 871
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 13550
+        y: 2155
+        width: 1315
+        height: 871
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 13553
+        y: 1072
+        width: 1807
+        height: 1086
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1080
+        width: 1297
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1080
+        width: 1267
+        height: 930
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 65}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 1806
+        height: 1077
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 0
+        width: 1097
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 0
+        width: 1101
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5875
+        y: 0
+        width: 739
+        height: 967
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 1075
+        width: 1258
+        height: 865
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5866
+        y: 1078
+        width: 1043
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 9, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 7780
+        y: 1066
+        width: 1056
+        height: 875
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 14, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 7784
+        y: 0
+        width: 758
+        height: 970
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 9724
+        y: 0
+        width: 740
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 11644
+        y: 1082
+        width: 1409
+        height: 989
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 12, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 9704
+        y: 1074
+        width: 1330
+        height: 973
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arena especial sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 11631
+        y: 0
+        width: 738
+        height: 980
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
