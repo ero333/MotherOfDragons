@@ -142,6 +142,7 @@ public class Peleador : MonoBehaviour {
 				animator.SetTrigger ("Attack");	
 
 			objetivo.SendMessage (accion.mensaje, accion.argumento);
+			print ("mensaje: "+accion.mensaje+" argumento: "+accion.argumento);
 			yield return new WaitForSeconds (1/2);
 
 

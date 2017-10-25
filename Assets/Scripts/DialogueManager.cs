@@ -111,7 +111,7 @@ public class DialogueManager : MonoBehaviour {
 				Controlador.escenaPrevia = "Scene2";
 			}
 			if(SceneManager.GetActiveScene().name == "Scene3"){
-				Controlador.HijosGanados[0] = true;
+				Controlador.HijosGanados[11] = true;
 				Controlador.escenaPrevia = "Scene3";
 			}
 			if(SceneManager.GetActiveScene().name == "Scene4"){

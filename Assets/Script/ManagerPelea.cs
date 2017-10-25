@@ -39,7 +39,7 @@ public class ManagerPelea : MonoBehaviour
 	GameObject marcaDragoncitoE1;
 	GameObject marcaDragoncitoE2;
 
-	const int DESFASAJE_ENEMIGOS = 12;
+	const int DESFASAJE_ENEMIGOS = 11;
 
 	const int DRAGONCITO_ARENA = 1;
 	const int DRAGONCITO_TIERRA = 2;
@@ -516,18 +516,51 @@ public class ManagerPelea : MonoBehaviour
 
 			if (!peleadores[0].sigueVivo ) { 
 				Debug.Log ("PERDISTE");
-				Controlador.escenaPrevia = "no";
-
+				if (Controlador.dragoncito1 > -1) {
+					if (Controlador.escenaPrevia == "Scene1") {
+						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+					}
+					if (Controlador.escenaPrevia == "Scene2") {
+						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+					}
+					if (Controlador.escenaPrevia == "Scene3") {
+						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+					}
+					if (Controlador.escenaPrevia == "Scene4") {
+						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+					}
+					if (Controlador.escenaPrevia == "Scene5") {
+						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+					}
+				}
 				perdiste.Play ();
 				yield return new WaitForSeconds (5);
+				Controlador.escenaPrevia = "no";
 				SceneManager.LoadScene ("perfil1");
 			} 
 
 			if (!peleadores[enemigoActual].sigueVivo) { 
 				Debug.Log ("GANASTE");
-				Controlador.escenaPrevia = "no";
+				if(dragoncitoE1>-1){
+					if(Controlador.escenaPrevia == "Scene1"){
+						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+					}
+					if(Controlador.escenaPrevia == "Scene2"){
+						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+					}
+					if(Controlador.escenaPrevia == "Scene3"){
+						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+					}
+					if(Controlador.escenaPrevia == "Scene4"){
+						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+					}
+					if(Controlador.escenaPrevia == "Scene5"){
+						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+					}
+				}
 				ganaste.Play ();
 				yield return new WaitForSeconds (5);
+				Controlador.escenaPrevia = "no";
 				SceneManager.LoadScene ("perfil1");
 			}
 		}

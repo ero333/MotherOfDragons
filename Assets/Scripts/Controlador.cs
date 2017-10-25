@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Controlador : MonoBehaviour {
 	// En vez de esto hay que cargar los dragonciotosm que ya ganaste del save
-	public static bool[] HijosGanados = new bool[]{false, false, false, false, false, false, false, false, false, false, false};
+	public static bool[] HijosGanados = new bool[]{false, false, false, false, false, false, false, false, false, false, false, false};
 
 	public static int dragoncito1 = -1;//el dragoncito nº1 que va a pelear, definido por un número del 0 al 10 
 	public static int dragoncito2 = -1;
@@ -26,34 +26,34 @@ public class Controlador : MonoBehaviour {
 				dragNormal.enabled = true;
 			}
 			if(HijosGanados[1] == true){
-				dragNormal.enabled = true;
+				dragArena.enabled = true;
 			}
 			if(HijosGanados[2] == true){
-				dragNormal.enabled = true;
+				dragTierra.enabled = true;
 			}
 			if(HijosGanados[3] == true){
-				dragNormal.enabled = true;
+				dragElectrico.enabled = true;
 			}
 			if(HijosGanados[4] == true){
-				dragNormal.enabled = true;
+				dragMetal.enabled = true;
 			}
 			if(HijosGanados[5] == true){
-				dragNormal.enabled = true;
+				dragAgua.enabled = true;
 			}
 			if(HijosGanados[6] == true){
-				dragNormal.enabled = true;
+				dragAire.enabled = true;
 			}
 			if(HijosGanados[7] == true){
-				dragNormal.enabled = true;
+				dragLodo.enabled = true;
 			}
 			if(HijosGanados[8] == true){
-				dragNormal.enabled = true;
+				dragLava.enabled = true;
 			}
 			if(HijosGanados[10] == true){
-				dragNormal.enabled = true;
+				dragHielo.enabled = true;
 			}
-			if(HijosGanados[0] == true){
-				dragNormal.enabled = true;
+			if(HijosGanados[11] == true){
+				dragFuego.enabled = true;
 			}
 		}
 
