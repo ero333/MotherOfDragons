@@ -147,7 +147,7 @@ public class Peleador : MonoBehaviour {
 
 
 			if (accion.nombre == "Especial") {
-				animator.SetTrigger ("Morder");
+				animator.SetTrigger ("Especial");
 			}
 			
 		}

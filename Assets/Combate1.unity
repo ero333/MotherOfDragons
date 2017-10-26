@@ -254,6 +254,25 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: a1564087c6dc80e4c9928178b341875f,
         type: 3}
+    - target: {fileID: 1798277678612806, guid: 53619836a230c414db7b99076230c12a, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224511533331180300, guid: 53619836a230c414db7b99076230c12a,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224116266795670080, guid: 53619836a230c414db7b99076230c12a,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224943454000433528, guid: 53619836a230c414db7b99076230c12a,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53619836a230c414db7b99076230c12a, type: 2}
   m_IsPrefabParent: 0
@@ -559,7 +578,32 @@ Prefab:
     - target: {fileID: 224032304029204638, guid: bbd31357ba21b244297c2766f5a6bae2,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -37.8
+      value: -37.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 224102105131855262, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224578942468226840, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224032304029204638, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224203929065328998, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 223317294884216836, guid: bbd31357ba21b244297c2766f5a6bae2,
+        type: 2}
+      propertyPath: m_OverrideSorting
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bbd31357ba21b244297c2766f5a6bae2, type: 2}
@@ -1247,8 +1291,8 @@ MonoBehaviour:
     costoMana: 0
   - nombre: Especial
     objetivoEsElMismo: 0
-    mensaje: CambiarMana
-    argumento: -100
+    mensaje: CambiarVida
+    argumento: -15
     animacionTrigger: Ataque
     costoMana: 0
   nombre: Dragoncito Tierra
@@ -2138,16 +2182,16 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Tornado
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
-    argumento: -20
+    argumento: -15
     animacionTrigger: Ataque
     costoMana: 0
   nombre: Dragoncito Aire
@@ -7445,16 +7489,16 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Cansar
+  - nombre: Especial
     objetivoEsElMismo: 0
-    mensaje: CambiarMana
-    argumento: -100
+    mensaje: CambiarVida
+    argumento: -15
     animacionTrigger: Ataque
     costoMana: 0
   - nombre: Defensa
@@ -7641,7 +7685,7 @@ MonoBehaviour:
     costoMana: 0
   - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
@@ -7983,13 +8027,13 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
@@ -8486,7 +8530,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
@@ -9157,7 +9201,7 @@ MonoBehaviour:
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Especial
+  - nombre: Curar
     objetivoEsElMismo: 1
     mensaje: CambiarVida
     argumento: 20
@@ -9642,13 +9686,13 @@ MonoBehaviour:
     argumento: -10
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: Curar
+  - nombre: Defender
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Bloquear
     argumento: 20
     animacionTrigger: Ataque
     costoMana: 0
-  - nombre: "Ara\xF1azo"
+  - nombre: Especial
     objetivoEsElMismo: 0
     mensaje: CambiarVida
     argumento: -15
