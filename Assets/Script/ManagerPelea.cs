@@ -58,14 +58,6 @@ public class ManagerPelea : MonoBehaviour
 
 	[SerializeField]
 	GameObject indicadorTurno;
-	/*
-	public void SetHealth(int vida){
-		
-		GameObject Abarra = GameObject.FindGameObjectWithTag("barra");
-		var AbarraRectTransform = Abarra.transform as RectTransform;
-		AbarraRectTransform.sizeDelta = new Vector2 ((vida*2), 25);
-	}
-	*/
 
 
 
@@ -148,14 +140,8 @@ public class ManagerPelea : MonoBehaviour
 		if (Controlador.dragoncito2 < 0) {
 			barraAliado3.gameObject.SetActive (false);
 		}
-		print ("d1 "+dragoncitoE1);
-		print ("d2 "+dragoncitoE2);
-		if (dragoncitoE1 < 0) {
-			barraEnemigo2.gameObject.SetActive (false);
-		}
-		if (dragoncitoE2 < 0) {
-			barraEnemigo3.gameObject.SetActive (false);
-		}
+
+
 
 		marcaDragon = GameObject.Find ("Marca Dragon");
 		marcaDragona = GameObject.Find ("Marca Dragona");
@@ -330,9 +316,9 @@ public class ManagerPelea : MonoBehaviour
 			if (peleador.nombre != "Dragona" && peleador.nombre != "Mateo") {
 
 				peleador.gameObject.SetActive (false);
-				//Debug.Log ("Desactivando: " + peleador.nombre);
+
 			} else {
-				//Debug.Log ("No desactivado: " + peleador.nombre);
+				
 			}
 		}
 
@@ -340,9 +326,9 @@ public class ManagerPelea : MonoBehaviour
 
 			if (dra.nombre != "Dragona" && dra.nombre != "Mateo") {
 				dra.gameObject.SetActive (false);
-				//Debug.Log ("Desactivando: " + dra.nombre);
+
 			} else {
-				//Debug.Log ("No desactivado: " + dra.nombre);
+				
 			}
 		}
 
@@ -369,6 +355,15 @@ public class ManagerPelea : MonoBehaviour
 			GameObject marca = GameObject.Find ("Marca Dragoncito 2 Aliado");
 			dragoncitos [Controlador.dragoncito2].transform.position = marca.transform.position;
 			barraAliado3.enabled = true;
+		}
+		print ("d1 "+dragoncitoE1);
+		print ("d2 "+dragoncitoE2);
+
+		if (dragoncitoE1 < 0) {
+			barraEnemigo2.gameObject.SetActive (false);
+		}
+		if (dragoncitoE2 < 0) {
+			barraEnemigo3.gameObject.SetActive (false);
 		}
 			
 		ActualizarInterface ();
@@ -448,11 +443,6 @@ public class ManagerPelea : MonoBehaviour
 										}
 
 
-
-
-								
-										////////////////////////////////////
-										//if (Controlador.ganasteHijoNormal == false) {
 
 
 										//if (peleadores.IndexOf(peleador).Equals(peleadores[Controlador.dragoncito1].name + " (Peleador)")) {
