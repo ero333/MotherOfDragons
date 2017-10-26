@@ -27,6 +27,8 @@ public class ManagerPelea : MonoBehaviour
 	public HealthBar barraAliado2;
 	public HealthBar barraAliado3;
 	public HealthBar barraEnemigo;
+	public HealthBar barraEnemigo2;
+	public HealthBar barraEnemigo3;
 
 	public int enemigoActual;
 
@@ -97,8 +99,18 @@ public class ManagerPelea : MonoBehaviour
 						} else {
 							if (peleador.aliado && Controlador.dragoncito2 != -1) {
 								barraAliado3.SetHealth (peleador.vida);
+							} else {
+								if (!peleador.aliado && dragoncitoE1 != -1) {
+									barraEnemigo2.SetHealth (peleador.vida);
+								} else {
+									if (!peleador.aliado && dragoncitoE2 != -1) {
+										barraEnemigo2.SetHealth (peleador.vida);
+									} else {
+										barraEnemigo.SetHealth (peleador.vida);
+									}
+								}
 							}
-							barraEnemigo.SetHealth (peleador.vida);
+
 						}
 					}
 						
@@ -126,7 +138,6 @@ public class ManagerPelea : MonoBehaviour
 	{
 
 		Controlador.dragoncito1 = 9;
-		dragoncitoE1 = 9;
 		Controlador.HijosGanados [9] = true;
 		Controlador.escenaPrevia = "Scene1";
 		enemigoActual = 12;
@@ -136,6 +147,14 @@ public class ManagerPelea : MonoBehaviour
 		}
 		if (Controlador.dragoncito2 < 0) {
 			barraAliado3.gameObject.SetActive (false);
+		}
+		print ("d1 "+dragoncitoE1);
+		print ("d2 "+dragoncitoE2);
+		if (dragoncitoE1 < 0) {
+			barraEnemigo2.gameObject.SetActive (false);
+		}
+		if (dragoncitoE2 < 0) {
+			barraEnemigo3.gameObject.SetActive (false);
 		}
 
 		marcaDragon = GameObject.Find ("Marca Dragon");
