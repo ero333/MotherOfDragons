@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 92c04613e18a8a6408ac72f2e671410a
+timeCreated: 1508797241
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: angel especial sheet_0
+    21300002: angel especial sheet_1
+    21300004: angel especial sheet_2
+    21300006: angel especial sheet_3
+    21300008: angel especial sheet_4
+    21300010: angel especial sheet_5
+    21300012: angel especial sheet_6
+    21300014: angel especial sheet_7
+    21300016: angel especial sheet_8
+    21300018: angel especial sheet_9
+    21300020: angel especial sheet_10
+    21300022: angel especial sheet_12
+    21300024: angel especial sheet_14
+    21300026: angel especial sheet_17
+    21300028: angel especial sheet_19
+    21300030: angel especial sheet_20
+    21300032: angel especial sheet_22
+    21300034: angel especial sheet_24
+    21300036: angel especial sheet_37
+    21300038: angel especial sheet_39
+    21300040: angel especial sheet_40
+    21300042: angel especial sheet_49
+    21300044: angel especial sheet_50
+    21300046: angel especial sheet_51
+    21300048: angel especial sheet_52
+    21300050: angel especial sheet_53
+    21300052: angel especial sheet_11
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angel especial sheet_0
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 3230
+        width: 821
+        height: 858
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 3230
+        width: 826
+        height: 861
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 3229
+        width: 781
+        height: 864
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4758
+        y: 3233
+        width: 785
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_4
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 3233
+        width: 721
+        height: 865
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_5
+      rect:
+        serializedVersion: 2
+        x: 7581
+        y: 3230
+        width: 721
+        height: 868
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_6
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 3229
+        width: 587
+        height: 785
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_7
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2153
+        width: 583
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2160
+        width: 1022
+        height: 822
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 2153
+        width: 1032
+        height: 822
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4567
+        y: 2153
+        width: 1026
+        height: 822
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5962
+        y: 2153
+        width: 1031
+        height: 822
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_14
+      rect:
+        serializedVersion: 2
+        x: 7242
+        y: 2153
+        width: 1149
+        height: 869
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_17
+      rect:
+        serializedVersion: 2
+        x: 8639
+        y: 2153
+        width: 1147
+        height: 869
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1070
+        width: 1369
+        height: 982
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1070
+        width: 1369
+        height: 982
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 1069
+        width: 1318
+        height: 1084
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_24
+      rect:
+        serializedVersion: 2
+        x: 4286
+        y: 1069
+        width: 1307
+        height: 1068
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_37
+      rect:
+        serializedVersion: 2
+        x: 5595
+        y: 1070
+        width: 1398
+        height: 1082
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_39
+      rect:
+        serializedVersion: 2
+        x: 6999
+        y: 1073
+        width: 1389
+        height: 1079
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_40
+      rect:
+        serializedVersion: 2
+        x: 8387
+        y: 1069
+        width: 1399
+        height: 1078
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_49
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 1362
+        height: 1069
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 0
+        width: 1376
+        height: 1075
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 0
+        width: 1413
+        height: 1075
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_52
+      rect:
+        serializedVersion: 2
+        x: 4201
+        y: 0
+        width: 1392
+        height: 1063
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_53
+      rect:
+        serializedVersion: 2
+        x: 5584
+        y: 0
+        width: 1409
+        height: 1078
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel especial sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5865
+        y: 1914
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

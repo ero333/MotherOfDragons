@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: af73c26e7c32c1441bbc3146f254144a
+timeCreated: 1508797892
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: diego sprite sheet_0
+    21300002: diego sprite sheet_2
+    21300004: diego sprite sheet_4
+    21300006: diego sprite sheet_6
+    21300008: diego sprite sheet_8
+    21300010: diego sprite sheet_9
+    21300012: diego sprite sheet_10
+    21300014: diego sprite sheet_11
+    21300016: diego sprite sheet_12
+    21300018: diego sprite sheet_13
+    21300020: diego sprite sheet_14
+    21300022: diego sprite sheet_16
+    21300024: diego sprite sheet_18
+    21300026: diego sprite sheet_20
+    21300028: diego sprite sheet_22
+    21300030: diego sprite sheet_24
+    21300032: diego sprite sheet_26
+    21300034: diego sprite sheet_28
+    21300036: diego sprite sheet_30
+    21300038: diego sprite sheet_32
+    21300040: diego sprite sheet_34
+    21300042: diego sprite sheet_36
+    21300044: diego sprite sheet_38
+    21300046: diego sprite sheet_40
+    21300048: diego sprite sheet_42
+    21300050: diego sprite sheet_44
+    21300052: diego sprite sheet_46
+    21300054: diego sprite sheet_48
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diego sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2447
+        width: 734
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2447
+        width: 741
+        height: 819
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2447
+        width: 760
+        height: 814
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 2447
+        width: 733
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 2448
+        width: 609
+        height: 736
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4113
+        y: 2449
+        width: 547
+        height: 774
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 2447
+        width: 736
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5576
+        y: 2603
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1631
+        width: 741
+        height: 804
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1631
+        width: 778
+        height: 801
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1631
+        width: 735
+        height: 823
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 1631
+        width: 733
+        height: 823
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 1631
+        width: 738
+        height: 815
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 1631
+        width: 741
+        height: 815
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 4815
+        y: 1631
+        width: 760
+        height: 815
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814
+        width: 756
+        height: 814
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 814
+        width: 741
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 814
+        width: 739
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 814
+        width: 735
+        height: 823
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 814
+        width: 735
+        height: 823
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 814
+        width: 741
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4835
+        y: 814
+        width: 741
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 756
+        height: 811
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 760
+        height: 811
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 0
+        width: 739
+        height: 814
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 0
+        width: 741
+        height: 814
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_46
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 0
+        width: 735
+        height: 819
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diego sprite sheet_48
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 0
+        width: 733
+        height: 819
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

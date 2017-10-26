@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 691a09c91beadc0438c17a0a88f0d754
+timeCreated: 1508802827
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: especial israel sprite sheet_0
+    21300002: especial israel sprite sheet_1
+    21300004: especial israel sprite sheet_2
+    21300006: especial israel sprite sheet_3
+    21300008: especial israel sprite sheet_4
+    21300010: especial israel sprite sheet_5
+    21300012: especial israel sprite sheet_6
+    21300014: especial israel sprite sheet_7
+    21300016: especial israel sprite sheet_8
+    21300018: especial israel sprite sheet_9
+    21300020: especial israel sprite sheet_10
+    21300022: especial israel sprite sheet_11
+    21300024: especial israel sprite sheet_12
+    21300026: especial israel sprite sheet_13
+    21300028: especial israel sprite sheet_14
+    21300030: especial israel sprite sheet_15
+    21300032: especial israel sprite sheet_16
+    21300034: especial israel sprite sheet_17
+    21300036: especial israel sprite sheet_18
+    21300038: especial israel sprite sheet_19
+    21300040: especial israel sprite sheet_20
+    21300042: especial israel sprite sheet_21
+    21300044: especial israel sprite sheet_22
+    21300046: especial israel sprite sheet_23
+    21300048: especial israel sprite sheet_24
+    21300050: especial israel sprite sheet_25
+    21300052: especial israel sprite sheet_26
+    21300054: especial israel sprite sheet_27
+    21300056: especial israel sprite sheet_28
+    21300058: especial israel sprite sheet_29
+    21300060: especial israel sprite sheet_30
+    21300062: especial israel sprite sheet_31
+    21300064: especial israel sprite sheet_32
+    21300066: especial israel sprite sheet_33
+    21300068: especial israel sprite sheet_34
+    21300070: especial israel sprite sheet_35
+    21300072: especial israel sprite sheet_36
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: especial israel sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3449
+        width: 678
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 3449
+        width: 678
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 3449
+        width: 673
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 3449
+        width: 674
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 3449
+        width: 589
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 3449
+        width: 589
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5203
+        y: 2296
+        width: 873
+        height: 1144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 2296
+        width: 873
+        height: 1144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6949
+        y: 3449
+        width: 856
+        height: 983
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7816
+        y: 3449
+        width: 857
+        height: 983
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2296
+        width: 867
+        height: 1017
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2296
+        width: 873
+        height: 1017
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 2296
+        width: 873
+        height: 1017
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2296
+        width: 873
+        height: 1017
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 2296
+        width: 869
+        height: 1085
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 2296
+        width: 873
+        height: 1085
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 6940
+        y: 2296
+        width: 873
+        height: 1148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 7809
+        y: 2296
+        width: 869
+        height: 1148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1147
+        width: 867
+        height: 1136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1147
+        width: 873
+        height: 1136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1147
+        width: 873
+        height: 1127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1147
+        width: 873
+        height: 1127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 1147
+        width: 869
+        height: 1148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 1147
+        width: 873
+        height: 1148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5203
+        y: 1147
+        width: 873
+        height: 1136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 1147
+        width: 873
+        height: 1136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 6940
+        y: 1147
+        width: 873
+        height: 1127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 7809
+        y: 1147
+        width: 869
+        height: 1127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 867
+        height: 1142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 873
+        height: 1142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 0
+        width: 873
+        height: 1132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 873
+        height: 1132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 0
+        width: 869
+        height: 1121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 4334
+        y: 0
+        width: 873
+        height: 1121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 5203
+        y: 0
+        width: 873
+        height: 1120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 3445
+        width: 870
+        height: 991
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: especial israel sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 3442
+        width: 863
+        height: 989
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: c7ee07ead24c60341ac848837930cb4a
+timeCreated: 1508806653
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: israel sprite sheet_0
+    21300002: israel sprite sheet_1
+    21300004: israel sprite sheet_2
+    21300006: israel sprite sheet_3
+    21300008: israel sprite sheet_4
+    21300010: israel sprite sheet_5
+    21300012: israel sprite sheet_6
+    21300014: israel sprite sheet_7
+    21300016: israel sprite sheet_8
+    21300018: israel sprite sheet_9
+    21300020: israel sprite sheet_10
+    21300022: israel sprite sheet_11
+    21300024: israel sprite sheet_12
+    21300026: israel sprite sheet_13
+    21300028: israel sprite sheet_14
+    21300030: israel sprite sheet_15
+    21300032: israel sprite sheet_16
+    21300034: israel sprite sheet_17
+    21300036: israel sprite sheet_18
+    21300038: israel sprite sheet_19
+    21300040: israel sprite sheet_20
+    21300042: israel sprite sheet_21
+    21300044: israel sprite sheet_22
+    21300046: israel sprite sheet_23
+    21300048: israel sprite sheet_24
+    21300050: israel sprite sheet_25
+    21300052: israel sprite sheet_26
+    21300054: israel sprite sheet_27
+    21300056: israel sprite sheet_28
+    21300058: israel sprite sheet_29
+    21300060: israel sprite sheet_30
+    21300062: israel sprite sheet_31
+    21300064: israel sprite sheet_32
+    21300066: israel sprite sheet_33
+    21300068: israel sprite sheet_34
+    21300070: israel sprite sheet_35
+    21300072: israel sprite sheet_36
+    21300074: israel sprite sheet_37
+    21300076: israel sprite sheet_38
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: israel sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2517
+        width: 700
+        height: 855
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2525
+        width: 730
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 2520
+        width: 664
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 2519
+        width: 679
+        height: 853
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 2528
+        width: 701
+        height: 844
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 0
+        width: 693
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5674
+        y: 0
+        width: 700
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6551
+        y: 2519
+        width: 681
+        height: 766
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 7490
+        y: 2519
+        width: 679
+        height: 853
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8178
+        y: 1683
+        width: 912
+        height: 844
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 8414
+        y: 2519
+        width: 676
+        height: 853
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1679
+        width: 692
+        height: 830
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 836
+        width: 682
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 1679
+        width: 701
+        height: 830
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 842
+        width: 679
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6576
+        y: 0
+        width: 704
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7463
+        y: 5
+        width: 708
+        height: 836
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1690
+        width: 704
+        height: 830
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 840
+        width: 700
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 712
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1684
+        width: 726
+        height: 837
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 840
+        width: 720
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 726
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 0
+        width: 681
+        height: 843
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 0
+        width: 680
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1681
+        width: 702
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 840
+        width: 706
+        height: 837
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3854
+        y: 0
+        width: 708
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 843
+        width: 682
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 4780
+        y: 1687
+        width: 686
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 4781
+        y: 2528
+        width: 684
+        height: 844
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 843
+        width: 700
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 1685
+        width: 695
+        height: 837
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 5667
+        y: 2524
+        width: 691
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 6581
+        y: 840
+        width: 704
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 6581
+        y: 1683
+        width: 697
+        height: 832
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 7462
+        y: 842
+        width: 715
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 7458
+        y: 1684
+        width: 702
+        height: 829
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: israel sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 8384
+        y: 837
+        width: 695
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
