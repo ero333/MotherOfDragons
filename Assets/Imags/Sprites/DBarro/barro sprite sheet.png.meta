@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: cf4a2b4c3e1730e478d4a19ad028d418
+timeCreated: 1509120247
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: barro sprite sheet_0
+    21300002: barro sprite sheet_1
+    21300004: barro sprite sheet_2
+    21300006: barro sprite sheet_3
+    21300008: barro sprite sheet_4
+    21300010: barro sprite sheet_5
+    21300012: barro sprite sheet_6
+    21300014: barro sprite sheet_7
+    21300016: barro sprite sheet_8
+    21300018: barro sprite sheet_9
+    21300020: barro sprite sheet_11
+    21300022: barro sprite sheet_12
+    21300024: barro sprite sheet_13
+    21300026: barro sprite sheet_16
+    21300028: barro sprite sheet_17
+    21300030: barro sprite sheet_18
+    21300032: barro sprite sheet_19
+    21300034: barro sprite sheet_20
+    21300036: barro sprite sheet_21
+    21300038: barro sprite sheet_22
+    21300040: barro sprite sheet_23
+    21300042: barro sprite sheet_24
+    21300044: barro sprite sheet_25
+    21300046: barro sprite sheet_26
+    21300048: barro sprite sheet_27
+    21300050: barro sprite sheet_28
+    21300052: barro sprite sheet_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barro sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1699
+        width: 847
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1699
+        width: 853
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1699
+        width: 852
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1692
+        width: 822
+        height: 560
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 1692
+        width: 777
+        height: 560
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 1696
+        width: 908
+        height: 547
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5802
+        y: 1699
+        width: 853
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6785
+        y: 1708
+        width: 810
+        height: 544
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 878
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1126
+        width: 898
+        height: 553
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3866
+        y: 1136
+        width: 851
+        height: 557
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5802
+        y: 1136
+        width: 851
+        height: 557
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 6770
+        y: 1136
+        width: 851
+        height: 557
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1126
+        width: 7
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1126
+        width: 899
+        height: 444
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 1126
+        width: 980
+        height: 385
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 573
+        width: 845
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3866
+        y: 573
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 573
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5802
+        y: 573
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 6770
+        y: 573
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 845
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 10
+        width: 850
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 10
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 10
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3866
+        y: 10
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barro sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 10
+        width: 851
+        height: 551
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
