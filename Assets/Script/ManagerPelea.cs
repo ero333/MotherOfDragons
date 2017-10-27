@@ -85,34 +85,32 @@ public class ManagerPelea : MonoBehaviour
 
 					if (peleador.aliado && peleador.nombre == "Dragona") {
 						barraAliado.SetHealth (peleador.vida);
-					} else {
-						if (peleador.aliado && Controlador.dragoncito1 != -1) {
-							barraAliado2.SetHealth (peleador.vida);
-						} else {
-							if (peleador.aliado && Controlador.dragoncito2 != -1) {
-								barraAliado3.SetHealth (peleador.vida);
-							} else {
-								if (!peleador.aliado && dragoncitoE1 != -1) {
-									barraEnemigo2.SetHealth (peleador.vida);
-								} else {
-									if (!peleador.aliado && dragoncitoE2 != -1) {
-										barraEnemigo2.SetHealth (peleador.vida);
-									} else {
-										barraEnemigo.SetHealth (peleador.vida);
-									}
-								}
-							}
-
-						}
+					} 
+					if (peleador.aliado && Controlador.dragoncito1 != -1) {
+						barraAliado2.SetHealth (peleador.vida);
 					}
-						
+					if (peleador.aliado && Controlador.dragoncito2 != -1) {
+						barraAliado3.SetHealth (peleador.vida);
+					}
+					if (!peleador.aliado && dragoncitoE1 != -1 && peleador.nombre != "Mateo") {
+						barraEnemigo2.SetHealth (peleador.vida);
+					}
+					if (!peleador.aliado && dragoncitoE2 != -1 && peleador.nombre != "Mateo") {
+						barraEnemigo2.SetHealth (peleador.vida);
+					}
+					if (!peleador.aliado && peleador.nombre == "Mateo") {
+						barraEnemigo.SetHealth (peleador.vida);
+					}
 
+				
+			
 					textoEstado.text += "<color=" + (peleador.aliado ? "blue" : "red") + ">" +
-					peleador.nombre + " HP: " + peleador.vida + "/100 MANA: " + peleador.mana + "/100.</color>\n";
-				}
+						peleador.nombre + " HP: " + peleador.vida + "/100 MANA: " + peleador.mana + "/100.</color>\n";
 
+				}
 			}
 		}
+
 
 		/*foreach (var dragoncitosE in dragoncitosEnemigos) {
 			if (dragoncitosE.isActiveAndEnabled) {
