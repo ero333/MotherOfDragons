@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cf984d8cca1c23d4885e882f2f80ff30
-timeCreated: 1508807109
+timeCreated: 1509117318
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -110,10 +110,10 @@ TextureImporter:
       name: hielo sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1254
-        width: 804
-        height: 585
+        x: 0
+        y: 1216
+        width: 1323
+        height: 618
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,9 +124,9 @@ TextureImporter:
       name: hielo sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 1351
+        x: 1322
         y: 1834
-        width: 858
+        width: 883
         height: 615
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -138,9 +138,9 @@ TextureImporter:
       name: hielo sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 2695
+        x: 2643
         y: 1834
-        width: 837
+        width: 883
         height: 615
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -222,9 +222,9 @@ TextureImporter:
       name: hielo sprite sheet_8
       rect:
         serializedVersion: 2
-        x: 1351
+        x: 1323
         y: 0
-        width: 858
+        width: 883
         height: 610
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -236,9 +236,9 @@ TextureImporter:
       name: hielo sprite sheet_9
       rect:
         serializedVersion: 2
-        x: 2697
-        y: 608
-        width: 835
+        x: 2645
+        y: 613
+        width: 883
         height: 611
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: hielo sprite sheet_10
       rect:
         serializedVersion: 2
-        x: 3983
-        y: 1223
-        width: 1273
-        height: 496
+        x: 3977
+        y: 1217
+        width: 1323
+        height: 520
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 4}
@@ -264,9 +264,9 @@ TextureImporter:
       name: hielo sprite sheet_13
       rect:
         serializedVersion: 2
-        x: 7932
+        x: 7937
         y: 608
-        width: 890
+        width: 883
         height: 611
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: hielo sprite sheet_14
       rect:
         serializedVersion: 2
-        x: 9253
-        y: 608
-        width: 892
-        height: 612
+        x: 9262
+        y: 611
+        width: 883
+        height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,8 +294,8 @@ TextureImporter:
         serializedVersion: 2
         x: 5296
         y: 1218
-        width: 1261
-        height: 484
+        width: 1323
+        height: 516
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,9 +306,9 @@ TextureImporter:
       name: hielo sprite sheet_19
       rect:
         serializedVersion: 2
-        x: 6643
+        x: 6615
         y: 608
-        width: 850
+        width: 883
         height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -320,10 +320,10 @@ TextureImporter:
       name: hielo sprite sheet_32
       rect:
         serializedVersion: 2
-        x: 6626
+        x: 6615
         y: 1218
-        width: 1239
-        height: 365
+        width: 1323
+        height: 516
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,9 +334,9 @@ TextureImporter:
       name: hielo sprite sheet_34
       rect:
         serializedVersion: 2
-        x: 28
+        x: 0
         y: 0
-        width: 858
+        width: 883
         height: 610
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -348,9 +348,9 @@ TextureImporter:
       name: hielo sprite sheet_35
       rect:
         serializedVersion: 2
-        x: 4018
-        y: 608
-        width: 837
+        x: 3966
+        y: 610
+        width: 883
         height: 610
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -362,9 +362,9 @@ TextureImporter:
       name: hielo sprite sheet_36
       rect:
         serializedVersion: 2
-        x: 5320
+        x: 5292
         y: 608
-        width: 856
+        width: 883
         height: 609
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -376,9 +376,9 @@ TextureImporter:
       name: hielo sprite sheet_37
       rect:
         serializedVersion: 2
-        x: 2695
+        x: 2650
         y: 0
-        width: 837
+        width: 883
         height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -390,9 +390,9 @@ TextureImporter:
       name: hielo sprite sheet_38
       rect:
         serializedVersion: 2
-        x: 4018
+        x: 3970
         y: 0
-        width: 837
+        width: 883
         height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -404,9 +404,9 @@ TextureImporter:
       name: hielo sprite sheet_39
       rect:
         serializedVersion: 2
-        x: 5320
+        x: 5292
         y: 0
-        width: 858
+        width: 883
         height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -418,9 +418,9 @@ TextureImporter:
       name: hielo sprite sheet_40
       rect:
         serializedVersion: 2
-        x: 6643
+        x: 6615
         y: 0
-        width: 858
+        width: 883
         height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -432,9 +432,9 @@ TextureImporter:
       name: hielo sprite sheet_41
       rect:
         serializedVersion: 2
-        x: 7930
+        x: 7935
         y: 0
-        width: 894
+        width: 883
         height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -446,9 +446,9 @@ TextureImporter:
       name: hielo sprite sheet_42
       rect:
         serializedVersion: 2
-        x: 9253
-        y: 0
-        width: 894
+        x: 9258
+        y: 3
+        width: 883
         height: 608
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -460,9 +460,9 @@ TextureImporter:
       name: hielo sprite sheet_43
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 1839
-        width: 880
+        width: 883
         height: 613
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -476,7 +476,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1328
         y: 1216
-        width: 630
+        width: 1323
         height: 538
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -502,13 +502,13 @@ TextureImporter:
       name: hielo sprite sheet_11
       rect:
         serializedVersion: 2
-        x: 7916
+        x: 7936
         y: 1223
-        width: 910
+        width: 883
         height: 607
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 20, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -530,9 +530,9 @@ TextureImporter:
       name: hielo sprite sheet_16
       rect:
         serializedVersion: 2
-        x: 1351
-        y: 609
-        width: 853
+        x: 1324
+        y: 606
+        width: 883
         height: 610
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -544,9 +544,9 @@ TextureImporter:
       name: hielo sprite sheet_17
       rect:
         serializedVersion: 2
-        x: 26
-        y: 613
-        width: 863
+        x: 0
+        y: 604
+        width: 883
         height: 612
       alignment: 7
       pivot: {x: 0.5, y: 0}
