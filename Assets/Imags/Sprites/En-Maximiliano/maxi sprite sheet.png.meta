@@ -1,0 +1,766 @@
+fileFormatVersion: 2
+guid: 35a1c8e6b7b029f499aac3df7a71d7fc
+timeCreated: 1509074233
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: maxi sprite sheet_0
+    21300002: maxi sprite sheet_1
+    21300004: maxi sprite sheet_2
+    21300006: maxi sprite sheet_3
+    21300008: maxi sprite sheet_4
+    21300010: maxi sprite sheet_5
+    21300012: maxi sprite sheet_6
+    21300014: maxi sprite sheet_7
+    21300016: maxi sprite sheet_8
+    21300018: maxi sprite sheet_9
+    21300020: maxi sprite sheet_10
+    21300022: maxi sprite sheet_11
+    21300024: maxi sprite sheet_12
+    21300026: maxi sprite sheet_13
+    21300028: maxi sprite sheet_14
+    21300030: maxi sprite sheet_15
+    21300032: maxi sprite sheet_16
+    21300034: maxi sprite sheet_17
+    21300036: maxi sprite sheet_18
+    21300038: maxi sprite sheet_19
+    21300040: maxi sprite sheet_20
+    21300042: maxi sprite sheet_21
+    21300044: maxi sprite sheet_22
+    21300046: maxi sprite sheet_23
+    21300048: maxi sprite sheet_24
+    21300050: maxi sprite sheet_25
+    21300052: maxi sprite sheet_26
+    21300054: maxi sprite sheet_27
+    21300056: maxi sprite sheet_28
+    21300058: maxi sprite sheet_29
+    21300060: maxi sprite sheet_30
+    21300062: maxi sprite sheet_31
+    21300064: maxi sprite sheet_32
+    21300066: maxi sprite sheet_33
+    21300068: maxi sprite sheet_34
+    21300070: maxi sprite sheet_35
+    21300072: maxi sprite sheet_36
+    21300074: maxi sprite sheet_37
+    21300076: maxi sprite sheet_38
+    21300078: maxi sprite sheet_39
+    21300080: maxi sprite sheet_40
+    21300082: maxi sprite sheet_41
+    21300084: maxi sprite sheet_42
+    21300086: maxi sprite sheet_43
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: maxi sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2564
+        width: 425
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2837
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2564
+        width: 424
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 2564
+        width: 413
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 1738
+        width: 906
+        height: 829
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 2564
+        width: 421
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 2568
+        width: 574
+        height: 829
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 5656
+        y: 2568
+        width: 704
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6522
+        y: 2568
+        width: 773
+        height: 813
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7628
+        y: 2564
+        width: 424
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 8054
+        y: 2837
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1710
+        width: 425
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1710
+        width: 595
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1710
+        width: 809
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 1710
+        width: 425
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 1979
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 1710
+        width: 607
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 1710
+        width: 809
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 6442
+        y: 1710
+        width: 926
+        height: 680
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 7628
+        y: 1710
+        width: 424
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8054
+        y: 1979
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 852
+        width: 425
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1121
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 852
+        width: 425
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 852
+        width: 425
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 852
+        width: 413
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 852
+        width: 416
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4875
+        y: 852
+        width: 425
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5798
+        y: 852
+        width: 421
+        height: 842
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 6709
+        y: 852
+        width: 424
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 7134
+        y: 1120
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 7627
+        y: 852
+        width: 425
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 8054
+        y: 1121
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 425
+        height: 836
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 425
+        height: 836
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 0
+        width: 413
+        height: 832
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 0
+        width: 413
+        height: 832
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 0
+        width: 421
+        height: 836
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4875
+        y: 0
+        width: 425
+        height: 836
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 5786
+        y: 0
+        width: 425
+        height: 832
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_40
+      rect:
+        serializedVersion: 2
+        x: 6213
+        y: 267
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_41
+      rect:
+        serializedVersion: 2
+        x: 6709
+        y: 0
+        width: 424
+        height: 832
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 7135
+        y: 266
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maxi sprite sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 2569
+        width: 437
+        height: 859
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,9 +1,42 @@
 fileFormatVersion: 2
 guid: 0102b3fad70ff3946ba6d79311c0a647
-timeCreated: 1508787965
+timeCreated: 1509077899
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: angel sheet 1_0
+    21300002: angel sheet 1_1
+    21300004: angel sheet 1_2
+    21300006: angel sheet 1_3
+    21300008: angel sheet 1_4
+    21300010: angel sheet 1_5
+    21300012: angel sheet 1_6
+    21300014: angel sheet 1_7
+    21300016: angel sheet 1_8
+    21300018: angel sheet 1_9
+    21300020: angel sheet 1_10
+    21300022: angel sheet 1_11
+    21300024: angel sheet 1_12
+    21300026: angel sheet 1_13
+    21300028: angel sheet 1_14
+    21300030: angel sheet 1_15
+    21300032: angel sheet 1_16
+    21300034: angel sheet 1_17
+    21300036: angel sheet 1_18
+    21300038: angel sheet 1_19
+    21300040: angel sheet 1_20
+    21300042: angel sheet 1_21
+    21300044: angel sheet 1_22
+    21300046: angel sheet 1_23
+    21300048: angel sheet 1_24
+    21300050: angel sheet 1_25
+    21300052: angel sheet 1_26
+    21300054: angel sheet 1_27
+    21300056: angel sheet 1_28
+    21300058: angel sheet 1_29
+    21300060: angel sheet 1_30
+    21300062: angel sheet 1_31
+    21300064: angel sheet 1_32
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -39,7 +72,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,9 +96,503 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: angel sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1698
+        width: 893
+        height: 862
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2548
+        width: 819
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2548
+        width: 847
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 2548
+        width: 889
+        height: 836
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 2548
+        width: 814
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 1698
+        width: 781
+        height: 854
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 2548
+        width: 779
+        height: 856
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 5211
+        y: 2548
+        width: 714
+        height: 783
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 6171
+        y: 2548
+        width: 744
+        height: 788
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 7158
+        y: 2548
+        width: 818
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 8188
+        y: 2548
+        width: 779
+        height: 856
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1698
+        width: 956
+        height: 775
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1698
+        width: 819
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 4229
+        y: 1698
+        width: 736
+        height: 832
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 5150
+        y: 1746
+        width: 863
+        height: 694
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 6158
+        y: 1698
+        width: 815
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 7158
+        y: 1698
+        width: 818
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 8135
+        y: 1698
+        width: 846
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 844
+        width: 849
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 844
+        width: 889
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 844
+        width: 889
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 844
+        width: 850
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 844
+        width: 850
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 0
+        width: 818
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 844
+        width: 819
+        height: 854
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 0
+        width: 819
+        height: 848
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 6158
+        y: 844
+        width: 815
+        height: 854
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 7131
+        y: 844
+        width: 850
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 8135
+        y: 844
+        width: 846
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 891
+        height: 830
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 0
+        width: 889
+        height: 830
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 850
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angel sheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 0
+        width: 850
+        height: 839
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
