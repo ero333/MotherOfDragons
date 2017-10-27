@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e7d85f3706c422d408b4e51d747438a5
-timeCreated: 1508742796
+timeCreated: 1509066825
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -136,9 +136,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 11518
-        y: 1053
+        y: 1079
         width: 1910
-        height: 1107
+        height: 1093
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,12 +178,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 9587
-        y: 1046
+        y: 1078
         width: 1932
         height: 1108
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 21}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -191,9 +191,9 @@ TextureImporter:
       name: especial sheet_4
       rect:
         serializedVersion: 2
-        x: 7669
-        y: 1046
-        width: 1897
+        x: 7663
+        y: 1065
+        width: 1583
         height: 1114
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -205,9 +205,9 @@ TextureImporter:
       name: especial sheet_5
       rect:
         serializedVersion: 2
-        x: 5676
-        y: 1046
-        width: 1937
+        x: 5741
+        y: 1065
+        width: 1541
         height: 1108
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -219,8 +219,8 @@ TextureImporter:
       name: especial sheet_6
       rect:
         serializedVersion: 2
-        x: 3812
-        y: 1051
+        x: 3844
+        y: 1096
         width: 1293
         height: 840
       alignment: 7
@@ -233,8 +233,8 @@ TextureImporter:
       name: especial sheet_7
       rect:
         serializedVersion: 2
-        x: 1894
-        y: 1051
+        x: 1926
+        y: 1083
         width: 1288
         height: 806
       alignment: 7
@@ -247,8 +247,8 @@ TextureImporter:
       name: especial sheet_8
       rect:
         serializedVersion: 2
-        x: 71
-        y: 1040
+        x: 77
+        y: 1072
         width: 1366
         height: 823
       alignment: 7
@@ -345,8 +345,8 @@ TextureImporter:
       name: especial sheet_15
       rect:
         serializedVersion: 2
-        x: 15339
-        y: 2172
+        x: 15435
+        y: 2185
         width: 1482
         height: 889
       alignment: 7
@@ -359,7 +359,7 @@ TextureImporter:
       name: especial sheet_16
       rect:
         serializedVersion: 2
-        x: 13436
+        x: 13507
         y: 2188
         width: 1365
         height: 873
@@ -373,8 +373,8 @@ TextureImporter:
       name: especial sheet_17
       rect:
         serializedVersion: 2
-        x: 11556
-        y: 2156
+        x: 11588
+        y: 2169
         width: 1482
         height: 905
       alignment: 7
@@ -387,8 +387,8 @@ TextureImporter:
       name: especial sheet_18
       rect:
         serializedVersion: 2
-        x: 9599
-        y: 2156
+        x: 9676
+        y: 2169
         width: 1451
         height: 936
       alignment: 7
@@ -401,8 +401,8 @@ TextureImporter:
       name: especial sheet_19
       rect:
         serializedVersion: 2
-        x: 7634
-        y: 2149
+        x: 7743
+        y: 2181
         width: 1505
         height: 904
       alignment: 7
@@ -415,8 +415,8 @@ TextureImporter:
       name: especial sheet_20
       rect:
         serializedVersion: 2
-        x: 5637
-        y: 2164
+        x: 5837
+        y: 2177
         width: 1388
         height: 872
       alignment: 7
@@ -429,8 +429,8 @@ TextureImporter:
       name: especial sheet_21
       rect:
         serializedVersion: 2
-        x: 3732
-        y: 2160
+        x: 3899
+        y: 2179
         width: 1643
         height: 891
       alignment: 7
@@ -443,7 +443,7 @@ TextureImporter:
       name: especial sheet_22
       rect:
         serializedVersion: 2
-        x: 1781
+        x: 1993
         y: 2170
         width: 1524
         height: 866
@@ -457,8 +457,8 @@ TextureImporter:
       name: especial sheet_23
       rect:
         serializedVersion: 2
-        x: 58
-        y: 2141
+        x: 71
+        y: 2180
         width: 1420
         height: 881
       alignment: 7
@@ -471,8 +471,8 @@ TextureImporter:
       name: especial sheet_24
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3159
+        x: 11
+        y: 3230
         width: 1420
         height: 807
       alignment: 7
@@ -485,8 +485,8 @@ TextureImporter:
       name: especial sheet_25
       rect:
         serializedVersion: 2
-        x: 1752
-        y: 3169
+        x: 1932
+        y: 3220
         width: 1529
         height: 802
       alignment: 7
@@ -499,8 +499,8 @@ TextureImporter:
       name: especial sheet_26
       rect:
         serializedVersion: 2
-        x: 3707
-        y: 3179
+        x: 3829
+        y: 3230
         width: 1638
         height: 787
       alignment: 7
@@ -513,8 +513,8 @@ TextureImporter:
       name: especial sheet_27
       rect:
         serializedVersion: 2
-        x: 5627
-        y: 3209
+        x: 5743
+        y: 3228
         width: 1470
         height: 757
       alignment: 7
@@ -527,8 +527,8 @@ TextureImporter:
       name: especial sheet_28
       rect:
         serializedVersion: 2
-        x: 7562
-        y: 3209
+        x: 7671
+        y: 3241
         width: 1545
         height: 713
       alignment: 7
@@ -541,8 +541,8 @@ TextureImporter:
       name: especial sheet_29
       rect:
         serializedVersion: 2
-        x: 9507
-        y: 3189
+        x: 9597
+        y: 3215
         width: 1545
         height: 757
       alignment: 7
@@ -555,8 +555,8 @@ TextureImporter:
       name: especial sheet_30
       rect:
         serializedVersion: 2
-        x: 11472
-        y: 3159
+        x: 11504
+        y: 3230
         width: 1554
         height: 753
       alignment: 7
@@ -569,8 +569,8 @@ TextureImporter:
       name: especial sheet_31
       rect:
         serializedVersion: 2
-        x: 13388
-        y: 3169
+        x: 13452
+        y: 3246
         width: 1425
         height: 733
       alignment: 7
@@ -583,8 +583,8 @@ TextureImporter:
       name: especial sheet_32
       rect:
         serializedVersion: 2
-        x: 15273
-        y: 3184
+        x: 15363
+        y: 3248
         width: 1555
         height: 708
       alignment: 7

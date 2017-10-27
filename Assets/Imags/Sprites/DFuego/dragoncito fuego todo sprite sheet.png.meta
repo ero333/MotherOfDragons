@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 41bffa67d9bd3fc4fa83e55bfae14d76
+timeCreated: 1508969937
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragoncito fuego todo sprite sheet_0
+    21300002: dragoncito fuego todo sprite sheet_1
+    21300004: dragoncito fuego todo sprite sheet_2
+    21300006: dragoncito fuego todo sprite sheet_3
+    21300008: dragoncito fuego todo sprite sheet_4
+    21300010: dragoncito fuego todo sprite sheet_5
+    21300012: dragoncito fuego todo sprite sheet_6
+    21300014: dragoncito fuego todo sprite sheet_7
+    21300016: dragoncito fuego todo sprite sheet_8
+    21300018: dragoncito fuego todo sprite sheet_9
+    21300020: dragoncito fuego todo sprite sheet_10
+    21300022: dragoncito fuego todo sprite sheet_11
+    21300024: dragoncito fuego todo sprite sheet_12
+    21300026: dragoncito fuego todo sprite sheet_13
+    21300028: dragoncito fuego todo sprite sheet_14
+    21300030: dragoncito fuego todo sprite sheet_15
+    21300032: dragoncito fuego todo sprite sheet_16
+    21300034: dragoncito fuego todo sprite sheet_17
+    21300036: dragoncito fuego todo sprite sheet_18
+    21300038: dragoncito fuego todo sprite sheet_19
+    21300040: dragoncito fuego todo sprite sheet_20
+    21300042: dragoncito fuego todo sprite sheet_21
+    21300044: dragoncito fuego todo sprite sheet_22
+    21300046: dragoncito fuego todo sprite sheet_23
+    21300048: dragoncito fuego todo sprite sheet_24
+    21300050: dragoncito fuego todo sprite sheet_25
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2466
+        width: 665
+        height: 619
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 2473
+        width: 680
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 2480
+        width: 692
+        height: 645
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 2474
+        width: 710
+        height: 652
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4097
+        y: 2474
+        width: 724
+        height: 666
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 2475
+        width: 636
+        height: 629
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 6221
+        y: 2472
+        width: 679
+        height: 639
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1651
+        width: 858
+        height: 648
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1648
+        width: 721
+        height: 609
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 1639
+        width: 731
+        height: 611
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1639
+        width: 730
+        height: 700
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4101
+        y: 1648
+        width: 753
+        height: 714
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5135
+        y: 1651
+        width: 809
+        height: 823
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 6179
+        y: 1644
+        width: 696
+        height: 627
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 825
+        width: 717
+        height: 623
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 818
+        width: 686
+        height: 686
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 821
+        width: 703
+        height: 737
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 825
+        width: 771
+        height: 760
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 818
+        width: 981
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 821
+        width: 1010
+        height: 566
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6152
+        y: 821
+        width: 1023
+        height: 583
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 963
+        height: 590
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 567
+        height: 646
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 0
+        width: 1011
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 0
+        width: 998
+        height: 463
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito fuego todo sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 0
+        width: 985
+        height: 454
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

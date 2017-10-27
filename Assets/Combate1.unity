@@ -1338,7 +1338,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 35.43, y: 24.8}
+  m_Size: {x: 6.92, y: 5.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3050,7 +3050,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1045374998034934, guid: 150ef4801cc5d5f44bfaa4f74175b757, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1045374998034934, guid: 150ef4801cc5d5f44bfaa4f74175b757, type: 2}
       propertyPath: m_TagString
@@ -3080,7 +3080,7 @@ Prefab:
         type: 2}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 4a00bb68e6d69b2448bca0f179d6225c, type: 2}
     - target: {fileID: 212023039811326462, guid: 150ef4801cc5d5f44bfaa4f74175b757,
         type: 2}
       propertyPath: m_Sprite
@@ -3266,7 +3266,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1101365994294502, guid: 3368281f5abee7848888f74bc46e9139, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1101365994294502, guid: 3368281f5abee7848888f74bc46e9139, type: 2}
       propertyPath: m_TagString
@@ -6499,7 +6499,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 35.43, y: 24.8}
+  m_Size: {x: 7.22, y: 5.5399995}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6795,7 +6795,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 35.43, y: 24.8}
+  m_Size: {x: 7.22, y: 5.5399995}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -7550,7 +7550,7 @@ SpriteRenderer:
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 35.43, y: 24.8}
+  m_Size: {x: 6.92, y: 5.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -7930,7 +7930,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 35.43, y: 24.8}
+  m_Size: {x: 8.7300005, y: 5.21}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -9250,7 +9250,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 35.43, y: 24.8}
+  m_Size: {x: 8.7300005, y: 5.21}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: a7ad2ea2d7305c64384fc18b09ac4be8
+timeCreated: 1509046997
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dragoncito aire sheet todo_6
+    21300002: dragoncito aire sheet todo_7
+    21300004: dragoncito aire sheet todo_8
+    21300006: dragoncito aire sheet todo_9
+    21300008: dragoncito aire sheet todo_10
+    21300010: dragoncito aire sheet todo_11
+    21300012: dragoncito aire sheet todo_12
+    21300014: dragoncito aire sheet todo_19
+    21300016: dragoncito aire sheet todo_22
+    21300018: dragoncito aire sheet todo_23
+    21300020: dragoncito aire sheet todo_24
+    21300022: dragoncito aire sheet todo_25
+    21300024: dragoncito aire sheet todo_28
+    21300026: dragoncito aire sheet todo_33
+    21300028: dragoncito aire sheet todo_34
+    21300030: dragoncito aire sheet todo_35
+    21300032: dragoncito aire sheet todo_36
+    21300034: dragoncito aire sheet todo_37
+    21300036: dragoncito aire sheet todo_38
+    21300038: dragoncito aire sheet todo_40
+    21300040: dragoncito aire sheet todo_42
+    21300042: dragoncito aire sheet todo_43
+    21300044: dragoncito aire sheet todo_44
+    21300046: dragoncito aire sheet todo_45
+    21300048: dragoncito aire sheet todo_0
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_6
+      rect:
+        serializedVersion: 2
+        x: 4833
+        y: 3242
+        width: 997
+        height: 740
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_7
+      rect:
+        serializedVersion: 2
+        x: 6049
+        y: 3228
+        width: 857
+        height: 926
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_8
+      rect:
+        serializedVersion: 2
+        x: 7267
+        y: 3238
+        width: 852
+        height: 807
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3227
+        width: 1086
+        height: 569
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_10
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 3228
+        width: 1084
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_11
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 3228
+        width: 1067
+        height: 552
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_12
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 3228
+        width: 1092
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2152
+        width: 909
+        height: 664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_22
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 2232
+        width: 864
+        height: 695
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_23
+      rect:
+        serializedVersion: 2
+        x: 6125
+        y: 2237
+        width: 1145
+        height: 728
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_24
+      rect:
+        serializedVersion: 2
+        x: 7368
+        y: 2284
+        width: 977
+        height: 695
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_25
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 2151
+        width: 1088
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_28
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 2162
+        width: 1022
+        height: 521
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_33
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 1074
+        width: 1027
+        height: 583
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_34
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 1074
+        width: 1033
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_35
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 1074
+        width: 981
+        height: 604
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_36
+      rect:
+        serializedVersion: 2
+        x: 6143
+        y: 1074
+        width: 995
+        height: 608
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_37
+      rect:
+        serializedVersion: 2
+        x: 7334
+        y: 1074
+        width: 1016
+        height: 616
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1074
+        width: 1086
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_40
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1074
+        width: 1044
+        height: 565
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 989
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_43
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 0
+        width: 989
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_44
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 0
+        width: 995
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_45
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 0
+        width: 992
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dragoncito aire sheet todo_0
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 2327
+        width: 996
+        height: 914
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

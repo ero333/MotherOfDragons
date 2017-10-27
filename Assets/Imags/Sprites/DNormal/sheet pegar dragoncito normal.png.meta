@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 85d3262d7e9c06c44990bfcd915392af
-timeCreated: 1508736337
+timeCreated: 1509063954
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -191,8 +191,8 @@ TextureImporter:
         y: 4166
         width: 3224
         height: 1008
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -317,8 +317,8 @@ TextureImporter:
         y: 2793
         width: 3224
         height: 1008
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,7 +327,7 @@ TextureImporter:
       name: sheet pegar dragoncito normal_14
       rect:
         serializedVersion: 2
-        x: 19347
+        x: 19325
         y: 3211
         width: 3224
         height: 1008
@@ -457,8 +457,8 @@ TextureImporter:
         y: 1365
         width: 3224
         height: 1008
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
