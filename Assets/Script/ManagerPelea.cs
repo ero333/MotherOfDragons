@@ -126,7 +126,6 @@ public class ManagerPelea : MonoBehaviour
 
 	void Start ()
 	{
-		Controlador.escenaPrevia = "Scene4";
 		if (Controlador.dragoncito1 < 0) {
 			barraAliado2.gameObject.SetActive (false);
 		}
@@ -332,7 +331,7 @@ public class ManagerPelea : MonoBehaviour
 		}
 		if (dragoncitoE2 > -1) {
 			dragonesForros [dragoncitoE2-DESFASAJE_ENEMIGOS].SetActive (true);
-			GameObject marca = GameObject.Find ("Marca Dragoncito 1 Enemigo");
+			GameObject marca = GameObject.Find ("Marca Dragoncito 2 Enemigo");
 			dragonesForros [dragoncitoE2-DESFASAJE_ENEMIGOS].transform.position = marca.transform.position;
 		}
 
@@ -536,7 +535,7 @@ public class ManagerPelea : MonoBehaviour
 					}
 				}
 				perdiste.Play ();
-				yield return new WaitForSeconds (5);
+				yield return new WaitForSeconds (7);
 				Controlador.escenaPrevia = "no";
 				SceneManager.LoadScene ("perfil1");
 			} 

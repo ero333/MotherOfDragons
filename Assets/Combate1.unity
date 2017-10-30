@@ -373,6 +373,12 @@ Prefab:
       propertyPath: Acciones.Array.data[1].animacionTrigger
       value: Especial
       objectReference: {fileID: 0}
+    - target: {fileID: 114241823388282588, guid: 53619836a230c414db7b99076230c12a,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b121b2f954cd3bc4791f297d39da202b,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53619836a230c414db7b99076230c12a, type: 2}
   m_IsPrefabParent: 0
@@ -1308,7 +1314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349.35992, y: -171.37}
+  m_AnchoredPosition: {x: 349.35995, y: -171.37}
   m_SizeDelta: {x: 86.19, y: 56.08}
   m_Pivot: {x: 0.51, y: 0.7003939}
 --- !u!223 &151168792
@@ -3326,6 +3332,12 @@ Prefab:
       propertyPath: Acciones.Array.data[1].objetivoEsElMismo
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114318102469784836, guid: 150ef4801cc5d5f44bfaa4f74175b757,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c6bdf2499380754c9f783ebce86dbac,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 150ef4801cc5d5f44bfaa4f74175b757, type: 2}
   m_IsPrefabParent: 0
@@ -3611,6 +3623,12 @@ Prefab:
       propertyPath: Acciones.Array.data[1].animacionTrigger
       value: Especial
       objectReference: {fileID: 0}
+    - target: {fileID: 114273242539125654, guid: 3368281f5abee7848888f74bc46e9139,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e84e0cbfcf942a64e97edfd32bdf5558,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3368281f5abee7848888f74bc46e9139, type: 2}
   m_IsPrefabParent: 0
@@ -3865,6 +3883,12 @@ Prefab:
       propertyPath: Acciones.Array.data[2].argumento
       value: -40
       objectReference: {fileID: 0}
+    - target: {fileID: 114178016265111528, guid: 2c8094cef7a43cd49a6c9950b77687a9,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 328e0f977aea1df41b06081356bbf2c4,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c8094cef7a43cd49a6c9950b77687a9, type: 2}
   m_IsPrefabParent: 0
@@ -5000,7 +5024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63.479965, y: -247}
+  m_AnchoredPosition: {x: 63.479965, y: -394}
   m_SizeDelta: {x: 472.5, y: 159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863513431
@@ -7969,7 +7993,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349.35986, y: -171.37}
+  m_AnchoredPosition: {x: 349.3599, y: -171.37}
   m_SizeDelta: {x: 86.19, y: 56.08}
   m_Pivot: {x: 0.51, y: 0.7003939}
 --- !u!1 &1726077819
