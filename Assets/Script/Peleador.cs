@@ -42,13 +42,12 @@ public class Peleador : MonoBehaviour {
 
 	void Atacar(int cant)
 	{
-		Debug.Log ("Peleador::Atacar(" + cant + ")");
 		CambiarVida (cant);
-		//animator.SetTrigger ("Attack");	
 	}
 
 	void Bloquear (int cant)
 	{
+		CambiarVida (cant);
 		animator.SetTrigger ("Bloqueo");	
 	}
 

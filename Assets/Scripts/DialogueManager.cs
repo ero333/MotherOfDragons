@@ -93,7 +93,29 @@ public class DialogueManager : MonoBehaviour {
 
 		switch(linea) {
 			case -1:
-			 
+				if(SceneManager.GetActiveScene().name == "Scene1"){
+					Controlador.HijosGanados[9] = true;
+					Controlador.escenaPrevia = "Scene1";
+					print (Controlador.HijosGanados[9]);
+				}
+				if(SceneManager.GetActiveScene().name == "Scene2"){
+					Controlador.HijosGanados[2] = true;
+					Controlador.escenaPrevia = "Scene2";
+				}
+				if(SceneManager.GetActiveScene().name == "Scene3"){
+					Controlador.HijosGanados[11] = true;
+					Controlador.escenaPrevia = "Scene3";
+				}
+				if(SceneManager.GetActiveScene().name == "Scene4"){
+					Controlador.HijosGanados[6] = true;
+					Controlador.escenaPrevia = "Scene4";
+				}
+				if(SceneManager.GetActiveScene().name == "Scene5"){
+					Controlador.HijosGanados[5] = true;
+					Controlador.escenaPrevia = "Scene5";
+					print (Controlador.escenaPrevia);
+				}
+				
 				print("COMBATE!");
 				//int sceneNum = SceneManager.GetActiveScene ().buildIndex;
 				//SceneManager.LoadScene (sceneNum+1);
@@ -101,27 +123,6 @@ public class DialogueManager : MonoBehaviour {
 				break;
 
 		case 0:
-			if(SceneManager.GetActiveScene().name == "Scene1"){
-				Controlador.HijosGanados[9] = true;
-				Controlador.escenaPrevia = "Scene1";
-				print (Controlador.HijosGanados[9]);
-			}
-			if(SceneManager.GetActiveScene().name == "Scene2"){
-				Controlador.HijosGanados[2] = true;
-				Controlador.escenaPrevia = "Scene2";
-			}
-			if(SceneManager.GetActiveScene().name == "Scene3"){
-				Controlador.HijosGanados[11] = true;
-				Controlador.escenaPrevia = "Scene3";
-			}
-			if(SceneManager.GetActiveScene().name == "Scene4"){
-				Controlador.HijosGanados[6] = true;
-				Controlador.escenaPrevia = "Scene4";
-			}
-			if(SceneManager.GetActiveScene().name == "Scene5"){
-				Controlador.HijosGanados[5] = true;
-				Controlador.escenaPrevia = "Scene5";
-			}
 
 			print ("HUEVITO!!");
 			animator.SetTrigger ("GANAR");

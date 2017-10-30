@@ -126,12 +126,7 @@ public class ManagerPelea : MonoBehaviour
 
 	void Start ()
 	{
-
-		Controlador.dragoncito1 = 9;
-		Controlador.HijosGanados [9] = true;
-		Controlador.escenaPrevia = "Scene1";
-		enemigoActual = 12;
-
+		Controlador.escenaPrevia = "Scene4";
 		if (Controlador.dragoncito1 < 0) {
 			barraAliado2.gameObject.SetActive (false);
 		}
