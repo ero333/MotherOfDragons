@@ -1129,17 +1129,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinci: {fileID: 1173097268}
-  dragNormal: {fileID: 0}
-  dragAgua: {fileID: 0}
-  dragFuego: {fileID: 0}
-  dragAire: {fileID: 0}
-  dragTierra: {fileID: 0}
-  dragArena: {fileID: 0}
-  dragLodo: {fileID: 0}
-  dragLava: {fileID: 0}
-  dragMetal: {fileID: 0}
-  dragHielo: {fileID: 0}
-  dragElectrico: {fileID: 0}
+  dragNormal: {fileID: 1674577529}
+  dragAgua: {fileID: 1460594314}
+  dragFuego: {fileID: 1046192417}
+  dragAire: {fileID: 852397342}
+  dragTierra: {fileID: 547027913}
+  dragArena: {fileID: 2077872836}
+  dragLodo: {fileID: 205640735}
+  dragLava: {fileID: 149256356}
+  dragMetal: {fileID: 581729871}
+  dragHielo: {fileID: 921580321}
+  dragElectrico: {fileID: 1097746306}
 --- !u!4 &402308291
 Transform:
   m_ObjectHideFlags: 0
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 694405976}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 73637ef813cb5b248ae139d13a51d075, type: 3}
   m_Name: 

@@ -19,8 +19,7 @@ public class Controlador : MonoBehaviour {
 
 	private int lastNumber;
 
-	void Start(){
-		lastNumber = -1;
+	void Awake(){
 		if(SceneManager.GetActiveScene().name == "perfil1" || SceneManager.GetActiveScene().name == "perfil2" || SceneManager.GetActiveScene().name == "perfil3" || SceneManager.GetActiveScene().name == "perfil4" || SceneManager.GetActiveScene().name == "perfil5"){
 			if(HijosGanados[9] == true){
 				dragNormal.enabled = true;
@@ -56,6 +55,11 @@ public class Controlador : MonoBehaviour {
 				dragFuego.enabled = true;
 			}
 		}
+	}
+
+	void Start(){
+		lastNumber = -1;
+
 
 	}
 

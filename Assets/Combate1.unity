@@ -3629,6 +3629,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: e84e0cbfcf942a64e97edfd32bdf5558,
         type: 3}
+    - target: {fileID: 114214293318687324, guid: 3368281f5abee7848888f74bc46e9139,
+        type: 2}
+      propertyPath: nombre
+      value: Mateo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3368281f5abee7848888f74bc46e9139, type: 2}
   m_IsPrefabParent: 0
