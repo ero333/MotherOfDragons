@@ -3,10 +3,13 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Analytics;
 
 public class Controlador : MonoBehaviour {
 	// En vez de esto hay que cargar los dragonciotosm que ya ganaste del save
 	public static bool[] HijosGanados = new bool[]{false, false, false, false, false, false, false, false, false, false, false, false};
+
+	public static int CantidadDeLikes = 0;
 
 	public static int dragoncito1 = -1;//el dragoncito nº1 que va a pelear, definido por un número del 0 al 10 
 	public static int dragoncito2 = -1;
@@ -16,6 +19,7 @@ public class Controlador : MonoBehaviour {
 
 	public GameObject coinci;
 	public Image dragNormal, dragAgua, dragFuego, dragAire, dragTierra, dragArena, dragLodo, dragLava, dragMetal, dragHielo, dragElectrico;
+
 
 	private int lastNumber;
 
@@ -104,6 +108,13 @@ public class Controlador : MonoBehaviour {
 
 
 	public void Coincidencia(string nombre){
+		CantidadDeLikes++;
+
+		Analytics.CustomEvent("Likear", new Dictionary<string, object>
+			{
+				{ "Quien",  SceneManager.GetActiveScene().name },
+				{ "Cantidad", CantidadDeLikes }
+			});
 
 		int randomCoinci = Random.Range (0, 100);
 		if (randomCoinci < 30) {
