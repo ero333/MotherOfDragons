@@ -11,6 +11,11 @@ public class Controlador : MonoBehaviour {
 
 	public static int CantidadDeLikes = 0;
 
+	public static float StartTime = 0;
+
+	public static int CantidadDeClicksEntrar = 0;
+	public static int CantidadDeClicksSalir = 0;
+
 	public static int dragoncito1 = -1;//el dragoncito nº1 que va a pelear, definido por un número del 0 al 10 
 	public static int dragoncito2 = -1;
 
@@ -59,6 +64,9 @@ public class Controlador : MonoBehaviour {
 				dragFuego.enabled = true;
 			}
 		}
+
+		StartTime = Time.time;
+
 	}
 
 	void Start(){
@@ -93,8 +101,26 @@ public class Controlador : MonoBehaviour {
 	public void CambiarAtras(string nombre){
 
 		print("Cambiando a la escena " + nombre);
-		SceneManager.LoadScene(nombre);
+	
+		// Voy a carga el video de presentacion del juego y luego a perfil1
+		if (nombre == "portada") { 
+			StartTime = Time.time;
+			CantidadDeClicksEntrar++;
+			Analytics.CustomEvent ("Empezar", new Dictionary<string, object> {
+				{ "vez", CantidadDeClicksEntrar },
+			});
+		}
 
+		// Voy al menu principal
+		if (nombre == "juego") { 
+			CantidadDeClicksSalir++;
+			Analytics.CustomEvent ("SalirTander", new Dictionary<string, object> {
+				{ "vez", CantidadDeClicksSalir },
+				{ "time", Time.time-StartTime },
+			});
+		}
+
+		SceneManager.LoadScene(nombre);
 	}
 
 	IEnumerator Esperar() {
@@ -115,6 +141,8 @@ public class Controlador : MonoBehaviour {
 				{ "Quien",  SceneManager.GetActiveScene().name },
 				{ "Cantidad", CantidadDeLikes }
 			});
+				
+
 
 		int randomCoinci = Random.Range (0, 100);
 		if (randomCoinci < 30) {
@@ -131,6 +159,10 @@ public class Controlador : MonoBehaviour {
 
 	public void Salir (){
 		print("Saliendo del juego");
+		Analytics.CustomEvent ("Salir", new Dictionary<string, object> {
+			{ "time", Time.time },
+		});
+
 		Application.Quit();
 	}
 }
