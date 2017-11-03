@@ -47,18 +47,26 @@ public class Peleador : MonoBehaviour {
 
 	void Bloquear (int cant)
 	{
-		CambiarVida (cant);
+		if(vida <=80){
+			CambiarVida (cant);
+		}
+			
 		animator.SetTrigger ("Bloqueo");	
 	}
 
 
-
+	void Curar (int cant){
+		
+		if(vida <= 80){
+			vida += cant;
+		}
+	}
 
 	void CambiarVida(int cant){
 
 		//barra.AddHealth( (float) cant );
-
 		vida += cant;
+
 		if( cant < 0 )
 			animator.SetTrigger ("Daño");	
 

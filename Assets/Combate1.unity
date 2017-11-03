@@ -921,7 +921,7 @@ MonoBehaviour:
     costoMana: 0
   - nombre: Curar
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Curar
     argumento: 20
     animacionTrigger: Curar
     costoMana: 0
@@ -1882,6 +1882,11 @@ Prefab:
     - target: {fileID: 114236686481228490, guid: 27407c66123e55942b825ec482d7684c,
         type: 2}
       propertyPath: Acciones.Array.data[2].animacionTrigger
+      value: Curar
+      objectReference: {fileID: 0}
+    - target: {fileID: 114236686481228490, guid: 27407c66123e55942b825ec482d7684c,
+        type: 2}
+      propertyPath: Acciones.Array.data[2].mensaje
       value: Curar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3634,6 +3639,11 @@ Prefab:
       propertyPath: nombre
       value: Mateo
       objectReference: {fileID: 0}
+    - target: {fileID: 114214293318687324, guid: 3368281f5abee7848888f74bc46e9139,
+        type: 2}
+      propertyPath: Acciones.Array.data[2].mensaje
+      value: Curar
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3368281f5abee7848888f74bc46e9139, type: 2}
   m_IsPrefabParent: 0
@@ -3894,6 +3904,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 328e0f977aea1df41b06081356bbf2c4,
         type: 3}
+    - target: {fileID: 114689230102590254, guid: 2c8094cef7a43cd49a6c9950b77687a9,
+        type: 2}
+      propertyPath: Acciones.Array.data[1].mensaje
+      value: Curar
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c8094cef7a43cd49a6c9950b77687a9, type: 2}
   m_IsPrefabParent: 0
@@ -5029,7 +5044,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63.479965, y: -394}
+  m_AnchoredPosition: {x: 13, y: -245}
   m_SizeDelta: {x: 472.5, y: 159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863513431
@@ -8311,9 +8326,9 @@ MonoBehaviour:
     costoMana: 0
   - nombre: Curar
     objetivoEsElMismo: 0
-    mensaje: CambiarVida
+    mensaje: Curar
     argumento: 30
-    animacionTrigger: Ataque
+    animacionTrigger: Curar
     costoMana: 0
   nombre: Dragoncito Agua
   mana: 100
@@ -9631,9 +9646,9 @@ MonoBehaviour:
     costoMana: 0
   - nombre: Curar
     objetivoEsElMismo: 1
-    mensaje: CambiarVida
+    mensaje: Curar
     argumento: 20
-    animacionTrigger: Ataque
+    animacionTrigger: Curar
     costoMana: 0
   nombre: Dragoncito Agua
   mana: 100

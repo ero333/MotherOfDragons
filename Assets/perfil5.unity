@@ -1256,7 +1256,6 @@ GameObject:
   - component: {fileID: 694405979}
   - component: {fileID: 694405978}
   - component: {fileID: 694405977}
-  - component: {fileID: 694405981}
   m_Layer: 5
   m_Name: Canvas2
   m_TagString: Untagged
@@ -1350,29 +1349,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &694405981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 694405976}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73637ef813cb5b248ae139d13a51d075, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinci: {fileID: 1173097268}
-  dragNormal: {fileID: 0}
-  dragAgua: {fileID: 0}
-  dragFuego: {fileID: 0}
-  dragAire: {fileID: 0}
-  dragTierra: {fileID: 0}
-  dragArena: {fileID: 0}
-  dragLodo: {fileID: 0}
-  dragLava: {fileID: 0}
-  dragMetal: {fileID: 0}
-  dragHielo: {fileID: 0}
-  dragElectrico: {fileID: 0}
 --- !u!1 &776897604
 GameObject:
   m_ObjectHideFlags: 0
