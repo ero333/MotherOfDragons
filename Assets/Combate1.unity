@@ -1314,7 +1314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349.35995, y: -171.37}
+  m_AnchoredPosition: {x: 349.35992, y: -171.37}
   m_SizeDelta: {x: 86.19, y: 56.08}
   m_Pivot: {x: 0.51, y: 0.7003939}
 --- !u!223 &151168792
@@ -1847,7 +1847,7 @@ Prefab:
     - target: {fileID: 114236686481228490, guid: 27407c66123e55942b825ec482d7684c,
         type: 2}
       propertyPath: Acciones.Array.data[1].nombre
-      value: Especial
+      value: Golpear
       objectReference: {fileID: 0}
     - target: {fileID: 114236686481228490, guid: 27407c66123e55942b825ec482d7684c,
         type: 2}
@@ -1857,12 +1857,12 @@ Prefab:
     - target: {fileID: 114236686481228490, guid: 27407c66123e55942b825ec482d7684c,
         type: 2}
       propertyPath: Acciones.Array.data[1].argumento
-      value: -40
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 114236686481228490, guid: 27407c66123e55942b825ec482d7684c,
         type: 2}
       propertyPath: Acciones.Array.data[1].animacionTrigger
-      value: Especial
+      value: Ataque
       objectReference: {fileID: 0}
     - target: {fileID: 114236686481228490, guid: 27407c66123e55942b825ec482d7684c,
         type: 2}
@@ -8013,7 +8013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349.3599, y: -171.37}
+  m_AnchoredPosition: {x: 349.35986, y: -171.37}
   m_SizeDelta: {x: 86.19, y: 56.08}
   m_Pivot: {x: 0.51, y: 0.7003939}
 --- !u!1 &1726077819

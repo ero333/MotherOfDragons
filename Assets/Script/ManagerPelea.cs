@@ -475,14 +475,16 @@ public class ManagerPelea : MonoBehaviour
 
 							indicadorTurno.SetActive (true);
 							indicadorTurno.transform.position = marcaDragon.transform.position;
-
+							yield return new WaitForSeconds (1/2);
 
 							int acciontomada = Random.Range (0, peleador.Acciones.Count);
 
 							if (peleador.Acciones [acciontomada].nombre == "Curar") {
 								c = peleador.EjecutarAccion (peleador.Acciones [acciontomada], peleadores [ElegirEnemigo ()].transform);								
 							} else {
+								yield return new WaitForSeconds (1/2);
 								c = peleador.EjecutarAccion (peleador.Acciones [acciontomada], peleadores [ElegirAliado ()].transform);	
+
 							}
 							//c = peleador.EjecutarAccion (peleador.Acciones [Random.Range (0, peleador.Acciones.Count)],	peleadores [Random.Range (0, (peleadores.Count - 2))].transform);	
 							
