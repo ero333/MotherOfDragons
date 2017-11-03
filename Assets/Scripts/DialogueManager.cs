@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Video;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -16,11 +16,11 @@ public class DialogueManager : MonoBehaviour {
 	public Text dialogueBox;
 	public Text nameBox;
 	public ChoiceButton choiceBox1, choiceBox2, choiceBox3;
-
+	public VideoPlayer romance;
 
 	// Use this for initialization
 	void Start () {
-
+		romance.Prepare ();
 		dialogue = "";
 		characterName = "Mateo";
 		pose = 0;
@@ -57,6 +57,11 @@ public class DialogueManager : MonoBehaviour {
 
 	IEnumerator Esperar() {
 		Debug.Log("HUEVITO");
+		romance.Play ();
+		yield return new WaitForSeconds(11);
+		romance.Stop ();
+		animator.SetTrigger ("GANAR");
+		ganaste.enabled = true;
 		yield return new WaitForSeconds(5);
 		SceneManager.LoadScene ("perfil1");
 	}
@@ -138,8 +143,6 @@ public class DialogueManager : MonoBehaviour {
 			}
 
 			print ("HUEVITO!!");
-			animator.SetTrigger ("GANAR");
-			ganaste.enabled = true;
 			StartCoroutine (Esperar());
 
 				break;

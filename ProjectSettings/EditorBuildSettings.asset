@@ -41,12 +41,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Combate1.unity
     guid: 42dca41fb1ebd28448c1de9090ecc8f2
+  - enabled: 1
+    path: Assets/portada.unity
+    guid: 3adb6b0179147b5498e282c88c8d7b8a
   - enabled: 0
     path: 
     guid: 9c6d24c690782464f87e7c61193c010d
-  - enabled: 0
-    path: Assets/portada.unity
-    guid: 3adb6b0179147b5498e282c88c8d7b8a
   - enabled: 0
     path: 
     guid: 8cc9be8c769d2cc41a8537a25dd0ae16
