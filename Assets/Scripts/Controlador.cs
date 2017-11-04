@@ -13,6 +13,7 @@ public class Controlador : MonoBehaviour {
 	public static bool[] HijosGanados = new bool[]{false, false, false, false, false, false, false, false, false, false, false, false};
 
 	public static int CantidadDeLikes = 0;
+	public static int CantidadDeDislikes = 0;
 
 	public static float StartTime = 0;
 
@@ -195,6 +196,8 @@ public class Controlador : MonoBehaviour {
 				{ "Quien",  SceneManager.GetActiveScene().name },
 				{ "Cantidad", CantidadDeLikes }
 			});
+
+
 				
 
 
@@ -206,6 +209,15 @@ public class Controlador : MonoBehaviour {
 		}
 
 		else {
+			
+			CantidadDeDislikes++;
+
+			Analytics.CustomEvent("DesLikear", new Dictionary<string, object>
+				{
+					{ "Quien",  SceneManager.GetActiveScene().name },
+					{ "Cantidad", CantidadDeDislikes }
+				});
+			
 			CambiarEscena();
 		}
 
