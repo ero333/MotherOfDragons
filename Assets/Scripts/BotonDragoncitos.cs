@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Analytics;
+
 
 public class BotonDragoncitos : MonoBehaviour {
 
 	public bool ButtonOn = false;
 
+	public static int SeleccionDragoncito = 0;
+
 	public void BeenClicked(){
+
 		ButtonOn = !ButtonOn;
 		if (ButtonOn) {
 			gameObject.GetComponent<Image> ().color = new Color32 (92, 223, 223, 255);
@@ -17,11 +22,24 @@ public class BotonDragoncitos : MonoBehaviour {
 	}
 
 	public void OnClick (int d){
+		
 		Seleccion (d);
 
 	}
 
 	void Seleccion(int D){
+
+
+		string[] dragoncitos = new string[] { "", "ARENA", "TIERA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
+
+		SeleccionDragoncito++;
+
+		Analytics.CustomEvent("SeleccionarHijo", new Dictionary<string, object>
+			{
+				{ "cual",  dragoncitos[D]},
+				{ "cantidad", SeleccionDragoncito }
+			});
+		
 		if(Controlador.HijosGanados[D]){
 			if(Controlador.dragoncito1 == -1){
 				Controlador.dragoncito1 = D;
