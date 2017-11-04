@@ -522,19 +522,19 @@ public class ManagerPelea : MonoBehaviour
 				Debug.Log ("PERDISTE");
 				if (Controlador.dragoncito1 > -1) {
 					if (Controlador.escenaPrevia == "Scene1") {
-						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+						Controlador.PederHijo(Controlador.dragoncito1);
 					}
 					if (Controlador.escenaPrevia == "Scene2") {
-						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+						Controlador.PederHijo(Controlador.dragoncito1);
 					}
 					if (Controlador.escenaPrevia == "Scene3") {
-						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+						Controlador.PederHijo(Controlador.dragoncito1);
 					}
 					if (Controlador.escenaPrevia == "Scene4") {
-						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+						Controlador.PederHijo(Controlador.dragoncito1);
 					}
 					if (Controlador.escenaPrevia == "Scene5") {
-						Controlador.HijosGanados [Controlador.dragoncito1] = false;
+						Controlador.PederHijo(Controlador.dragoncito1);
 					}
 				}
 				perdiste.Play ();
@@ -547,19 +547,19 @@ public class ManagerPelea : MonoBehaviour
 				Debug.Log ("GANASTE");
 				if(dragoncitoE1>-1){
 					if(Controlador.escenaPrevia == "Scene1"){
-						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
 					if(Controlador.escenaPrevia == "Scene2"){
-						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
 					if(Controlador.escenaPrevia == "Scene3"){
-						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
 					if(Controlador.escenaPrevia == "Scene4"){
-						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
 					if(Controlador.escenaPrevia == "Scene5"){
-						Controlador.HijosGanados[dragoncitoE1-DESFASAJE_ENEMIGOS] = true;
+						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
 				}
 				ganaste.Play ();

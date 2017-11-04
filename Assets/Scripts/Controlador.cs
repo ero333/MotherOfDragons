@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Analytics;
+using System.Text;
+using System.IO;
+using System.Text.RegularExpressions;
 
 public class Controlador : MonoBehaviour {
 	// En vez de esto hay que cargar los dragonciotosm que ya ganaste del save
@@ -27,6 +30,8 @@ public class Controlador : MonoBehaviour {
 
 
 	private int lastNumber;
+
+	public Text guardarPartida;
 
 	void Awake(){
 		if(SceneManager.GetActiveScene().name == "perfil1" || SceneManager.GetActiveScene().name == "perfil2" || SceneManager.GetActiveScene().name == "perfil3" || SceneManager.GetActiveScene().name == "perfil4" || SceneManager.GetActiveScene().name == "perfil5"){
@@ -66,7 +71,7 @@ public class Controlador : MonoBehaviour {
 		}
 
 		StartTime = Time.time;
-
+		Load(Application.streamingAssetsPath + "/Save.txt");
 	}
 
 	void Start(){
@@ -74,6 +79,55 @@ public class Controlador : MonoBehaviour {
 
 
 	}
+
+	public static void Load(string filename) {
+		string line;
+		Debug.Log ("Load");
+		StreamReader r = new StreamReader (filename);
+		using (r) {
+			do {
+				line = r.ReadLine();
+
+				if (line != null){
+					Debug.Log(line);
+					string[] lineData = line.Split(';');
+					for (int j = 0; j < 11; j++) {
+						Controlador.HijosGanados[j+1]= false;
+						Debug.Log((j+1) +" "+ lineData[j]);
+						if( lineData[j] == "True")
+							Controlador.HijosGanados[j+1]= true;
+						
+					}
+
+				}
+			}
+			while (line != null);
+			r.Close();
+		}
+	}
+
+	public static void Save(string filename) {
+		Debug.Log ("Save");
+				string line="";
+		StreamWriter writer = new StreamWriter(filename);
+		for (int j = 1; j < 12; j++) {
+			line += HijosGanados[j] + ";"; 
+		}
+		Debug.Log (line);
+		writer.WriteLine(line);
+		writer.Close();
+	}
+		
+	public static void GanarHijo(int cual) {
+		Controlador.HijosGanados[cual] = true;
+		Save (Application.streamingAssetsPath + "/Save.txt");
+	}
+
+	public static void PederHijo(int cual) {
+		Controlador.HijosGanados[cual] = true;
+		Save (Application.streamingAssetsPath + "/Save.txt");
+	}
+
 
 	int GetRandom (int min, int max)
 	{

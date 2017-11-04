@@ -122,23 +122,23 @@ public class DialogueManager : MonoBehaviour {
 
 		case 0:
 			if(SceneManager.GetActiveScene().name == "Scene1"){
-				Controlador.HijosGanados[9] = true;
+				Controlador.GanarHijo(9);
 				Controlador.escenaPrevia = "Scene1";
 			}
 			if(SceneManager.GetActiveScene().name == "Scene2"){
-				Controlador.HijosGanados[2] = true;
+				Controlador.GanarHijo(2);
 				Controlador.escenaPrevia = "Scene2";
 			}
 			if(SceneManager.GetActiveScene().name == "Scene3"){
-				Controlador.HijosGanados[11] = true;
+				Controlador.GanarHijo(11);
 				Controlador.escenaPrevia = "Scene3";
 			}
 			if(SceneManager.GetActiveScene().name == "Scene4"){
-				Controlador.HijosGanados[6] = true;
+				Controlador.GanarHijo(6);
 				Controlador.escenaPrevia = "Scene4";
 			}
 			if(SceneManager.GetActiveScene().name == "Scene5"){
-				Controlador.HijosGanados[5] = true;
+				Controlador.GanarHijo(5);
 				Controlador.escenaPrevia = "Scene5";
 			}
 
