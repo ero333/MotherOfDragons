@@ -717,6 +717,7 @@ MonoBehaviour:
   dragMetal: {fileID: 491170949}
   dragHielo: {fileID: 2008232464}
   dragElectrico: {fileID: 1281400317}
+  guardarPartida: {fileID: 0}
 --- !u!4 &402308291
 Transform:
   m_ObjectHideFlags: 0
@@ -1154,7 +1155,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -763, y: -192.75}
-  m_SizeDelta: {x: 330, y: 93.2}
+  m_SizeDelta: {x: 103.6, y: 93.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &690657271
 MonoBehaviour:
@@ -3846,7 +3847,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -578.3, y: -191.65}
-  m_SizeDelta: {x: 330, y: 93.2}
+  m_SizeDelta: {x: 101.7, y: 93.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083497114
 MonoBehaviour:
@@ -3888,8 +3889,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 402308290}
-        m_MethodName: Coincidencia
-        m_Mode: 5
+        m_MethodName: CambiarEscena
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
