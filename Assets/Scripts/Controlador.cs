@@ -77,8 +77,6 @@ public class Controlador : MonoBehaviour {
 
 	void Start(){
 		lastNumber = -1;
-
-
 	}
 
 	public static void Load(string filename) {
