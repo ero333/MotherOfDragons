@@ -8,11 +8,9 @@ using UnityEngine.Analytics;
 public class BotonDragoncitos : MonoBehaviour {
 
 	public bool ButtonOn = false;
-
 	public static int SeleccionDragoncito = 0;
 
 	public void BeenClicked(){
-
 		ButtonOn = !ButtonOn;
 		if (ButtonOn) {
 			gameObject.GetComponent<Image> ().color = new Color32 (92, 223, 223, 255);
@@ -24,7 +22,6 @@ public class BotonDragoncitos : MonoBehaviour {
 	public void OnClick (int d){
 		
 		Seleccion (d);
-
 	}
 
 	void Seleccion(int D){
