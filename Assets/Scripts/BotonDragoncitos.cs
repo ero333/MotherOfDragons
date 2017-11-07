@@ -27,7 +27,7 @@ public class BotonDragoncitos : MonoBehaviour {
 	void Seleccion(int D){
 
 
-		string[] dragoncitos = new string[] { "", "ARENA", "TIERA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
+		string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
 
 		SeleccionDragoncito++;
 

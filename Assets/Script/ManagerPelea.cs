@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using UnityEngine.Analytics;
 
 public class ManagerPelea : MonoBehaviour
 {
@@ -70,6 +71,25 @@ public class ManagerPelea : MonoBehaviour
 		}
 		singleton = this;
 
+
+
+			
+			Analytics.CustomEvent("PeleaEmepezar", new Dictionary<string, object>
+				{
+
+					{ "Dragoncito 1", Controlador.dragoncito1},
+					{ "Dragoncito 2", Controlador.dragoncito2},
+					{ "Enemigo",  Controlador.escenaPrevia }
+
+				});
+		
+
+	
+
+		
+			
+
+
 	}
 
 
@@ -126,6 +146,8 @@ public class ManagerPelea : MonoBehaviour
 
 	void Start ()
 	{
+
+
 		if (Controlador.dragoncito1 < 0) {
 			barraAliado2.gameObject.SetActive (false);
 		}
