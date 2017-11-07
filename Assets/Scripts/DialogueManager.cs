@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using UnityEngine.Analytics;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -17,6 +18,9 @@ public class DialogueManager : MonoBehaviour {
 	public Text nameBox;
 	public ChoiceButton choiceBox1, choiceBox2, choiceBox3;
 	public VideoPlayer romance;
+
+	public static string resultado = "";
+	public static float StartTime = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -39,6 +43,19 @@ public class DialogueManager : MonoBehaviour {
 
 		//SpriteRenderer ganaste = GameObject.Find ("huevito").GetComponent<SpriteRenderer> ();
 		//SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>(); 
+
+		Analytics.CustomEvent ("DialogosEmpezar", new Dictionary<string, object> {
+			{ "quien", SceneManager.GetActiveScene().name }
+		});
+
+
+	}
+
+	void Awake(){
+
+		StartTime = Time.time;
+
+
 
 	}
 
@@ -113,7 +130,14 @@ public class DialogueManager : MonoBehaviour {
 				if(SceneManager.GetActiveScene().name == "Scene5"){
 					Controlador.escenaPrevia = "Scene5";
 				}
-				
+				resultado = "Pelea";
+
+			Analytics.CustomEvent ("DialogosFin", new Dictionary<string, object> {
+				{ "Resultado", resultado },
+				{ "Quien", SceneManager.GetActiveScene().name },
+				{ "Time", Time.time-StartTime }
+			});
+
 				print("COMBATE!");
 				//int sceneNum = SceneManager.GetActiveScene ().buildIndex;
 				//SceneManager.LoadScene (sceneNum+1);
@@ -121,26 +145,35 @@ public class DialogueManager : MonoBehaviour {
 				break;
 
 		case 0:
-			if(SceneManager.GetActiveScene().name == "Scene1"){
-				Controlador.GanarHijo(9);
+			if (SceneManager.GetActiveScene ().name == "Scene1") {
+				Controlador.GanarHijo (9);
 				Controlador.escenaPrevia = "Scene1";
 			}
-			if(SceneManager.GetActiveScene().name == "Scene2"){
-				Controlador.GanarHijo(2);
+			if (SceneManager.GetActiveScene ().name == "Scene2") {
+				Controlador.GanarHijo (2);
 				Controlador.escenaPrevia = "Scene2";
 			}
-			if(SceneManager.GetActiveScene().name == "Scene3"){
-				Controlador.GanarHijo(11);
+			if (SceneManager.GetActiveScene ().name == "Scene3") {
+				Controlador.GanarHijo (11);
 				Controlador.escenaPrevia = "Scene3";
 			}
-			if(SceneManager.GetActiveScene().name == "Scene4"){
-				Controlador.GanarHijo(6);
+			if (SceneManager.GetActiveScene ().name == "Scene4") {
+				Controlador.GanarHijo (6);
 				Controlador.escenaPrevia = "Scene4";
 			}
-			if(SceneManager.GetActiveScene().name == "Scene5"){
-				Controlador.GanarHijo(5);
+			if (SceneManager.GetActiveScene ().name == "Scene5") {
+				Controlador.GanarHijo (5);
 				Controlador.escenaPrevia = "Scene5";
 			}
+
+			resultado = "Ganaste";
+
+			Analytics.CustomEvent ("DialogosFin", new Dictionary<string, object> {
+				{ "Resultado", resultado },
+				{ "Quien", SceneManager.GetActiveScene().name },
+				{ "Time", Time.time-StartTime }
+			});
+
 
 			print ("HUEVITO!!");
 			StartCoroutine (Esperar());

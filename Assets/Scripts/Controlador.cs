@@ -119,11 +119,33 @@ public class Controlador : MonoBehaviour {
 		
 	public static void GanarHijo(int cual) {
 		Controlador.HijosGanados[cual] = true;
+
+		string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
+
+
+		Analytics.CustomEvent("TenerHijo", new Dictionary<string, object>
+			{
+				{ "Padre",  escenaPrevia },
+				{ "Cual",  dragoncitos[cual]}
+
+			});
+		
 		Save (Application.streamingAssetsPath + "/Save.txt");
 	}
 
 	public static void PederHijo(int cual) {
-		Controlador.HijosGanados[cual] = true;
+		Controlador.HijosGanados[cual] = false;
+
+		string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
+
+
+		Analytics.CustomEvent("PerderHijo", new Dictionary<string, object>
+			{
+				{ "Enemigo",  escenaPrevia },
+				{ "Cual",  dragoncitos[cual]}
+
+			});
+		
 		Save (Application.streamingAssetsPath + "/Save.txt");
 	}
 
@@ -187,6 +209,7 @@ public class Controlador : MonoBehaviour {
 
 
 	public void Coincidencia(string nombre){
+		
 		CantidadDeLikes++;
 
 		Analytics.CustomEvent("Likear", new Dictionary<string, object>
