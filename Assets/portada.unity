@@ -253,6 +253,7 @@ MonoBehaviour:
   dragMetal: {fileID: 0}
   dragHielo: {fileID: 0}
   dragElectrico: {fileID: 0}
+  guardarPartida: {fileID: 0}
 --- !u!4 &638801014
 Transform:
   m_ObjectHideFlags: 0
@@ -404,7 +405,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1961045020}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: e0be855d3a31c7d4ea67eeea75ed1f46, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a1b459a726541f946ac74b21d4527aa2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera: {fileID: 2077627478}
   m_TargetTexture: {fileID: 0}

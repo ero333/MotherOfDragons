@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CutScene : MonoBehaviour {
 	IEnumerator Esperar() {
-		yield return new WaitForSeconds(11);
+		yield return new WaitForSeconds(40);
 		SceneManager.LoadScene ("perfil1");
 	}
 
