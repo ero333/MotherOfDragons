@@ -13,6 +13,8 @@ public class Controlador : MonoBehaviour {
 	public static bool[] HijosGanados = new bool[]{false, false, false, false, false, false, false, false, false, false, false, false};
 
 	public static int CantidadDeLikes = 0;
+	public static int CantidadDeCoincidencias = 0;
+
 	public static int CantidadDeDislikes = 0;
 
 	public static float StartTime = 0;
@@ -169,8 +171,8 @@ public class Controlador : MonoBehaviour {
 		//if (perfilesIndice != perfilesIndice) {
 
 		int perfilesIndice = GetRandom(1,6);
-
 		SceneManager.LoadScene ("perfil" + perfilesIndice.ToString ());
+
 	}
 
 	public void CambiarAtras(string nombre){
@@ -199,6 +201,12 @@ public class Controlador : MonoBehaviour {
 	}
 
 	IEnumerator Esperar() {
+		Analytics.CustomEvent("Coincidencia", new Dictionary<string, object>
+			{
+				{ "Quien",  SceneManager.GetActiveScene().name },
+				{ "Cantidad", CantidadDeCoincidencias }
+
+			});
 		Debug.Log("Coinci!");
 		coinci.GetComponent<Image> ().enabled = true;
 		yield return new WaitForSeconds(3);
