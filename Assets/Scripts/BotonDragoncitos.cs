@@ -42,13 +42,16 @@ public class BotonDragoncitos : MonoBehaviour {
 				Controlador.dragoncito1 = D;
 				Debug.Log ("d1 es " + Controlador.dragoncito1);
 			}
-			if (Controlador.dragoncito2 == -1) {
+			if (Controlador.dragoncito2 == -1 && Controlador.dragoncito1 != -1 && D != Controlador.dragoncito1) {
 				Controlador.dragoncito2 = D;
 				Debug.Log ("d2 es " + Controlador.dragoncito2);
 			} else {
-				Controlador.dragoncito2 = Controlador.dragoncito1;
-				Controlador.dragoncito1 = D;
-				Debug.Log ("d1 es:" + Controlador.dragoncito1 + ", y d2 es:" + Controlador.dragoncito2);
+				if(Controlador.dragoncito1 != -1 && Controlador.dragoncito2 != -1){
+					Controlador.dragoncito2 = Controlador.dragoncito1;
+					Controlador.dragoncito1 = D;
+					Debug.Log ("d1 es:" + Controlador.dragoncito1 + ", y d2 es:" + Controlador.dragoncito2);	
+				}
+
 			}
 		}
 	}
