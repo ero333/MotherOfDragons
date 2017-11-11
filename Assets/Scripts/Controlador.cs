@@ -22,6 +22,9 @@ public class Controlador : MonoBehaviour {
 	public static int CantidadDeClicksEntrar = 0;
 	public static int CantidadDeClicksSalir = 0;
 
+
+	public static int cantidadCoincidencias = 0 ;
+
 	public static int dragoncito1 = -1;//el dragoncito nº1 que va a pelear, definido por un número del 0 al 10 
 	public static int dragoncito2 = -1;
 	public GameObject botones;
@@ -179,10 +182,12 @@ public class Controlador : MonoBehaviour {
 	}
 
 	IEnumerator Esperar() {
+
+		cantidadCoincidencias++;
 		Analytics.CustomEvent("Coincidencia", new Dictionary<string, object>
 			{
 				{ "Quien",  SceneManager.GetActiveScene().name },
-				{ "Cantidad", CantidadDeCoincidencias }
+				{ "Cantidad", cantidadCoincidencias }
 
 			});
 		Debug.Log("Coinci!");
