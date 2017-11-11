@@ -24,12 +24,14 @@ public class Controlador : MonoBehaviour {
 
 	public static int dragoncito1 = -1;//el dragoncito nº1 que va a pelear, definido por un número del 0 al 10 
 	public static int dragoncito2 = -1;
-
+	public GameObject botones;
 
 	public static string escenaPrevia = "Scene1";
 
 	public GameObject coinci;
-	public Image dragNormal, dragAgua, dragFuego, dragAire, dragTierra, dragArena, dragLodo, dragLava, dragMetal, dragHielo, dragElectrico;
+
+	[SerializeField]
+	public Image[] botonesDragoncitos;
 
 
 	private int lastNumber;
@@ -37,44 +39,20 @@ public class Controlador : MonoBehaviour {
 	public Text guardarPartida;
 
 	void Awake(){
+
 		if(SceneManager.GetActiveScene().name == "perfil1" || SceneManager.GetActiveScene().name == "perfil2" || SceneManager.GetActiveScene().name == "perfil3" || SceneManager.GetActiveScene().name == "perfil4" || SceneManager.GetActiveScene().name == "perfil5"){
-			if(HijosGanados[9] == true){
-				dragNormal.enabled = true;
-			}
-			if(HijosGanados[1] == true){
-				dragArena.enabled = true;
-			}
-			if(HijosGanados[2] == true){
-				dragTierra.enabled = true;
-			}
-			if(HijosGanados[3] == true){
-				dragElectrico.enabled = true;
-			}
-			if(HijosGanados[4] == true){
-				dragMetal.enabled = true;
-			}
-			if(HijosGanados[5] == true){
-				dragAgua.enabled = true;
-			}
-			if(HijosGanados[6] == true){
-				dragAire.enabled = true;
-			}
-			if(HijosGanados[7] == true){
-				dragLodo.enabled = true;
-			}
-			if(HijosGanados[8] == true){
-				dragLava.enabled = true;
-			}
-			if(HijosGanados[10] == true){
-				dragHielo.enabled = true;
-			}
-			if(HijosGanados[11] == true){
-				dragFuego.enabled = true;
+			string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
+			for ( int i=1; i<12 ; i++)
+			{
+				if(HijosGanados[i]) {
+					botonesDragoncitos[i].enabled=true;
+				}
 			}
 		}
 
 		StartTime = Time.time;
 		Load(Application.streamingAssetsPath + "/Save.txt");
+
 	}
 
 	void Start(){

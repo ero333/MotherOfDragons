@@ -1282,18 +1282,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73637ef813cb5b248ae139d13a51d075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  botones: {fileID: 0}
   coinci: {fileID: 1173097268}
-  dragNormal: {fileID: 731799572}
-  dragAgua: {fileID: 2042287882}
-  dragFuego: {fileID: 1083229194}
-  dragAire: {fileID: 1152496694}
-  dragTierra: {fileID: 955583067}
-  dragArena: {fileID: 266939764}
-  dragLodo: {fileID: 218527817}
-  dragLava: {fileID: 60143848}
-  dragMetal: {fileID: 737273931}
-  dragHielo: {fileID: 313888072}
-  dragElectrico: {fileID: 1605013543}
+  botonesDragoncitos:
+  - {fileID: 260070474}
+  - {fileID: 266939764}
+  - {fileID: 955583067}
+  - {fileID: 1605013543}
+  - {fileID: 737273931}
+  - {fileID: 2042287882}
+  - {fileID: 1152496694}
+  - {fileID: 218527817}
+  - {fileID: 60143848}
+  - {fileID: 731799572}
+  - {fileID: 313888072}
+  - {fileID: 1083229194}
+  guardarPartida: {fileID: 0}
 --- !u!4 &402308291
 Transform:
   m_ObjectHideFlags: 0
