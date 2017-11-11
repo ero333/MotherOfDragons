@@ -16,6 +16,11 @@ public class ManagerPelea : MonoBehaviour
 	public List<Peleador> peleadores;
 	public List<Peleador> dragoncitosEnemigos;
 
+	public static string resultado = "";
+	public static float StartTime = 0;
+
+	public static int CantidadDeTurnos = 0;
+
 	public VideoPlayer ganaste;
 	public VideoPlayer perdiste;
 	public static ManagerPelea singleton;
@@ -520,6 +525,7 @@ public class ManagerPelea : MonoBehaviour
 							yield return null;
 						}
 
+
 						yield return StartCoroutine (c);
 						yield return new WaitForSeconds (1);
 					}
@@ -539,7 +545,10 @@ public class ManagerPelea : MonoBehaviour
 				}
 		
 			}
+				
 
+
+			
 			if (!peleadores[0].sigueVivo ) { 
 				Debug.Log ("PERDISTE");
 				if (Controlador.dragoncito1 > -1) {
@@ -559,6 +568,20 @@ public class ManagerPelea : MonoBehaviour
 						Controlador.PederHijo(Controlador.dragoncito1);
 					}
 				}
+
+				resultado = "Perdiste";
+
+				Analytics.CustomEvent("PeleaFin", new Dictionary<string, object>
+					{
+						{ "Quien",  Controlador.escenaPrevia },
+						{ "Resultado", resultado},
+						{ "Dragoncito 1", Controlador.dragoncito1},
+						{ "Dragoncito 2", Controlador.dragoncito2},
+						{ "Time", Time.time-StartTime }
+
+					});
+						
+
 				perdiste.Play ();
 				yield return new WaitForSeconds (7);
 				Controlador.escenaPrevia = "no";
@@ -584,6 +607,18 @@ public class ManagerPelea : MonoBehaviour
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
 				}
+				resultado = "Ganaste";
+
+				Analytics.CustomEvent("PeleaFin2", new Dictionary<string, object>
+					{
+						{ "Quien",  Controlador.escenaPrevia },
+						{ "Resultado", resultado},
+						{ "Dragoncito 1", Controlador.dragoncito1},
+						{ "Dragoncito 2", Controlador.dragoncito2},
+						{ "Time", Time.time-StartTime }
+
+					});
+				
 				ganaste.Play ();
 				yield return new WaitForSeconds (5);
 				Controlador.escenaPrevia = "no";
