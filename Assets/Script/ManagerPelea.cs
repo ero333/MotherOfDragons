@@ -118,10 +118,10 @@ public class ManagerPelea : MonoBehaviour
 						if(peleador == peleadores[Controlador.dragoncito2]){barraAliado3.SetHealth (peleador.vida);}
 					}
 					if (!peleador.aliado && dragoncitoE1 != -1 && peleador.nombre != "Mateo") {
-						barraEnemigo2.SetHealth (peleador.vida);
+						if(peleador == peleadores[dragoncitoE1]){barraEnemigo2.SetHealth (peleador.vida);}
 					}
 					if (!peleador.aliado && dragoncitoE2 != -1 && peleador.nombre != "Mateo") {
-						barraEnemigo3.SetHealth (peleador.vida);
+						if(peleador == peleadores[dragoncitoE2]){barraEnemigo3.SetHealth (peleador.vida);}
 					}
 					if (!peleador.aliado && peleador.nombre == "Mateo") {
 						barraEnemigo.SetHealth (peleador.vida);
