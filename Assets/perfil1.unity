@@ -136,7 +136,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16.900002}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -204,7 +204,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -22.815}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -340,7 +340,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 17.171001}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -484,7 +484,7 @@ RectTransform:
   m_LocalScale: {x: 2.3860056, y: 2.3860059, z: 0.76230216}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -503,6 +503,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &67194069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -553,17 +566,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 67194068}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &67194070
@@ -629,7 +631,7 @@ RectTransform:
   m_LocalScale: {x: 2.388246, y: 2.388246, z: 2.3882456}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -648,6 +650,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &71639788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -698,17 +713,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 71639787}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &71639789
@@ -840,7 +844,7 @@ RectTransform:
   m_LocalScale: {x: 0.762375, y: 0.762375, z: 0.762375}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20.327002}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -1050,7 +1054,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.000002}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -1120,7 +1124,7 @@ RectTransform:
   m_LocalScale: {x: 2.3860056, y: 2.3860059, z: 0.76230216}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1139,6 +1143,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &304017360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1189,17 +1206,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 304017359}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &304017361
@@ -1265,7 +1271,7 @@ RectTransform:
   m_LocalScale: {x: 2.3860059, y: 2.386006, z: 0.76230216}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1284,6 +1290,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &377065587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,17 +1353,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 377065586}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &377065588
@@ -1639,7 +1647,7 @@ RectTransform:
   m_LocalScale: {x: 2.3866327, y: 2.3866327, z: 0.76250243}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1658,6 +1666,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &487748257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,17 +1729,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 487748256}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &487748258
@@ -1782,7 +1792,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -18.852001}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1850,7 +1860,7 @@ RectTransform:
   m_LocalScale: {x: 0.7625023, y: 0.76250243, z: 0.76250243}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.83800006}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -2097,28 +2107,28 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1311218235}
   - {fileID: 654603909}
-  - {fileID: 71639786}
-  - {fileID: 487748255}
+  - {fileID: 1311218235}
   - {fileID: 1131894258}
+  - {fileID: 71639786}
   - {fileID: 681221239}
-  - {fileID: 67194067}
+  - {fileID: 487748255}
   - {fileID: 749577107}
-  - {fileID: 1587658087}
+  - {fileID: 67194067}
   - {fileID: 42307675}
-  - {fileID: 1000623449}
+  - {fileID: 1587658087}
   - {fileID: 17522922}
-  - {fileID: 1915577577}
+  - {fileID: 1000623449}
   - {fileID: 245053136}
-  - {fileID: 377065585}
+  - {fileID: 1915577577}
   - {fileID: 21773993}
-  - {fileID: 304017358}
+  - {fileID: 377065585}
   - {fileID: 1194012872}
-  - {fileID: 788330387}
+  - {fileID: 304017358}
   - {fileID: 177944180}
-  - {fileID: 1715494402}
+  - {fileID: 788330387}
   - {fileID: 1164006610}
+  - {fileID: 1715494402}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2155,7 +2165,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.616001}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -2225,7 +2235,7 @@ RectTransform:
   m_LocalScale: {x: 2.3862338, y: 2.3862338, z: 0.76237506}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2244,6 +2254,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &788330389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2294,17 +2317,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 788330388}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &788330390
@@ -2370,7 +2382,7 @@ RectTransform:
   m_LocalScale: {x: 2.386006, y: 2.386006, z: 0.76230216}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2389,6 +2401,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &1000623451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,17 +2464,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1000623450}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1000623452
@@ -2581,7 +2595,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -10.278001}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -2649,7 +2663,7 @@ RectTransform:
   m_LocalScale: {x: 0.762375, y: 0.762375, z: 0.762375}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 17.171001}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -2785,7 +2799,7 @@ RectTransform:
   m_LocalScale: {x: 0.76230204, y: 0.76230216, z: 0.7623021}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 17.171001}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -3000,17 +3014,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1311218236}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!222 &1311218234
@@ -3030,7 +3033,7 @@ RectTransform:
   m_LocalScale: {x: 2.3902178, y: 2.3902187, z: 2.3902183}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3049,6 +3052,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!1 &1360343868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +3324,7 @@ RectTransform:
   m_LocalScale: {x: 2.3860056, y: 2.3860059, z: 0.76230216}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3327,6 +3343,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &1587658089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3377,17 +3406,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1587658088}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1587658090
@@ -3515,7 +3533,7 @@ RectTransform:
   m_LocalScale: {x: 2.3862338, y: 2.3862338, z: 0.76237506}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3534,6 +3552,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &1715494404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3584,17 +3615,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1715494403}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1715494405
@@ -3804,7 +3824,7 @@ RectTransform:
   m_LocalScale: {x: 2.3860054, y: 2.3860059, z: 0.76230216}
   m_Children: []
   m_Father: {fileID: 694405980}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3823,6 +3843,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 654603910}
+  - {fileID: 1715494405}
+  - {fileID: 377065588}
+  - {fileID: 1915577580}
+  - {fileID: 1000623452}
+  - {fileID: 1311218232}
+  - {fileID: 304017361}
+  - {fileID: 487748258}
+  - {fileID: 67194070}
+  - {fileID: 1587658090}
+  - {fileID: 71639789}
+  - {fileID: 788330390}
 --- !u!114 &1915577579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3873,17 +3906,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1915577578}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1915577580

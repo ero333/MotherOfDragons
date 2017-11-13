@@ -10,6 +10,7 @@ public class BotonDragoncitos : MonoBehaviour {
 	public bool ButtonOn = false;
 	public static int SeleccionDragoncito = 0;
 
+	[SerializeField]
 	public Image[] botonesD;
 
 	public void Pintar(int D) {

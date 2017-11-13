@@ -437,6 +437,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &149256355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,17 +500,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 149256354}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &149256356
@@ -650,6 +652,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &205640734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,17 +715,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 205640733}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &205640735
@@ -1128,18 +1132,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73637ef813cb5b248ae139d13a51d075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  botones: {fileID: 0}
   coinci: {fileID: 1173097268}
-  dragNormal: {fileID: 1674577529}
-  dragAgua: {fileID: 1460594314}
-  dragFuego: {fileID: 1046192417}
-  dragAire: {fileID: 852397342}
-  dragTierra: {fileID: 547027913}
-  dragArena: {fileID: 2077872836}
-  dragLodo: {fileID: 205640735}
-  dragLava: {fileID: 149256356}
-  dragMetal: {fileID: 581729871}
-  dragHielo: {fileID: 921580321}
-  dragElectrico: {fileID: 1097746306}
+  botonesDragoncitos:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
+  guardarPartida: {fileID: 0}
 --- !u!4 &402308291
 Transform:
   m_ObjectHideFlags: 0
@@ -1301,6 +1309,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &547027912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1351,17 +1372,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 547027911}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &547027913
@@ -1446,6 +1456,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &581729870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,17 +1519,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 581729869}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &581729871
@@ -1886,6 +1898,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &852397341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1936,17 +1961,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 852397340}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &852397342
@@ -2031,6 +2045,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &921580320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2081,17 +2108,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 921580319}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &921580321
@@ -2176,6 +2192,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &1046192416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,17 +2255,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1046192415}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1046192417
@@ -2321,6 +2339,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &1097746305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2371,17 +2402,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1097746304}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1097746306
@@ -3094,6 +3114,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &1460594313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3140,17 +3173,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 5
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1460594312}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3462,6 +3484,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &1674577528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3512,17 +3547,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1674577527}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1674577529
@@ -4202,6 +4226,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ButtonOn: 0
+  botonesD:
+  - {fileID: 701920168}
+  - {fileID: 2077872836}
+  - {fileID: 547027913}
+  - {fileID: 1097746306}
+  - {fileID: 581729871}
+  - {fileID: 1460594314}
+  - {fileID: 852397342}
+  - {fileID: 205640735}
+  - {fileID: 149256356}
+  - {fileID: 1674577529}
+  - {fileID: 921580321}
+  - {fileID: 1046192417}
 --- !u!114 &2077872835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4252,17 +4289,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 2077872834}
-        m_MethodName: BeenClicked
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2077872836
