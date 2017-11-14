@@ -56,6 +56,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/perfil9.unity
     guid: 3045c40c2fcdaa846bf2df0a065531c6
+  - enabled: 1
+    path: Assets/perfil10.unity
+    guid: 1424f29dec13794459e97f0f2937dbd7
+  - enabled: 1
+    path: Assets/perfil11.unity
+    guid: 6374046a22ebb6341a63e1f4a44c01e0
+  - enabled: 1
+    path: Assets/perfil12.unity
+    guid: bca4d15dc5f215743bbddac987438f61
+  - enabled: 1
+    path: Assets/perfil13.unity
+    guid: 6f7228ca71562e84abb569948e7f75b9
+  - enabled: 1
+    path: Assets/perfil14.unity
+    guid: 16640f5ea7c39e745a16c199dba0ec42
+  - enabled: 1
+    path: Assets/perfil15.unity
+    guid: ff099b63781b90a43aa72b1b2dca952c
+  - enabled: 1
+    path: Assets/perfil16.unity
+    guid: 12424dd3c1aebf845a020769d9703225
+  - enabled: 0
+    path: Assets/perfil17.unity
+    guid: 8eb8998f004786b4685ba9fd41dd7bae
+  - enabled: 0
+    path: Assets/perfil18.unity
+    guid: cbb3c74514c8b4a4ca2724dbc725a7f1
   - enabled: 0
     path: 
     guid: 9c6d24c690782464f87e7c61193c010d

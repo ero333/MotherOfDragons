@@ -33,8 +33,8 @@ public class Controlador : MonoBehaviour {
 
 	public GameObject coinci;
 
-	[SerializeField]
-	public Image[] botonesDragoncitos;
+//	[SerializeField]
+//	public BotonDragoncitos botonesDragoncitos;
 
 
 	private int lastNumber;
@@ -42,17 +42,21 @@ public class Controlador : MonoBehaviour {
 	public Text guardarPartida;
 
 	void Awake(){
-
+		/*
 		if(SceneManager.GetActiveScene().name == "perfil1" || SceneManager.GetActiveScene().name == "perfil2" || SceneManager.GetActiveScene().name == "perfil3" || SceneManager.GetActiveScene().name == "perfil4" || SceneManager.GetActiveScene().name == "perfil5"){
 			string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
 			for ( int i=1; i<12 ; i++)
 			{
 				if(HijosGanados[i]) {
-					botonesDragoncitos[i].enabled=true;
+					
+					GameObject.FindObjectsOfType<BotonDragoncitos> ()[0].Activar (i);
+
+					//botonesDragoncitos.Activar (i);
+					//botonesDragoncitos[i].enabled=true;
 				}
 			}
 		}
-
+*/
 		StartTime = Time.time;
 		Load(Application.streamingAssetsPath + "/Save.txt");
 
@@ -71,11 +75,11 @@ public class Controlador : MonoBehaviour {
 				line = r.ReadLine();
 
 				if (line != null){
-					Debug.Log(line);
+					//Debug.Log(line);
 					string[] lineData = line.Split(';');
 					for (int j = 0; j < 11; j++) {
 						Controlador.HijosGanados[j+1]= false;
-						Debug.Log((j+1) +" "+ lineData[j]);
+						//Debug.Log((j+1) +" "+ lineData[j]);
 						if( lineData[j] == "True")
 							Controlador.HijosGanados[j+1]= true;
 						
@@ -95,7 +99,7 @@ public class Controlador : MonoBehaviour {
 		for (int j = 1; j < 12; j++) {
 			line += HijosGanados[j] + ";"; 
 		}
-		Debug.Log (line);
+		//Debug.Log (line);
 		writer.WriteLine(line);
 		writer.Close();
 	}
@@ -151,7 +155,7 @@ public class Controlador : MonoBehaviour {
 		//int perfilesIndice = Random.Range (1, 4);
 		//if (perfilesIndice != perfilesIndice) {
 
-		int perfilesIndice = GetRandom(1,6);
+		int perfilesIndice = GetRandom(1,19);
 		SceneManager.LoadScene ("perfil" + perfilesIndice.ToString ());
 
 	}
