@@ -78,10 +78,10 @@ EditorBuildSettings:
     path: Assets/perfil16.unity
     guid: 12424dd3c1aebf845a020769d9703225
   - enabled: 0
-    path: Assets/perfil17.unity
+    path: 
     guid: 8eb8998f004786b4685ba9fd41dd7bae
   - enabled: 0
-    path: Assets/perfil18.unity
+    path: 
     guid: cbb3c74514c8b4a4ca2724dbc725a7f1
   - enabled: 0
     path: 
@@ -101,6 +101,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: f70488c431f41b04fbcddf528a9312cb
+  - enabled: 1
+    path: Assets/opinion.unity
+    guid: 708215f2bd41a9d45b2f8849456b537a
   - enabled: 0
     path: 
     guid: 269e8636761a1964cb293356501dca0a

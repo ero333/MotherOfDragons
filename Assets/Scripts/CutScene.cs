@@ -5,8 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class CutScene : MonoBehaviour {
-	IEnumerator Esperar() {
-		yield return new WaitForSeconds(40);
+
+	public int tiempo = 30;
+	public IEnumerator Esperar() {
+		yield return new WaitForSeconds(tiempo);
 		SceneManager.LoadScene ("perfil1");
 	}
 
