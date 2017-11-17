@@ -33,6 +33,12 @@ public class Controlador : MonoBehaviour {
 
 	public GameObject coinci;
 
+	public static int CantDeValMuyBuena = 0;
+	public static int CantDeValBuena = 0;
+	public static int CantDeValRegular = 0;
+	public static int CantDeValMala = 0;
+
+
 //	[SerializeField]
 //	public BotonDragoncitos botonesDragoncitos;
 
@@ -237,6 +243,50 @@ public class Controlador : MonoBehaviour {
 			CambiarEscena();
 		}
 
+	}
+
+	public void Valoracion(int v) {
+
+		switch(v) {
+
+			case 1:
+				CantDeValMuyBuena++;
+				Analytics.CustomEvent ("ValoracionMuyBuena", new Dictionary<string, object> {
+					{ "Resultado", CantDeValMuyBuena }
+				});
+			SceneManager.LoadScene ("juego");
+				break;
+			
+			case 2:
+				CantDeValBuena++;
+				Analytics.CustomEvent ("ValoracionBuena", new Dictionary<string, object> {
+					{ "Resultado", CantDeValBuena }
+				});
+			SceneManager.LoadScene ("juego");
+				break;
+			
+			case 3:
+				CantDeValRegular++;
+				Analytics.CustomEvent ("ValoracionRegular", new Dictionary<string, object> {
+					{ "Resultado", CantDeValRegular }
+				});
+			SceneManager.LoadScene ("juego");
+				break;
+
+			case 4:
+				CantDeValMala++;	
+				Analytics.CustomEvent ("ValoracionMala", new Dictionary<string, object> {
+					{ "Resultado", CantDeValMala }
+				});
+			SceneManager.LoadScene ("juego");
+				break;
+
+			default:
+				;
+
+				break;
+
+		}
 	}
 
 	public void Salir (){
