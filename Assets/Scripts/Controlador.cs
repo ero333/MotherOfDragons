@@ -22,6 +22,7 @@ public class Controlador : MonoBehaviour {
 	public static int CantidadDeClicksEntrar = 0;
 	public static int CantidadDeClicksSalir = 0;
 
+	public static string[] NombresDragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
 
 	public static int cantidadCoincidencias = 0 ;
 
@@ -48,21 +49,7 @@ public class Controlador : MonoBehaviour {
 	public Text guardarPartida;
 
 	void Awake(){
-		/*
-		if(SceneManager.GetActiveScene().name == "perfil1" || SceneManager.GetActiveScene().name == "perfil2" || SceneManager.GetActiveScene().name == "perfil3" || SceneManager.GetActiveScene().name == "perfil4" || SceneManager.GetActiveScene().name == "perfil5"){
-			string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
-			for ( int i=1; i<12 ; i++)
-			{
-				if(HijosGanados[i]) {
-					
-					GameObject.FindObjectsOfType<BotonDragoncitos> ()[0].Activar (i);
 
-					//botonesDragoncitos.Activar (i);
-					//botonesDragoncitos[i].enabled=true;
-				}
-			}
-		}
-*/
 		StartTime = Time.time;
 		Load(Application.streamingAssetsPath + "/Save.txt");
 
@@ -113,13 +100,12 @@ public class Controlador : MonoBehaviour {
 	public static void GanarHijo(int cual) {
 		Controlador.HijosGanados[cual] = true;
 
-		string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
-
+	
 
 		Analytics.CustomEvent("TenerHijo", new Dictionary<string, object>
 			{
 				{ "Padre",  escenaPrevia },
-				{ "Cual",  dragoncitos[cual]}
+				{ "Cual",  NombresDragoncitos[cual]}
 
 			});
 		
@@ -129,13 +115,12 @@ public class Controlador : MonoBehaviour {
 	public static void PederHijo(int cual) {
 		Controlador.HijosGanados[cual] = false;
 
-		string[] dragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
-
+	
 
 		Analytics.CustomEvent("PerderHijo", new Dictionary<string, object>
 			{
 				{ "Enemigo",  escenaPrevia },
-				{ "Cual",  dragoncitos[cual]}
+				{ "Cual",  NombresDragoncitos[cual]}
 
 			});
 		

@@ -82,8 +82,8 @@ public class ManagerPelea : MonoBehaviour
 			Analytics.CustomEvent("PeleaEmepezar", new Dictionary<string, object>
 				{
 
-					{ "Dragoncito 1", Controlador.dragoncito1},
-					{ "Dragoncito 2", Controlador.dragoncito2},
+					{ "Dragoncito1", Controlador.dragoncito1},
+					{ "Dragoncito2", Controlador.dragoncito2},
 					{ "Enemigo",  Controlador.escenaPrevia }
 
 				});
@@ -160,7 +160,7 @@ public class ManagerPelea : MonoBehaviour
 			barraAliado3.gameObject.SetActive (false);
 		}
 
-
+		CantidadDeTurnos = 0;
 
 		marcaDragon = GameObject.Find ("Marca Dragon");
 		marcaDragona = GameObject.Find ("Marca Dragona");
@@ -436,6 +436,10 @@ public class ManagerPelea : MonoBehaviour
 
 								}
 
+								CantidadDeTurnos++;
+
+								
+
 								b = Instantiate (prefab, panel);
 
 								b.transform.position = Vector3.zero;
@@ -571,12 +575,43 @@ public class ManagerPelea : MonoBehaviour
 
 				resultado = "Perdiste";
 
+				int cantidDragoncitos = 0;
+				int cantidDragoncitosE = 0;
+				string EventDragoncito1 = "Nada";
+				string EventDragoncito2 = "Nada";
+				string EventDragoncitoE1 = "Nada";
+				string EventDragoncitoE2 = "Nada";
+
+				if (Controlador.dragoncito1 > 0) {
+					EventDragoncito1 = Controlador.NombresDragoncitos[Controlador.dragoncito1];
+					cantidDragoncitos = 1;
+				}
+				if (Controlador.dragoncito2 > 0){
+					EventDragoncito2 = Controlador.NombresDragoncitos[Controlador.dragoncito2];
+					cantidDragoncitos = 2;
+				}
+
+				if (dragoncitoE1 > 0){
+					EventDragoncitoE1 = Controlador.NombresDragoncitos[dragoncitoE1];
+					cantidDragoncitosE = 1;
+				}
+
+				if (dragoncitoE2 > 0){
+					EventDragoncitoE2 = Controlador.NombresDragoncitos[dragoncitoE2];
+					cantidDragoncitosE = 2;
+				}
+
 				Analytics.CustomEvent("PeleaFin", new Dictionary<string, object>
 					{
 						{ "Quien",  Controlador.escenaPrevia },
 						{ "Resultado", resultado},
-						{ "Dragoncito 1", Controlador.dragoncito1},
-						{ "Dragoncito 2", Controlador.dragoncito2},
+						{ "Dragoncito1", EventDragoncito1},
+						{ "Dragoncito2", EventDragoncito2},
+						{ "DragoncitoE1", EventDragoncitoE1},
+						{ "DragoncitoE2", EventDragoncitoE2},
+						{ "dragoncitosAliados", cantidDragoncitos},
+						{ "dragoncitosEnemigos", cantidDragoncitosE},
+						{ "Turnos", CantidadDeTurnos},
 						{ "Time", Time.time-StartTime }
 
 					});
@@ -590,6 +625,7 @@ public class ManagerPelea : MonoBehaviour
 
 			if (!peleadores[enemigoActual].sigueVivo) { 
 				Debug.Log ("GANASTE");
+
 				if(dragoncitoE1>-1){
 					if(Controlador.escenaPrevia == "Scene1"){
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
@@ -609,12 +645,44 @@ public class ManagerPelea : MonoBehaviour
 				}
 				resultado = "Ganaste";
 
-				Analytics.CustomEvent("PeleaFin2", new Dictionary<string, object>
+
+				int cantidDragoncitos = 0;
+				int cantidDragoncitosE = 0;
+				string EventDragoncito1 = "Nada";
+				string EventDragoncito2 = "Nada";
+				string EventDragoncitoE1 = "Nada";
+				string EventDragoncitoE2 = "Nada";
+
+				if (Controlador.dragoncito1 > 0) {
+					EventDragoncito1 = Controlador.NombresDragoncitos[Controlador.dragoncito1];
+					cantidDragoncitos = 1;
+				}
+				if (Controlador.dragoncito2 > 0) {
+					EventDragoncito2 = Controlador.NombresDragoncitos[Controlador.dragoncito2];
+					cantidDragoncitos = 2;
+				}
+
+				if (dragoncitoE1 > 0) {
+					EventDragoncitoE1 = Controlador.NombresDragoncitos[dragoncitoE1];
+					cantidDragoncitosE = 1;
+				}
+
+				if (dragoncitoE2 > 0) {
+					EventDragoncitoE2 = Controlador.NombresDragoncitos[dragoncitoE2];
+					cantidDragoncitosE = 2;
+				}
+
+				Analytics.CustomEvent("PeleaFin", new Dictionary<string, object>
 					{
 						{ "Quien",  Controlador.escenaPrevia },
 						{ "Resultado", resultado},
-						{ "Dragoncito 1", Controlador.dragoncito1},
-						{ "Dragoncito 2", Controlador.dragoncito2},
+						{ "Dragoncito1", EventDragoncito1},
+						{ "Dragoncito2", EventDragoncito2},
+						{ "DragoncitoE1", EventDragoncitoE1},
+						{ "DragoncitoE2", EventDragoncitoE2},
+						{ "dragoncitosAliados", cantidDragoncitos},
+						{ "dragoncitosEnemigos", cantidDragoncitosE},
+						{ "Turnos", CantidadDeTurnos},
 						{ "Time", Time.time-StartTime }
 
 					});
