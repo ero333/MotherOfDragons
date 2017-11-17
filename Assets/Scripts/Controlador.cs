@@ -175,7 +175,7 @@ public class Controlador : MonoBehaviour {
 
 		// Voy al menu principal
 		if (nombre == "juego") { 
-			CantidadDeClicksSalir++;
+		CantidadDeClicksSalir++;
 			Analytics.CustomEvent ("SalirTander", new Dictionary<string, object> {
 				{ "vez", CantidadDeClicksSalir },
 				{ "time", Time.time-StartTime },
