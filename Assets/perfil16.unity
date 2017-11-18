@@ -3872,8 +3872,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 402308290}
-        m_MethodName: Coincidencia
-        m_Mode: 5
+        m_MethodName: CambiarEscena
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
