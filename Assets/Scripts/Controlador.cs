@@ -10,10 +10,11 @@ using System.Text.RegularExpressions;
 
 public class Controlador : MonoBehaviour {
 	// En vez de esto hay que cargar los dragonciotosm que ya ganaste del save
-	public static bool[] HijosGanados = new bool[]{false, false, false, false, false, false, false, false, false, false, false, false};
+	public static bool[] HijosGanados = new bool[]{true, false, false, false, false, false, false, false, false, false, false, false};
 
 	public static int CantidadDeLikes = 0;
 	public static int CantidadDeCoincidencias = 0;
+	public static int CantidadGanadas = 0;
 
 	public static int CantidadDeDislikes = 0;
 
@@ -24,13 +25,15 @@ public class Controlador : MonoBehaviour {
 
 	public static string[] NombresDragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
 
+	public static string[] NombresPerfiles = new string[] { "", "ANGEL", "ANGEL" , "MATEO" , "MATEO" ,  "DIEGO" , "DIEGO" ,  "MAXIMILIANO" , "MAXIMILIANO" ,  "ISRAEL" , "ISRAEL" ,  "" ,  "" ,  "PANCHY" , "FERNANDO" , "LEONARDO" , "ALEXIS" , "ANIBAL" , "FABIO" , "FELIPE" , "FAUSTO" , "ROBERTO" , "PABLO" , "LUCIA" };
+
 	public static int cantidadCoincidencias = 0 ;
 
 	public static int dragoncito1 = -1;//el dragoncito nº1 que va a pelear, definido por un número del 0 al 10 
 	public static int dragoncito2 = -1;
 	public GameObject botones;
 
-	public static string escenaPrevia = "Scene1";
+	public static string escenaPrevia = "ARIEL";
 
 	public GameObject coinci;
 
@@ -38,6 +41,8 @@ public class Controlador : MonoBehaviour {
 	public static int CantDeValBuena = 0;
 	public static int CantDeValRegular = 0;
 	public static int CantDeValMala = 0;
+	public static int CantDeValMuyMala = 0;
+	public static bool ganaste = false;
 
 
 //	[SerializeField]
@@ -51,12 +56,39 @@ public class Controlador : MonoBehaviour {
 	void Awake(){
 
 		StartTime = Time.time;
+
+
 		Load(Application.streamingAssetsPath + "/Save.txt");
+		if(!ganaste){
+			if (HijosGanados [0] && HijosGanados [1] && HijosGanados [2] && HijosGanados [3] && HijosGanados [4] && HijosGanados [5] && HijosGanados [6] && HijosGanados [7] && HijosGanados [8] && HijosGanados [9] && HijosGanados [10] && HijosGanados [11]) {
+				Debug.Log ("GANATE");
+				ganaste = true;
+				CantidadGanadas++;
+				Analytics.CustomEvent("TodosLosDragoncitos", new Dictionary<string, object>
+					{
+						{ "Veces", CantidadGanadas }
+
+					});
+				StartCoroutine (Ganar ());
+
+
+			}
+		}
+
+			
+
+	}
+		
+	void Start(){
+		lastNumber = -1;
 
 	}
 
-	void Start(){
-		lastNumber = -1;
+
+	IEnumerator Ganar (){
+		yield return new WaitForSeconds(2);
+		SceneManager.LoadScene ("Ganaste");
+
 	}
 
 	public static void Load(string filename) {
@@ -181,7 +213,7 @@ public class Controlador : MonoBehaviour {
 		cantidadCoincidencias++;
 		Analytics.CustomEvent("Coincidencia", new Dictionary<string, object>
 			{
-				{ "Quien",  SceneManager.GetActiveScene().name },
+				{ "Quien",  NombresPerfiles[SceneManager.GetActiveScene ().buildIndex] },
 				{ "Cantidad", cantidadCoincidencias }
 
 			});
@@ -200,7 +232,7 @@ public class Controlador : MonoBehaviour {
 
 		Analytics.CustomEvent("Likear", new Dictionary<string, object>
 			{
-				{ "Quien",  SceneManager.GetActiveScene().name },
+				{ "Quien",  NombresPerfiles[SceneManager.GetActiveScene ().buildIndex] },
 				{ "Cantidad", CantidadDeLikes }
 			});
 
@@ -209,7 +241,7 @@ public class Controlador : MonoBehaviour {
 
 
 		int randomCoinci = Random.Range (0, 100);
-		if (randomCoinci < 30) {
+		if (randomCoinci < 95) {
 
 			StartCoroutine (Esperar());
 
@@ -265,6 +297,13 @@ public class Controlador : MonoBehaviour {
 				});
 			SceneManager.LoadScene ("juego");
 				break;
+		case 5:
+			CantDeValMuyMala++;	
+			Analytics.CustomEvent ("ValoracionMuyMala", new Dictionary<string, object> {
+				{ "Resultado", CantDeValMuyMala }
+			});
+			SceneManager.LoadScene ("juego");
+			break;
 
 			default:
 				;

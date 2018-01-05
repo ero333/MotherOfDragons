@@ -45,7 +45,7 @@ public class DialogueManager : MonoBehaviour {
 		//SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>(); 
 
 		Analytics.CustomEvent ("DialogosEmpezar", new Dictionary<string, object> {
-			{ "quien", SceneManager.GetActiveScene().name }
+			{ "quien", Controlador.NombresPerfiles[SceneManager.GetActiveScene().buildIndex] }
 		});
 
 
@@ -116,19 +116,19 @@ public class DialogueManager : MonoBehaviour {
 		switch(linea) {
 			case -1:
 				if(SceneManager.GetActiveScene().name == "Scene1"){
-					Controlador.escenaPrevia = "Scene1";
+					Controlador.escenaPrevia = "ARIEL";
 				}
 				if(SceneManager.GetActiveScene().name == "Scene2"){
-					Controlador.escenaPrevia = "Scene2";
+					Controlador.escenaPrevia = "MATEO";
 				}
 				if(SceneManager.GetActiveScene().name == "Scene3"){
-					Controlador.escenaPrevia = "Scene3";
+					Controlador.escenaPrevia = "DIEGO";
 				}
 				if(SceneManager.GetActiveScene().name == "Scene4"){
-					Controlador.escenaPrevia = "Scene4";
+					Controlador.escenaPrevia = "MAXIMILIANO";
 				}
 				if(SceneManager.GetActiveScene().name == "Scene5"){
-					Controlador.escenaPrevia = "Scene5";
+					Controlador.escenaPrevia = "ISRAEL";
 				}
 				resultado = "Pelea";
 
@@ -147,23 +147,23 @@ public class DialogueManager : MonoBehaviour {
 		case 0:
 			if (SceneManager.GetActiveScene ().name == "Scene1") {
 				Controlador.GanarHijo (9);
-				Controlador.escenaPrevia = "Scene1";
+				Controlador.escenaPrevia = "ARIEL";
 			}
 			if (SceneManager.GetActiveScene ().name == "Scene2") {
 				Controlador.GanarHijo (2);
-				Controlador.escenaPrevia = "Scene2";
+				Controlador.escenaPrevia = "MATEO";
 			}
 			if (SceneManager.GetActiveScene ().name == "Scene3") {
 				Controlador.GanarHijo (11);
-				Controlador.escenaPrevia = "Scene3";
+				Controlador.escenaPrevia = "DIEGO";
 			}
 			if (SceneManager.GetActiveScene ().name == "Scene4") {
 				Controlador.GanarHijo (6);
-				Controlador.escenaPrevia = "Scene4";
+				Controlador.escenaPrevia = "MAXIMILIANO";
 			}
 			if (SceneManager.GetActiveScene ().name == "Scene5") {
 				Controlador.GanarHijo (5);
-				Controlador.escenaPrevia = "Scene5";
+				Controlador.escenaPrevia = "ISRAEL";
 			}
 
 			resultado = "Ganaste";

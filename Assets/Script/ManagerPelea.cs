@@ -20,6 +20,7 @@ public class ManagerPelea : MonoBehaviour
 	public static float StartTime = 0;
 
 	public static int CantidadDeTurnos = 0;
+	public static int CantidadDePeleas = 0;
 
 	public VideoPlayer ganaste;
 	public VideoPlayer perdiste;
@@ -78,13 +79,14 @@ public class ManagerPelea : MonoBehaviour
 
 
 
-			
+		CantidadDePeleas++;
 			Analytics.CustomEvent("PeleaEmepezar", new Dictionary<string, object>
 				{
-
+					
 					{ "Dragoncito1", Controlador.dragoncito1},
 					{ "Dragoncito2", Controlador.dragoncito2},
-					{ "Enemigo",  Controlador.escenaPrevia }
+					{ "Enemigo",  Controlador.escenaPrevia },
+					{ "Cantidad",  CantidadDePeleas }
 
 				});
 		
@@ -174,7 +176,7 @@ public class ManagerPelea : MonoBehaviour
 		dragoncitoE1 = -1;
 		dragoncitoE2 = -1;
 
-		if (Controlador.escenaPrevia == "Scene1") {
+		if (Controlador.escenaPrevia == "ARIEL") {
 			// Dragon Normal
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
@@ -210,7 +212,7 @@ public class ManagerPelea : MonoBehaviour
 			}
 
 		}
-		if (Controlador.escenaPrevia == "Scene2") {
+		if (Controlador.escenaPrevia == "MATEO") {
 			// Dragon Diego - Tierra
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
@@ -241,7 +243,7 @@ public class ManagerPelea : MonoBehaviour
 				}
 			}
 		}
-		if (Controlador.escenaPrevia == "Scene3") {
+		if (Controlador.escenaPrevia == "DIEGO") {
 			// Dragon Ariel - Fuego
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
@@ -271,7 +273,7 @@ public class ManagerPelea : MonoBehaviour
 				}
 			}
 		}
-		if (Controlador.escenaPrevia == "Scene4") {
+		if (Controlador.escenaPrevia == "MAXIMILIANO") {
 			GameObject.FindGameObjectWithTag ("israel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
@@ -301,7 +303,7 @@ public class ManagerPelea : MonoBehaviour
 			}
 
 		}
-		if (Controlador.escenaPrevia == "Scene5") {
+		if (Controlador.escenaPrevia == "ISRAEL") {
 			GameObject.FindGameObjectWithTag ("ariel").SetActive (false);
 			GameObject.FindGameObjectWithTag ("maximiliano").SetActive (false);
 			GameObject.FindGameObjectWithTag ("diego").SetActive (false);
@@ -556,19 +558,19 @@ public class ManagerPelea : MonoBehaviour
 			if (!peleadores[0].sigueVivo ) { 
 				Debug.Log ("PERDISTE");
 				if (Controlador.dragoncito1 > -1) {
-					if (Controlador.escenaPrevia == "Scene1") {
+					if (Controlador.escenaPrevia == "ARIEL") {
 						Controlador.PederHijo(Controlador.dragoncito1);
 					}
-					if (Controlador.escenaPrevia == "Scene2") {
+					if (Controlador.escenaPrevia == "MATEO") {
 						Controlador.PederHijo(Controlador.dragoncito1);
 					}
-					if (Controlador.escenaPrevia == "Scene3") {
+					if (Controlador.escenaPrevia == "DIEGO") {
 						Controlador.PederHijo(Controlador.dragoncito1);
 					}
-					if (Controlador.escenaPrevia == "Scene4") {
+					if (Controlador.escenaPrevia == "MAXIMILIANO") {
 						Controlador.PederHijo(Controlador.dragoncito1);
 					}
-					if (Controlador.escenaPrevia == "Scene5") {
+					if (Controlador.escenaPrevia == "ISRAEL") {
 						Controlador.PederHijo(Controlador.dragoncito1);
 					}
 				}
@@ -592,12 +594,12 @@ public class ManagerPelea : MonoBehaviour
 				}
 
 				if (dragoncitoE1 > 0){
-					EventDragoncitoE1 = Controlador.NombresDragoncitos[dragoncitoE1];
-					cantidDragoncitosE = 1;
+					EventDragoncitoE1 = Controlador.NombresDragoncitos[dragoncitoE1-DESFASAJE_ENEMIGOS];
+					cantidDragoncitosE= 1;
 				}
 
 				if (dragoncitoE2 > 0){
-					EventDragoncitoE2 = Controlador.NombresDragoncitos[dragoncitoE2];
+					EventDragoncitoE2 = Controlador.NombresDragoncitos[dragoncitoE2-DESFASAJE_ENEMIGOS];
 					cantidDragoncitosE = 2;
 				}
 
@@ -627,19 +629,19 @@ public class ManagerPelea : MonoBehaviour
 				Debug.Log ("GANASTE");
 
 				if(dragoncitoE1>-1){
-					if(Controlador.escenaPrevia == "Scene1"){
+					if(Controlador.escenaPrevia == "ARIEL"){
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
-					if(Controlador.escenaPrevia == "Scene2"){
+					if(Controlador.escenaPrevia == "MATEO"){
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
-					if(Controlador.escenaPrevia == "Scene3"){
+					if(Controlador.escenaPrevia == "DIEGO"){
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
-					if(Controlador.escenaPrevia == "Scene4"){
+					if(Controlador.escenaPrevia == "MAXIMILIANO"){
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
-					if(Controlador.escenaPrevia == "Scene5"){
+					if(Controlador.escenaPrevia == "ISRAEL"){
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
 					}
 				}
