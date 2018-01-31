@@ -14,13 +14,15 @@ public class BotonDragoncitos : MonoBehaviour {
 
 	[SerializeField] public Image[] botonesD;
 
+
 	public void Pintar(int D) {
-		botonesD[D].color = new Color32 (92, 223, 223, 255);	
+		botonesD[D].color = new Color32 (92, 223, 223, 255);
 	}
 
 	public void Despintar(int D) {
 
 		botonesD[D].color = new Color32 (255,255,255,255);
+
 	}
 		
 	void Awake(){

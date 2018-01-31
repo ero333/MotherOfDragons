@@ -22,6 +22,8 @@ public class Controlador : MonoBehaviour {
 
 	public static int CantidadDeClicksEntrar = 0;
 	public static int CantidadDeClicksSalir = 0;
+	public static int CantidadDeClicksSalirPelea = 0;
+	public static int CantidadDeClicksSalirCita = 0;
 
 	public static string[] NombresDragoncitos = new string[] { "", "ARENA", "TIERRA" , "ELECTRICO" , "METAL" , "AGUA" , "AIRE" , "LODO" , "LAVA" , "NORMAL" , "HIELO" , "FUEGO" };
 
@@ -187,7 +189,7 @@ public class Controlador : MonoBehaviour {
 
 		print("Cambiando a la escena " + nombre);
 	
-		// Voy a carga el video de presentacion del juego y luego a perfil1
+		// Voy a carga el video de presentacion del juego y luego a perfil1::: JUGAR
 		if (nombre == "portada") { 
 			StartTime = Time.time;
 			CantidadDeClicksEntrar++;
@@ -196,11 +198,28 @@ public class Controlador : MonoBehaviour {
 			});
 		}
 
-		// Voy al menu principal
+		// Voy al menu principal::::: SALIR DEL TANDER
 		if (nombre == "juego") { 
 		CantidadDeClicksSalir++;
 			Analytics.CustomEvent ("SalirTander", new Dictionary<string, object> {
 				{ "vez", CantidadDeClicksSalir },
+				{ "time", Time.time-StartTime },
+			});
+		}
+
+		if (nombre == "perfil1") { 
+			CantidadDeClicksSalirPelea++;
+			Analytics.CustomEvent ("SalirPelea", new Dictionary<string, object> {
+				{ "vez", CantidadDeClicksSalirPelea },
+				{ "time", Time.time-StartTime },
+			});
+		}
+
+		if (nombre == "perfil2") { 
+			CantidadDeClicksSalirCita++;
+			Analytics.CustomEvent ("SalirCita", new Dictionary<string, object> {
+				{ "Quien",  NombresPerfiles[SceneManager.GetActiveScene ().buildIndex] },
+				{ "vez", CantidadDeClicksSalirCita },
 				{ "time", Time.time-StartTime },
 			});
 		}
@@ -314,6 +333,7 @@ public class Controlador : MonoBehaviour {
 	}
 
 	public void Salir (){
+		// SALIR DEL MENU PRINCIPAL:::::: CIERRA EL JUEGO
 		print("Saliendo del juego");
 		Analytics.CustomEvent ("Salir", new Dictionary<string, object> {
 			{ "time", Time.time },

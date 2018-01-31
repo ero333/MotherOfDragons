@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour {
 	public int lineNum;
 	int pose;
 	public Image ganaste;
+	public Image preparateParaPelea;
 	public Text dialogueBox;
 	public Text nameBox;
 	public ChoiceButton choiceBox1, choiceBox2, choiceBox3;
@@ -52,11 +53,8 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 	void Awake(){
-
+		
 		StartTime = Time.time;
-
-
-
 	}
 
 	void Destroy()
@@ -84,6 +82,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 	IEnumerator Pelear() {
 		Debug.Log("PELEA");
+		preparateParaPelea.enabled = true;
 		yield return new WaitForSeconds(2);
 		SceneManager.LoadScene ("Combate1");
 	}
