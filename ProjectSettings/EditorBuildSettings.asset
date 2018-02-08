@@ -83,6 +83,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/opinion.unity
     guid: 708215f2bd41a9d45b2f8849456b537a
+  - enabled: 1
+    path: Assets/creditos.unity
+    guid: 53cc0f36de6b95f4b8c7d8408cd6cdbc
   - enabled: 0
     path: 
     guid: 8eb8998f004786b4685ba9fd41dd7bae
