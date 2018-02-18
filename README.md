@@ -6,12 +6,8 @@ Este proyecto es un trabajo práctico grupal de la materia Taller de Arte y Dise
 
 Los ingrantes originales de este grupo son:
 
-GREGORINI, Cósima
-
-SANTIN CLOSS, Cecilia 
-
-SENA, Angeles Maria Magdalena
-
-TUCHSCHERR, Aaron
-
-VILLANUEVA, Ivan Alberto
+GREGORINI, Cósima.
+SANTIN CLOSS, Cecilia. 
+SENA, Angeles Maria Magdalena.
+TUCHSCHERR, Aaron.
+VILLANUEVA, Ivan Alberto.
