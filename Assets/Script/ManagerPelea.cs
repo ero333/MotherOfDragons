@@ -643,19 +643,22 @@ public class ManagerPelea : MonoBehaviour
 					}
 					if(Controlador.escenaPrevia == "ISRAEL"){
 						Controlador.GanarHijo(dragoncitoE1-DESFASAJE_ENEMIGOS);
+						print (dragoncitoE1);
 					}
 				}
 				resultado = "Ganaste";
-
-
+				print (resultado);
+				print (dragoncitoE1);
 				int cantidDragoncitos = 0;
 				int cantidDragoncitosE = 0;
 				string EventDragoncito1 = "Nada";
+				print (dragoncitoE1+"ESPUES DE EVENTDRAGONCITO1");
 				string EventDragoncito2 = "Nada";
 				string EventDragoncitoE1 = "Nada";
 				string EventDragoncitoE2 = "Nada";
 
 				if (Controlador.dragoncito1 > 0) {
+					print (dragoncitoE1+"ADENTRO DEL IF DE CONTROLADOR DRAGONCITO1");
 					EventDragoncito1 = Controlador.NombresDragoncitos[Controlador.dragoncito1];
 					cantidDragoncitos = 1;
 				}
@@ -665,12 +668,13 @@ public class ManagerPelea : MonoBehaviour
 				}
 
 				if (dragoncitoE1 > 0) {
-					EventDragoncitoE1 = Controlador.NombresDragoncitos[dragoncitoE1];
+					print (dragoncitoE1+"ADENTRO DEL IF DE CONTROLADOR DRAGONCITO1");
+					EventDragoncitoE1 = Controlador.NombresDragoncitos[dragoncitoE1-DESFASAJE_ENEMIGOS];
 					cantidDragoncitosE = 1;
 				}
 
 				if (dragoncitoE2 > 0) {
-					EventDragoncitoE2 = Controlador.NombresDragoncitos[dragoncitoE2];
+					EventDragoncitoE2 = Controlador.NombresDragoncitos[dragoncitoE2-DESFASAJE_ENEMIGOS];
 					cantidDragoncitosE = 2;
 				}
 
